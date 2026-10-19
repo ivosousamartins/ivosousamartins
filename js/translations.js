@@ -89,7 +89,7 @@ window.i18n = {
       reelsIntro: "Video production, filming and editing, for native social media distribution.",
       reelTag: "Reel",
       reelGroups: { uriage: "Uriage Portugal", ozEnergia: "Oz Energia", santander: "Santander", ronBarcelo: "Ron Barceló", cofidis: "Cofidis" },
-      reelsSantander: { 1: "Santander: the thriller that never happened.", 2: "Santander: a documentary-style take on domiciliation.", 3: "Santander: is it really a drama?", 4: "Santander vox pop: what would you do with 750€?", 5: "Santander vox pop: street interviews." },
+      reelsSantander: { 1: "Santander: the thriller that never happened.", 2: "Santander: a documentary-style take on domiciliation.", 3: "Santander: is it really a drama?", 4: "Santander vox pop: what would you do with 750€?", 5: "Santander vox pop: is it slow or super fast?" },
       reelsRon: { 1: "Ron Barceló: 404 Not Found, Barceló é a minha paz." },
       reelsCofidis: { 1: "Cofidis Portugal: social media reel." },
       items: {
@@ -222,7 +222,7 @@ window.i18n = {
       reelsIntro: "Produção de vídeo, filmagem e edição, para distribuição nativa em redes sociais.",
       reelTag: "Reel",
       reelGroups: { uriage: "Uriage Portugal", ozEnergia: "Oz Energia", santander: "Santander", ronBarcelo: "Ron Barceló", cofidis: "Cofidis" },
-      reelsSantander: { 1: "Santander: o thriller que nunca aconteceu.", 2: "Santander: domiciliar o ordenado, em formato documentário.", 3: "Santander: será que é mesmo um drama?", 4: "Vox pop Santander: o que farias com 750€?", 5: "Vox pop Santander: entrevistas de rua." },
+      reelsSantander: { 1: "Santander: o thriller que nunca aconteceu.", 2: "Santander: domiciliar o ordenado, em formato documentário.", 3: "Santander: será que é mesmo um drama?", 4: "Vox pop Santander: o que farias com 750€?", 5: "Vox pop Santander: será demorado ou super rápido?" },
       reelsRon: { 1: "Ron Barceló: 404 Not Found, Barceló é a minha paz." },
       reelsCofidis: { 1: "Cofidis Portugal: reel para redes sociais." },
       items: {
@@ -355,7 +355,7 @@ window.i18n = {
       reelsIntro: "Producción de vídeo, grabación y edición, para distribución nativa en redes sociales.",
       reelTag: "Reel",
       reelGroups: { uriage: "Uriage Portugal", ozEnergia: "Oz Energia", santander: "Santander", ronBarcelo: "Ron Barceló", cofidis: "Cofidis" },
-      reelsSantander: { 1: "Santander: el thriller que nunca ocurrió.", 2: "Santander: domiciliar la nómina, en formato documental.", 3: "Santander: ¿será de verdad un drama?", 4: "Vox pop Santander: ¿qué harías con 750€?", 5: "Vox pop Santander: entrevistas en la calle." },
+      reelsSantander: { 1: "Santander: el thriller que nunca ocurrió.", 2: "Santander: domiciliar la nómina, en formato documental.", 3: "Santander: ¿será de verdad un drama?", 4: "Vox pop Santander: ¿qué harías con 750€?", 5: "Vox pop Santander: ¿será lento o superrápido?" },
       reelsRon: { 1: "Ron Barceló: 404 Not Found, Barceló é a minha paz." },
       reelsCofidis: { 1: "Cofidis Portugal: reel para redes sociales." },
       items: {
