@@ -1,0 +1,12 @@
+{
+  "name": "ivo-portfolio-website",
+  "private": true,
+  "version": "1.0.0",
+  "description": "helloivo.pt — build step generates /pt/ and /es/ static pages from index.html, privacy.html and js/translations.js for proper multilingual SEO. Never edit the generated pt/ or es/ files directly.",
+  "scripts": {
+    "build": "node build.js"
+  },
+  "devDependencies": {
+    "cheerio": "^1.0.0"
+  }
+}
