@@ -24,7 +24,7 @@ const vm = require('vm');
 const cheerio = require('cheerio');
 
 const ROOT = __dirname;
-const SITE = 'https://helloivo.pt';
+const SITE = 'https://www.helloivo.pt';
 const LANGS = ['en', 'pt', 'es'];
 
 /* ---------- Load js/translations.js's window.i18n without a browser ---------- */

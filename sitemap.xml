@@ -2,27 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://helloivo.pt/</loc>
+    <loc>https://www.helloivo.pt/</loc>
     <lastmod>2026-08-05</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://helloivo.pt/" />
-    <xhtml:link rel="alternate" hreflang="pt" href="https://helloivo.pt/pt/" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://helloivo.pt/es/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://helloivo.pt/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.helloivo.pt/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.helloivo.pt/pt/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.helloivo.pt/es/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.helloivo.pt/" />
   </url>
   <url>
-    <loc>https://helloivo.pt/pt/</loc>
+    <loc>https://www.helloivo.pt/pt/</loc>
     <lastmod>2026-08-05</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://helloivo.pt/" />
-    <xhtml:link rel="alternate" hreflang="pt" href="https://helloivo.pt/pt/" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://helloivo.pt/es/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://helloivo.pt/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.helloivo.pt/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.helloivo.pt/pt/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.helloivo.pt/es/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.helloivo.pt/" />
   </url>
   <url>
-    <loc>https://helloivo.pt/es/</loc>
+    <loc>https://www.helloivo.pt/es/</loc>
     <lastmod>2026-08-05</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://helloivo.pt/" />
-    <xhtml:link rel="alternate" hreflang="pt" href="https://helloivo.pt/pt/" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://helloivo.pt/es/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://helloivo.pt/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.helloivo.pt/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.helloivo.pt/pt/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.helloivo.pt/es/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.helloivo.pt/" />
   </url>
 </urlset>
