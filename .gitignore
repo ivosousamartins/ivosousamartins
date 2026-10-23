@@ -1,5 +1,8 @@
 .vercel
 .env*
-node_modules
 .env*.local
-.vercel
+node_modules
+.claude/
+.claude-flow/
+/pt/
+/es/
