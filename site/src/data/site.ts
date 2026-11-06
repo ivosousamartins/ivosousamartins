@@ -34,6 +34,6 @@ export const faq = [
   },
   {
     q: 'How do we start?',
-    a: 'Send a few lines through the form below or to ivo@helloivo.pt: what you need, for whom and by when. I reply within two working days.',
+    a: 'Send a few lines through the contact form or to ivo@helloivo.pt: what you need, for whom and by when. I reply within two working days.',
   },
 ];
