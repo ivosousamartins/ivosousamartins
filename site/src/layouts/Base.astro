@@ -1,0 +1,178 @@
+---
+import '@fontsource-variable/inter';
+import '@fontsource/instrument-serif/400-italic.css';
+import '../styles/global.css';
+import { SITE, GA_ID, person, social } from '../data/site';
+
+interface Props {
+  title: string;
+  description: string;
+  path: string;
+  image?: string;
+  schema?: Record<string, unknown>[];
+  back?: { href: string; label: string };
+  dock?: 'work' | 'home';
+}
+const { title, description, path, image = '/og-image.jpg', schema = [], back, dock } = Astro.props;
+const url = SITE + path;
+const isHome = path === '/';
+const p = (h: string) => (isHome ? h : `/${h}`);
+
+// Who Ivo is, on every page; pages add their own nodes (projects, FAQ, breadcrumbs)
+const graph = {
+  '@context': 'https://schema.org',
+  '@graph': [
+    {
+      '@type': 'Person',
+      '@id': `${SITE}/#ivo`,
+      name: person.name,
+      jobTitle: person.role,
+      description: person.description,
+      url: `${SITE}/`,
+      image: `${SITE}/img/cdd2352058f608d8b9069b70a09e0640.webp`,
+      email: 'mailto:ivo@helloivo.pt',
+      address: { '@type': 'PostalAddress', addressLocality: 'Lisbon', addressCountry: 'PT' },
+      knowsLanguage: ['en', 'pt', 'es'],
+      knowsAbout: ['Creative direction', 'Brand identity', 'Graphic design', 'UI/UX design', 'Photography', 'Video production', 'Video editing', 'Motion graphics'],
+      sameAs: social.map((s) => s.href),
+    },
+    { '@type': 'WebSite', '@id': `${SITE}/#website`, url: `${SITE}/`, name: person.name, inLanguage: 'en', publisher: { '@id': `${SITE}/#ivo` } },
+    ...schema,
+  ],
+};
+---
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>{title}</title>
+  <meta name="description" content={description} />
+  <link rel="canonical" href={url} />
+  <link rel="alternate" hreflang="en" href={url} />
+  <link rel="alternate" hreflang="x-default" href={url} />
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="en_GB" />
+  <meta property="og:site_name" content={person.name} />
+  <meta property="og:url" content={url} />
+  <meta property="og:title" content={title} />
+  <meta property="og:description" content={description} />
+  <meta property="og:image" content={SITE + image} />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content={title} />
+  <meta name="twitter:description" content={description} />
+  <meta name="twitter:image" content={SITE + image} />
+  <meta name="theme-color" content="#f4f4f1" />
+  <link rel="icon" type="image/png" href="/favicon-512.png" />
+  <link rel="apple-touch-icon" href="/favicon-512.png" />
+  <script type="application/ld+json" set:html={JSON.stringify(graph)} />
+</head>
+<body>
+  <div class="page">
+    <header class="wrap top">
+      <a href="/" class="logo" aria-label="Ivo Sousa Martins, home">ivo<span>.</span></a>
+      {back ? (
+        <a href={back.href} class="back"><svg class="ico" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M13 8H3M7 4L3 8l4 4"/></svg> {back.label}</a>
+      ) : (
+        <div class="top-right">
+          <span class="clock" data-clock><i></i>Lisbon <span data-time>--:--</span><span class="serif hide-s">· <span data-mood>at work</span></span></span>
+        </div>
+      )}
+    </header>
+
+    <main>
+      <slot />
+    </main>
+
+    <footer class="wrap foot">
+      <span>© {new Date().getFullYear()} Ivo Sousa Martins · Lisbon</span>
+      <nav aria-label="Elsewhere">
+        {social.map((s) => <a href={s.href} target="_blank" rel="noopener">{s.label}</a>)}
+        <a href="/privacy/">Privacy</a>
+        <button type="button" data-cookie-open>Cookie preferences</button>
+      </nav>
+    </footer>
+  </div>
+
+  <nav class="dock" aria-label="Sections">
+    <a href="/work/" aria-current={dock === 'work' ? 'page' : undefined}>Work</a>
+    <a href={p('#photography')}>Photo</a>
+    <a href={p('#about')}>About</a>
+    <a href={p('#contact')} class="cta">Let’s talk</a>
+  </nav>
+
+  <div class="cookies" id="cookies" role="dialog" aria-label="Cookie consent">
+    <p>This site uses Google Analytics to understand how it is used. Cookies are only set with your consent. <a href="/privacy/">Learn more</a></p>
+    <div class="row">
+      <button type="button" class="btn" data-cookie="rejected">Decline</button>
+      <button type="button" class="btn" data-cookie="accepted">Accept</button>
+    </div>
+  </div>
+
+  <script is:inline define:vars={{ GA_ID }}>
+    // Lisbon clock, with a mood that follows the time of day
+    (function () {
+      var t = document.querySelector('[data-time]'), m = document.querySelector('[data-mood]');
+      if (!t) return;
+      function tick() {
+        var now = new Date();
+        t.textContent = new Intl.DateTimeFormat('en-GB', { timeZone: 'Europe/Lisbon', hour: '2-digit', minute: '2-digit' }).format(now);
+        var h = Number(new Intl.DateTimeFormat('en-GB', { timeZone: 'Europe/Lisbon', hour: 'numeric', hourCycle: 'h23' }).format(now));
+        m.textContent = h < 7 ? 'asleep (probably)' : h < 10 ? 'coffee first' : h < 19 ? 'at work' : h < 23 ? 'still at work' : 'should be asleep';
+      }
+      tick(); setInterval(tick, 20000);
+    })();
+
+    // Cookie consent: Google Analytics never loads until the visitor accepts
+    (function () {
+      var store = {
+        get: function (k) { try { return localStorage.getItem(k); } catch (e) { return null; } },
+        set: function (k, v) { try { localStorage.setItem(k, v); } catch (e) {} },
+      };
+      var banner = document.getElementById('cookies');
+      function load() {
+        if (window.gaLoaded) return;
+        window.gaLoaded = true;
+        window.dataLayer = window.dataLayer || [];
+        window.gtag = function () { window.dataLayer.push(arguments); };
+        window.gtag('js', new Date());
+        window.gtag('config', GA_ID);
+        var s = document.createElement('script');
+        s.async = true;
+        s.src = 'https://www.googletagmanager.com/gtag/js?id=' + GA_ID;
+        document.head.appendChild(s);
+      }
+      // Withdrawing consent stops tracking and removes GA cookies already set
+      function clear() {
+        window['ga-disable-' + GA_ID] = true;
+        var host = location.hostname, domains = ['', host, '.' + host, '.' + host.replace(/^www\./, '')];
+        document.cookie.split(';').forEach(function (c) {
+          var name = c.split('=')[0].trim();
+          if (name === '_ga' || name.indexOf('_ga_') === 0 || name === '_gid' || name.indexOf('_gat') === 0) {
+            domains.forEach(function (d) { document.cookie = name + '=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/' + (d ? '; domain=' + d : ''); });
+          }
+        });
+      }
+      var c = store.get('cookie-consent');
+      if (c === 'accepted') load(); else if (c === 'rejected') clear(); else banner.classList.add('show');
+      document.querySelectorAll('[data-cookie]').forEach(function (b) {
+        b.addEventListener('click', function () {
+          var v = b.getAttribute('data-cookie');
+          store.set('cookie-consent', v);
+          if (v === 'accepted') load(); else clear();
+          banner.classList.remove('show');
+        });
+      });
+      document.querySelectorAll('[data-cookie-open]').forEach(function (b) {
+        b.addEventListener('click', function () { banner.classList.add('show'); });
+      });
+      // Email and phone clicks are conversions; only sent after consent
+      document.addEventListener('click', function (e) {
+        var a = e.target.closest && e.target.closest('a[href^="tel:"], a[href^="mailto:"]');
+        if (!a || !window.gtag) return;
+        window.gtag('event', 'contact_click', { contact_method: a.href.indexOf('tel:') === 0 ? 'phone' : 'email', link_url: a.href });
+      });
+    })();
+  </script>
+</body>
+</html>
