@@ -79,6 +79,80 @@ function setLangSwitchActive($, lang) {
   });
 }
 
+// Remove elements together with the line break after them, so rebuilding never piles up blank lines.
+function removeTags($, selector) {
+  $(selector).each((_, el) => {
+    const next = el.next;
+    if (next && next.type === 'text' && !next.data.trim()) $(next).remove();
+    $(el).remove();
+  });
+}
+
+const OG_LOCALE = { en: 'en_GB', pt: 'pt_PT', es: 'es_ES' };
+
+// Title, description and social cards in the page's own language, so /pt/ and /es/
+// rank for local searches instead of repeating the English copy.
+function setHomeMeta($, lang, dict) {
+  const { title, description } = dict.meta;
+  $('head title').text(title);
+  $('meta[name="description"]').attr('content', description);
+  $('meta[property="og:title"], meta[name="twitter:title"]').attr('content', title);
+  $('meta[property="og:description"], meta[name="twitter:description"]').attr('content', description);
+  $('meta[property="og:image:alt"]').attr('content', title);
+  removeTags($, 'meta[property="og:locale"]');
+  $('meta[property="og:type"]').after(`\n<meta property="og:locale" content="${OG_LOCALE[lang]}">`);
+}
+
+// Structured data: who Ivo is, what he offers and where, for search engines and AI answers.
+function setStructuredData($, lang, dict) {
+  const url = SITE + langHome(lang);
+  const graph = {
+    '@context': 'https://schema.org',
+    '@graph': [
+      {
+        '@type': 'Person',
+        '@id': `${SITE}/#ivo`,
+        name: 'Ivo Sousa Martins',
+        jobTitle: dict.meta.jobTitle,
+        description: dict.meta.description,
+        url: `${SITE}/`,
+        image: `${SITE}/assets/ivo-portrait.png`,
+        email: 'mailto:ivo@helloivo.pt',
+        address: { '@type': 'PostalAddress', addressLocality: 'Lisbon', addressCountry: 'PT' },
+        knowsLanguage: ['en', 'pt', 'es'],
+        knowsAbout: ['Creative direction', 'Brand identity', 'Graphic design', 'UI/UX design', 'Photography', 'Video production', 'Video editing', 'Motion graphics'],
+        sameAs: [
+          'https://www.linkedin.com/in/ivosousamartins/',
+          'https://www.instagram.com/ivosousamartins',
+          'https://unsplash.com/@ivosouzamartins',
+          'https://www.pexels.com/@ivosousamartins/',
+        ],
+      },
+      {
+        '@type': 'ProfessionalService',
+        '@id': `${SITE}/#service`,
+        name: 'Ivo Sousa Martins',
+        description: dict.meta.description,
+        url,
+        image: `${SITE}/assets/og-image.jpg`,
+        founder: { '@id': `${SITE}/#ivo` },
+        address: { '@type': 'PostalAddress', addressLocality: 'Lisbon', addressCountry: 'PT' },
+        areaServed: [{ '@type': 'Country', name: 'Portugal' }, 'Europe'],
+      },
+      {
+        '@type': 'WebSite',
+        '@id': `${SITE}/#website`,
+        url: `${SITE}/`,
+        name: 'Ivo Sousa Martins',
+        inLanguage: lang,
+        publisher: { '@id': `${SITE}/#ivo` },
+      },
+    ],
+  };
+  removeTags($, 'head script[type="application/ld+json"]');
+  $('head').append(`<script type="application/ld+json">${JSON.stringify(graph)}</script>\n`);
+}
+
 function writeOut(lang, filename, $) {
   const outDir = path.join(ROOT, langDir(lang));
   fs.mkdirSync(outDir, { recursive: true });
@@ -96,10 +170,11 @@ function buildHomepage(lang) {
   $('html').attr('lang', lang);
   setLangSwitchActive($, lang);
   setPrivacyLinks($, lang);
+  setHomeMeta($, lang, dict);
+  setStructuredData($, lang, dict);
 
   const canonicalPath = langHome(lang);
-  $('head link[rel="canonical"]').remove();
-  $('head link[rel="alternate"]').remove();
+  removeTags($, 'head link[rel="canonical"], head link[rel="alternate"]');
   LANGS.forEach(l => {
     $('head').append(`<link rel="alternate" hreflang="${l}" href="${SITE}${langHome(l)}">\n`);
   });
@@ -135,7 +210,7 @@ function buildPrivacy(lang) {
   });
 
   const canonicalPath = lang === 'en' ? '/privacy.html' : `/${lang}/privacy.html`;
-  $('head link[rel="canonical"]').remove();
+  removeTags($, 'head link[rel="canonical"]');
   $('head').append(`<link rel="canonical" href="${SITE}${canonicalPath}">\n`);
 
   writeOut(lang, 'privacy.html', $);

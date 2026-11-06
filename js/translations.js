@@ -2,9 +2,10 @@
 window.i18n = {
 
   en: {
+    meta: { title: "Ivo Sousa Martins · Creative director in Lisbon · Brand, photography and film", description: "Ivo Sousa Martins is a creative director in Lisbon. Brand identity, photography and film for brands, agencies and institutions in Portugal and abroad.", jobTitle: "Creative director" },
     nav: { work: "Work", photography: "Photography", video: "Video", about: "About", services: "Services", contact: "Contact", toggle: "Toggle menu" },
     hero: {
-      eyebrow: "Creative Designer & Content Specialist",
+      eyebrow: "Creative director · Brand, photography and film · Lisbon",
       title: "Design.<br>Photography.<br>Video.",
       sub: "I help brands communicate with purpose through design, photography and visual content. With more than two decades of experience spanning branding, digital and creative direction, I have worked with clients ranging from luxury travel brands to national political parties, creating work that is thoughtful and engaging.",
       cta1: "See my work",
@@ -22,7 +23,7 @@ window.i18n = {
       updated: "Last updated: 19 October 2026",
       intro: "This page explains how this website (helloivo.pt) uses cookies and handles personal data. It's kept intentionally short and focused on what's actually collected here: this site doesn't sell products, run ads, or process payments.",
       s1Title: "Who is responsible",
-      s1Text: "This website is operated by Atelier do Cabo - Artes Gráficas e Decorativas, Unipessoal Lda (NIF 510 388 353), Rua da Lentrisqueira, 162, 2120-216 Foros de Salvaterra de Magos, Santarém, Portugal, which is the controller of any personal data processed through it. Contact: ivosousamartins@gmail.com.",
+      s1Text: "This website is operated by Atelier do Cabo - Artes Gráficas e Decorativas, Unipessoal Lda (NIF 510 388 353), Rua da Lentrisqueira, 162, 2120-216 Foros de Salvaterra de Magos, Santarém, Portugal, which is the controller of any personal data processed through it. Contact: ivo@helloivo.pt.",
       s2Title: "What this site collects",
       s2Text: "The only data collected is through Google Analytics (GA4), a web analytics service that helps understand how visitors use the site, such as which pages are viewed and for how long. Google Analytics is only activated if you click \"Accept\" on the cookie banner. If you click \"Decline\", or close the banner without choosing, no analytics cookies are set and no data is sent to Google Analytics. This site has no forms, accounts or payments. If you email or call me, I only use your details to reply.",
       s3Title: "Cookies used",
@@ -34,7 +35,7 @@ window.i18n = {
       s6Title: "Third parties and transfers",
       s6Text: "If you accept analytics, your data is processed by Google, which may transfer it outside the European Economic Area (including to the United States) under safeguards such as the EU-US Data Privacy Framework or standard contractual clauses. Independently of cookies, this site also loads some images and video thumbnails from Unsplash, Pexels and YouTube (fonts are hosted on this site); those providers receive your IP address as part of delivering that content. Videos are not played on this site: they open on YouTube in a new tab.",
       s7Title: "Your choices and rights",
-      s7Text: "You can change your cookie choice at any time using the button below or the \"Cookie preferences\" link in the footer. You also have the right to access, rectify or erase your personal data, to restrict or object to its processing, and to data portability. To exercise any of these rights, email ivosousamartins@gmail.com.",
+      s7Text: "You can change your cookie choice at any time using the button below or the \"Cookie preferences\" link in the footer. You also have the right to access, rectify or erase your personal data, to restrict or object to its processing, and to data portability. To exercise any of these rights, email ivo@helloivo.pt.",
       s8Title: "Complaints",
       s8Text: "If you believe your data is handled unlawfully, you have the right to lodge a complaint with the Portuguese data protection authority, the Comissão Nacional de Proteção de Dados (CNPD), at www.cnpd.pt.",
       manageBtn: "Manage cookie preferences",
@@ -135,9 +136,10 @@ window.i18n = {
   },
 
   pt: {
+    meta: { title: "Ivo Sousa Martins · Director criativo em Lisboa · Marca, fotografia e filme", description: "Ivo Sousa Martins é director criativo em Lisboa. Identidade de marca, fotografia e filme para marcas, agências e instituições, em Portugal e no estrangeiro.", jobTitle: "Director criativo" },
     nav: { work: "Trabalho", photography: "Fotografia", video: "Vídeo", about: "Sobre", services: "Serviços", contact: "Contacto", toggle: "Abrir/fechar menu" },
     hero: {
-      eyebrow: "Designer Criativo & Especialista em Conteúdo",
+      eyebrow: "Director criativo · Marca, fotografia e filme · Lisboa",
       title: "Design.<br>Fotografia.<br>Vídeo.",
       sub: "Ajudo marcas a comunicar com propósito através de design, fotografia e conteúdo visual. Com mais de duas décadas de experiência em branding, digital e direção criativa, já trabalhei com clientes que vão desde marcas de viagens de luxo a partidos políticos nacionais, criando trabalho ponderado e cativante.",
       cta1: "Ver o trabalho",
@@ -155,7 +157,7 @@ window.i18n = {
       updated: "Última atualização: 19 de outubro de 2026",
       intro: "Esta página explica como este website (helloivo.pt) utiliza cookies e trata dados pessoais. É propositadamente simples e cobre apenas o que é efetivamente recolhido aqui: este site não vende produtos, não apresenta anúncios nem processa pagamentos.",
       s1Title: "Responsável pelo tratamento",
-      s1Text: "Este website é operado pela Atelier do Cabo - Artes Gráficas e Decorativas, Unipessoal Lda (NIF 510 388 353), Rua da Lentrisqueira, 162, 2120-216 Foros de Salvaterra de Magos, Santarém, Portugal, responsável pelo tratamento de quaisquer dados pessoais tratados através dele. Contacto: ivosousamartins@gmail.com.",
+      s1Text: "Este website é operado pela Atelier do Cabo - Artes Gráficas e Decorativas, Unipessoal Lda (NIF 510 388 353), Rua da Lentrisqueira, 162, 2120-216 Foros de Salvaterra de Magos, Santarém, Portugal, responsável pelo tratamento de quaisquer dados pessoais tratados através dele. Contacto: ivo@helloivo.pt.",
       s2Title: "O que este site recolhe",
       s2Text: "O único dado recolhido é através do Google Analytics (GA4), um serviço de análise web que ajuda a perceber como os visitantes utilizam o site, como que páginas são vistas e durante quanto tempo. O Google Analytics só é ativado se clicar em \"Aceitar\" na barra de cookies. Se clicar em \"Recusar\", ou fechar a barra sem escolher, nenhum cookie de análise é definido e nenhum dado é enviado para o Google Analytics. Este site não tem formulários, contas nem pagamentos. Se me enviar um email ou ligar, só utilizo os seus dados para responder.",
       s3Title: "Cookies utilizados",
@@ -167,7 +169,7 @@ window.i18n = {
       s6Title: "Terceiros e transferências",
       s6Text: "Se aceitar a análise, os seus dados são tratados pela Google, que pode transferi-los para fora do Espaço Económico Europeu (incluindo para os Estados Unidos) ao abrigo de garantias como o Quadro de Privacidade de Dados UE-EUA ou cláusulas contratuais-tipo. Independentemente dos cookies, este site carrega também algumas imagens e miniaturas de vídeo do Unsplash, Pexels e YouTube (os tipos de letra são alojados neste site); esses fornecedores recebem o seu endereço IP ao entregar esse conteúdo. Os vídeos não são reproduzidos neste site: abrem no YouTube num novo separador.",
       s7Title: "As suas escolhas e direitos",
-      s7Text: "Pode alterar a sua escolha de cookies a qualquer momento através do botão abaixo ou da ligação \"Preferências de cookies\" no rodapé. Tem ainda direito de acesso, retificação ou apagamento dos seus dados pessoais, de limitação ou oposição ao tratamento e de portabilidade. Para exercer qualquer um destes direitos, envie um email para ivosousamartins@gmail.com.",
+      s7Text: "Pode alterar a sua escolha de cookies a qualquer momento através do botão abaixo ou da ligação \"Preferências de cookies\" no rodapé. Tem ainda direito de acesso, retificação ou apagamento dos seus dados pessoais, de limitação ou oposição ao tratamento e de portabilidade. Para exercer qualquer um destes direitos, envie um email para ivo@helloivo.pt.",
       s8Title: "Reclamações",
       s8Text: "Se considerar que os seus dados são tratados de forma ilícita, tem o direito de apresentar reclamação à autoridade portuguesa de proteção de dados, a Comissão Nacional de Proteção de Dados (CNPD), em www.cnpd.pt.",
       manageBtn: "Gerir preferências de cookies",
@@ -268,9 +270,10 @@ window.i18n = {
   },
 
   es: {
+    meta: { title: "Ivo Sousa Martins · Director creativo en Lisboa · Marca, fotografía y cine", description: "Ivo Sousa Martins es director creativo en Lisboa. Identidad de marca, fotografía y cine para marcas, agencias e instituciones en Portugal y en el extranjero.", jobTitle: "Director creativo" },
     nav: { work: "Trabajo", photography: "Fotografía", video: "Vídeo", about: "Sobre mí", services: "Servicios", contact: "Contacto", toggle: "Abrir/cerrar menú" },
     hero: {
-      eyebrow: "Diseñador Creativo y Especialista en Contenido",
+      eyebrow: "Director creativo · Marca, fotografía y cine · Lisboa",
       title: "Diseño.<br>Fotografía.<br>Vídeo.",
       sub: "Ayudo a las marcas a comunicar con propósito a través del diseño, la fotografía y el contenido visual. Con más de dos décadas de experiencia en branding, digital y dirección creativa, he trabajado con clientes que van desde marcas de viajes de lujo hasta partidos políticos nacionales, creando trabajo reflexivo y atractivo.",
       cta1: "Ver el trabajo",
@@ -288,7 +291,7 @@ window.i18n = {
       updated: "Última actualización: 19 de octubre de 2026",
       intro: "Esta página explica cómo este sitio web (helloivo.pt) utiliza cookies y trata los datos personales. Es deliberadamente breve y cubre solo lo que realmente se recopila aquí: este sitio no vende productos, no muestra anuncios ni procesa pagos.",
       s1Title: "Responsable del tratamiento",
-      s1Text: "Este sitio web es operado por Atelier do Cabo - Artes Gráficas e Decorativas, Unipessoal Lda (NIF 510 388 353), Rua da Lentrisqueira, 162, 2120-216 Foros de Salvaterra de Magos, Santarém, Portugal, responsable del tratamiento de cualquier dato personal tratado a través de él. Contacto: ivosousamartins@gmail.com.",
+      s1Text: "Este sitio web es operado por Atelier do Cabo - Artes Gráficas e Decorativas, Unipessoal Lda (NIF 510 388 353), Rua da Lentrisqueira, 162, 2120-216 Foros de Salvaterra de Magos, Santarém, Portugal, responsable del tratamiento de cualquier dato personal tratado a través de él. Contacto: ivo@helloivo.pt.",
       s2Title: "Qué recopila este sitio",
       s2Text: "El único dato recopilado es a través de Google Analytics (GA4), un servicio de análisis web que ayuda a entender cómo los visitantes usan el sitio, como qué páginas se ven y durante cuánto tiempo. Google Analytics solo se activa si haces clic en \"Aceptar\" en el banner de cookies. Si haces clic en \"Rechazar\", o cierras el banner sin elegir, no se establece ninguna cookie de análisis ni se envían datos a Google Analytics. Este sitio no tiene formularios, cuentas ni pagos. Si me escribes un correo o me llamas, solo uso tus datos para responderte.",
       s3Title: "Cookies utilizadas",
@@ -300,7 +303,7 @@ window.i18n = {
       s6Title: "Terceros y transferencias",
       s6Text: "Si aceptas el análisis, tus datos son tratados por Google, que puede transferirlos fuera del Espacio Económico Europeo (incluido Estados Unidos) con garantías como el Marco de Privacidad de Datos UE-EE. UU. o cláusulas contractuales tipo. Independientemente de las cookies, este sitio también carga algunas imágenes y miniaturas de vídeo de Unsplash, Pexels y YouTube (las fuentes se alojan en este sitio); esos proveedores reciben tu dirección IP al entregar ese contenido. Los vídeos no se reproducen en este sitio: se abren en YouTube en una pestaña nueva.",
       s7Title: "Tus opciones y derechos",
-      s7Text: "Puedes cambiar tu elección de cookies en cualquier momento con el botón de abajo o el enlace \"Preferencias de cookies\" del pie de página. También tienes derecho de acceso, rectificación o supresión de tus datos personales, de limitación u oposición al tratamiento y de portabilidad. Para ejercer cualquiera de ellos, escribe a ivosousamartins@gmail.com.",
+      s7Text: "Puedes cambiar tu elección de cookies en cualquier momento con el botón de abajo o el enlace \"Preferencias de cookies\" del pie de página. También tienes derecho de acceso, rectificación o supresión de tus datos personales, de limitación u oposición al tratamiento y de portabilidad. Para ejercer cualquiera de ellos, escribe a ivo@helloivo.pt.",
       s8Title: "Reclamaciones",
       s8Text: "Si consideras que tus datos se tratan de forma ilícita, tienes derecho a presentar una reclamación ante la autoridad portuguesa de protección de datos, la Comissão Nacional de Proteção de Dados (CNPD), en www.cnpd.pt.",
       manageBtn: "Gestionar preferencias de cookies",
