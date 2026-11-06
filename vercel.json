@@ -2,7 +2,15 @@
   "buildCommand": "npm install && node build.js",
   "outputDirectory": ".",
   "routes": [
-    { "src": "/(CLAUDE\\.md|README\\.md|build\\.js|package\\.json|package-lock\\.json|vercel\\.json|deploy\\.command|\\.gitignore)", "status": 404 },
-    { "src": "/(node_modules|v2|\\.git|\\.claude)(/.*)?", "status": 404 }
+    {
+      "src": "/(CLAUDE\\.md|README\\.md|build\\.js|package\\.json|package-lock\\.json|vercel\\.json|deploy\\.command|\\.gitignore)",
+      "status": 404,
+      "dest": "/__not-found"
+    },
+    {
+      "src": "/(node_modules|v2|\\.git|\\.claude)(/.*)?",
+      "status": 404,
+      "dest": "/__not-found"
+    }
   ]
 }
