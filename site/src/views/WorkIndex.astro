@@ -34,6 +34,10 @@ const schema = [
         {t.for}
         <label><span class="sr">{t.whoFor}</span><select class="pick" data-aud>{(['all', 'brands', 'institutions'] as const).map((k) => <option value={k}>{t.audOpt[k]}</option>)}</select></label>
       </p>
+      <div class="chips-m">
+        <div class="chips" role="group" aria-label={t.typeOfWork}>{(['all', 'design', 'film', 'web'] as const).map((k) => <button type="button" class="chip" data-chip-kind={k}>{t.kindChip[k]}</button>)}</div>
+        <div class="chips" role="group" aria-label={t.whoFor}>{(['all', 'brands', 'institutions'] as const).map((k) => <button type="button" class="chip" data-chip-aud={k}>{t.audChip[k]}</button>)}</div>
+      </div>
       <span class="count" data-count data-one={t.projects(1)} data-many={t.projects(0)}>{t.projects(projects.length)}</span>
     </div>
 
@@ -70,7 +74,14 @@ const schema = [
   const q = new URLSearchParams(location.search);
   if (['design', 'film', 'web'].includes(q.get('kind') ?? '')) kind.value = q.get('kind')!;
   if (['brands', 'institutions'].includes(q.get('for') ?? '')) aud.value = q.get('for')!;
+  // Mobile chips drive the same selects
+  const kChips = Array.from(document.querySelectorAll<HTMLButtonElement>('[data-chip-kind]'));
+  const aChips = Array.from(document.querySelectorAll<HTMLButtonElement>('[data-chip-aud]'));
+  kChips.forEach((c) => c.addEventListener('click', () => { kind.value = c.dataset.chipKind!; apply(); }));
+  aChips.forEach((c) => c.addEventListener('click', () => { aud.value = c.dataset.chipAud!; apply(); }));
   function apply() {
+    kChips.forEach((c) => c.setAttribute('aria-pressed', String(c.dataset.chipKind === kind.value)));
+    aChips.forEach((c) => c.setAttribute('aria-pressed', String(c.dataset.chipAud === aud.value)));
     let n = 0;
     cards.forEach((c) => {
       const on = (kind.value === 'all' || c.dataset.kind === kind.value) && (aud.value === 'all' || c.dataset.aud === aud.value);
@@ -98,6 +109,11 @@ const schema = [
   .showing { margin: 0; font-size: clamp(24px, 2.6vw, 36px); letter-spacing: -0.035em; line-height: 1.5; }
   .pick { appearance: none; -webkit-appearance: none; border: 0; border-radius: 999px; background-color: var(--soft); padding: 2px 34px 2px 14px; font: inherit; letter-spacing: inherit; color: inherit; cursor: pointer; background-image: linear-gradient(45deg, transparent 50%, #121212 50%), linear-gradient(135deg, #121212 50%, transparent 50%); background-position: calc(100% - 18px) 55%, calc(100% - 12px) 55%; background-size: 6px 6px, 6px 6px; background-repeat: no-repeat; }
   .pick:hover { background-color: #d9d9d3; }
+  .chips-m { display: none; }
+  .chips { display: flex; gap: 8px; overflow-x: auto; scrollbar-width: none; margin: 0 -18px; padding: 0 18px; }
+  .chips::-webkit-scrollbar { display: none; }
+  .chip { flex: none; border: 0; border-radius: 999px; padding: 8px 16px; background: var(--soft); color: var(--ink); font: inherit; font-size: 15px; cursor: pointer; }
+  .chip[aria-pressed="true"] { background: var(--ink); color: #f4f4f1; }
   .count { font-size: 14px; color: var(--muted); font-variant-numeric: tabular-nums; }
   .grid { display: flex; flex-wrap: wrap; gap: 40px 20px; }
   .card { --base: 300px; flex: var(--r) 1 calc(var(--r) * var(--base)); display: block; min-width: 0; text-decoration: none; color: var(--ink); }
@@ -114,6 +130,9 @@ const schema = [
   .none { margin: 0; font-size: 18px; color: var(--muted); }
   .cta-wrap { padding-top: 120px; padding-bottom: 100px; }
   @media (max-width: 900px) {
+    .showing { display: none; }
+    .chips-m { display: grid; gap: 10px; width: 100%; }
+    .aw-head { margin: 40px 0 28px; }
     /* One project per row; vertical covers cropped to 4:5 so they don't tower */
     .grid { gap: 40px; }
     .card { flex: 1 1 100%; }
