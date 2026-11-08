@@ -19,6 +19,26 @@
       "permanent": false
     },
     {
+      "source": "/pt",
+      "destination": "/",
+      "permanent": false
+    },
+    {
+      "source": "/pt/",
+      "destination": "/",
+      "permanent": false
+    },
+    {
+      "source": "/es",
+      "destination": "/",
+      "permanent": false
+    },
+    {
+      "source": "/es/",
+      "destination": "/",
+      "permanent": false
+    },
+    {
       "source": "/pt/:path*",
       "destination": "/",
       "permanent": false
