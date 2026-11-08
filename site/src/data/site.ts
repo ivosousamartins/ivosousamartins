@@ -25,9 +25,9 @@ export const faq: { q: string; a: string; html?: string }[] = [
     a: 'Brand identities and campaigns, films and documentary series, short form video for social, photography and websites. Often several at once, so a campaign, its films and its pages come from one idea.',
   },
   {
-    q: 'Do you work with agencies?',
-    a: 'Yes. Part of my work comes through agencies and studios, such as Judas and Bored Ape, as well as directly with brands and public institutions.',
-    html: 'Yes. Part of my work comes through agencies and studios, such as <a href="https://www.judas.rocks/" target="_blank" rel="noopener">Judas</a> and Bored Ape, as well as directly with brands and public institutions.',
+    q: 'Do you work with agencies and consultancies?',
+    a: 'Yes. Part of my work comes through agencies, studios and consultancies, such as Judas, Bored Ape and AMP Associates, as well as directly with brands and public institutions.',
+    html: 'Yes. Part of my work comes through agencies, studios and consultancies, such as <a href="https://www.judas.rocks/" target="_blank" rel="noopener">Judas</a>, Bored Ape and <a href="https://www.ampassociates.pt/" target="_blank" rel="noopener">AMP Associates</a>, as well as directly with brands and public institutions.',
   },
   {
     q: 'Where are you based, and do you work outside Portugal?',

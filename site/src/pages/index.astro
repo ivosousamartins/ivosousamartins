@@ -41,7 +41,7 @@ const facts = [
 const tiles = [
   { href: '/work/?kind=design', img: '5ac3b340659d70324dba88e8c404cd56', alt: 'Praça Beato identity', name: 'Brand & design', note: `${count('design')} projects` },
   { href: '/work/?kind=film', img: '788a25d5b74bf9441c72f1b0a6272417', alt: 'Citizen Diaries still', name: 'Film', note: `${count('film')} projects · 24 episodes` },
-  { href: '#photography', img: 'b7f78085ff706985d5ef6acd3881ca21', alt: 'Street photograph', name: 'Photography', note: 'Travel and events' },
+  { href: '#photography', img: 'b7f78085ff706985d5ef6acd3881ca21', alt: 'Street photograph', name: 'Photography', note: 'Travel, events' },
   { href: '/work/?kind=web', img: 'd34785b2d9e077de36b7cd37d5ab6b0a', alt: 'Lisbon city council website', name: 'Web & UX', note: `${count('web')} projects` },
 ];
 
@@ -330,7 +330,7 @@ const frameStyle = (f: { r: number; natural?: boolean }) => (f.natural ? `flex: 
   .tile:hover img { transform: scale(1.04); }
   .tile p { margin: 12px 0 0; display: flex; justify-content: space-between; gap: 8px; font-size: 15px; }
   .tile strong { font-weight: 600; }
-  .tile span { color: var(--muted); text-align: right; }
+  .tile span { color: var(--muted); text-align: right; white-space: nowrap; }
   .clients { padding-top: 110px; }
   .label-s { margin: 0 auto 26px; font-size: 14px; color: var(--muted); }
   .marquee { overflow: hidden; -webkit-mask-image: linear-gradient(90deg, transparent, #000 8%, #000 92%, transparent); mask-image: linear-gradient(90deg, transparent, #000 8%, #000 92%, transparent); }
@@ -413,6 +413,8 @@ const frameStyle = (f: { r: number; natural?: boolean }) => (f.natural ? `flex: 
     .stage { grid-template-columns: minmax(0,1fr); }
     .stage .pic { order: -1; }
     .disc, .facts-big { grid-template-columns: repeat(2, minmax(0,1fr)); }
+    .tile p { flex-direction: column; gap: 2px; }
+    .tile span { text-align: left; font-size: 14px; }
     .dodont, .about, .lead { grid-template-columns: minmax(0,1fr); }
     .hero { padding-top: 40px; }
   }
