@@ -3,14 +3,55 @@
   "outputDirectory": "site/dist",
   "trailingSlash": true,
   "redirects": [
-    { "source": "/privacy.html", "destination": "/privacy/", "permanent": true },
-    { "source": "/pt/privacy.html", "destination": "/privacy/", "permanent": false },
-    { "source": "/es/privacy.html", "destination": "/privacy/", "permanent": false },
-    { "source": "/pt", "destination": "/", "permanent": false },
-    { "source": "/es", "destination": "/", "permanent": false }
+    {
+      "source": "/privacy.html",
+      "destination": "/privacy/",
+      "permanent": true
+    },
+    {
+      "source": "/pt/privacy.html",
+      "destination": "/privacy/",
+      "permanent": false
+    },
+    {
+      "source": "/es/privacy.html",
+      "destination": "/privacy/",
+      "permanent": false
+    },
+    {
+      "source": "/pt/:path*",
+      "destination": "/",
+      "permanent": false
+    },
+    {
+      "source": "/es/:path*",
+      "destination": "/",
+      "permanent": false
+    },
+    {
+      "source": "/assets/og-image.jpg",
+      "destination": "/og-image.jpg",
+      "permanent": true
+    }
   ],
   "headers": [
-    { "source": "/img/(.*)", "headers": [{ "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }] },
-    { "source": "/_astro/(.*)", "headers": [{ "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }] }
+    {
+      "source": "/img/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
+      ]
+    },
+    {
+      "source": "/_astro/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
+      ]
+    }
   ]
 }
