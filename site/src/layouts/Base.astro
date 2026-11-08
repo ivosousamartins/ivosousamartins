@@ -3,6 +3,7 @@ import '@fontsource-variable/inter';
 import '@fontsource/instrument-serif/400-italic.css';
 import '../styles/global.css';
 import { SITE, GA_ID, person, social } from '../data/site';
+import { ui, LANGS, LANG_NAME, LOCALE, href, type Lang } from '../i18n';
 
 interface Props {
   title: string;
@@ -12,11 +13,15 @@ interface Props {
   schema?: Record<string, unknown>[];
   back?: { href: string; label: string };
   dock?: 'work' | 'home';
+  lang?: Lang;
+  /** false for pages that exist in one language only (404) */
+  alternates?: boolean;
 }
-const { title, description, path, image = '/og-image.jpg', schema = [], back, dock } = Astro.props;
-const url = SITE + path;
+const { title, description, path, image = '/og-image.jpg', schema = [], back, dock, lang = 'en', alternates = true } = Astro.props;
+const t = ui[lang];
+const url = SITE + href(lang, path);
 const isHome = path === '/';
-const p = (h: string) => (isHome ? h : `/${h}`);
+const p = (h: string) => (isHome ? h : `${href(lang, '/')}${h}`);
 
 // Who Ivo is, on every page; pages add their own nodes (projects, FAQ, breadcrumbs)
 const graph = {
@@ -27,7 +32,7 @@ const graph = {
       '@id': `${SITE}/#ivo`,
       name: person.name,
       jobTitle: person.role,
-      description: person.description,
+      description: t.description,
       url: `${SITE}/`,
       image: `${SITE}/img/cdd2352058f608d8b9069b70a09e0640.webp`,
       email: 'mailto:ivo@helloivo.pt',
@@ -36,23 +41,24 @@ const graph = {
       knowsAbout: ['Creative direction', 'Brand identity', 'Graphic design', 'UI/UX design', 'Photography', 'Video production', 'Video editing', 'Motion graphics'],
       sameAs: social.map((s) => s.href),
     },
-    { '@type': 'WebSite', '@id': `${SITE}/#website`, url: `${SITE}/`, name: person.name, inLanguage: 'en', publisher: { '@id': `${SITE}/#ivo` } },
+    { '@type': 'WebSite', '@id': `${SITE}/#website`, url: `${SITE}/`, name: person.name, inLanguage: LANGS, publisher: { '@id': `${SITE}/#ivo` } },
     ...schema,
   ],
 };
 ---
 <!doctype html>
-<html lang="en">
+<html lang={lang === 'pt' ? 'pt-PT' : lang}>
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>{title}</title>
   <meta name="description" content={description} />
   <link rel="canonical" href={url} />
-  <link rel="alternate" hreflang="en" href={url} />
-  <link rel="alternate" hreflang="x-default" href={url} />
+  {alternates && LANGS.map((l) => <link rel="alternate" hreflang={l === 'pt' ? 'pt-PT' : l} href={SITE + href(l, path)} />)}
+  {alternates && <link rel="alternate" hreflang="x-default" href={SITE + path} />}
   <meta property="og:type" content="website" />
-  <meta property="og:locale" content="en_GB" />
+  <meta property="og:locale" content={LOCALE[lang]} />
+  {alternates && LANGS.filter((l) => l !== lang).map((l) => <meta property="og:locale:alternate" content={LOCALE[l]} />)}
   <meta property="og:site_name" content={person.name} />
   <meta property="og:url" content={url} />
   <meta property="og:title" content={title} />
@@ -70,14 +76,21 @@ const graph = {
 <body>
   <div class="page">
     <header class="wrap top">
-      <a href="/" class="logo" aria-label="Ivo Sousa Martins, home">ivo<span>.</span></a>
-      {back ? (
-        <a href={back.href} class="back"><svg class="ico" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M13 8H3M7 4L3 8l4 4"/></svg> {back.label}</a>
-      ) : (
-        <div class="top-right">
-          <span class="clock" data-clock><i></i>Lisbon <span data-time>--:--</span><span class="serif hide-s">· <span data-mood>at work</span></span></span>
-        </div>
-      )}
+      <a href={href(lang, '/')} class="logo" aria-label={t.homeAria}>ivo<span>.</span></a>
+      <div class="top-right">
+        {back ? (
+          <a href={back.href} class="back"><svg class="ico" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M13 8H3M7 4L3 8l4 4"/></svg> {back.label}</a>
+        ) : (
+          <span class="clock" data-clock><i></i>{t.lisbon} <span data-time>--:--</span><span class="serif hide-s">· <span data-mood>{t.moods[2]}</span></span></span>
+        )}
+        {alternates && (
+          <nav class="langs" aria-label={t.language}>
+            {LANGS.map((l) => (
+              <a href={href(l, path)} hreflang={l} lang={l} aria-current={l === lang ? 'true' : undefined} title={LANG_NAME[l]}>{l.toUpperCase()}</a>
+            ))}
+          </nav>
+        )}
+      </div>
     </header>
 
     <main>
@@ -86,30 +99,30 @@ const graph = {
 
     <footer class="wrap foot">
       <span>© {new Date().getFullYear()} Ivo Sousa Martins · Lisbon</span>
-      <nav aria-label="Elsewhere">
+      <nav aria-label={t.elsewhere}>
         {social.map((s) => <a href={s.href} target="_blank" rel="noopener">{s.label}</a>)}
-        <a href="/privacy/">Privacy</a>
-        <button type="button" data-cookie-open>Cookie preferences</button>
+        <a href={href(lang, '/privacy/')}>{t.privacy}</a>
+        <button type="button" data-cookie-open>{t.cookiePrefs}</button>
       </nav>
     </footer>
   </div>
 
-  <nav class="dock" aria-label="Sections">
-    <a href="/work/" aria-current={dock === 'work' ? 'page' : undefined}>Work</a>
-    <a href={p('#photography')}>Photo</a>
-    <a href={p('#about')}>About</a>
-    <a href={p('#contact')} class="cta">Let’s talk</a>
+  <nav class="dock" aria-label={t.sections}>
+    <a href={href(lang, '/work/')} aria-current={dock === 'work' ? 'page' : undefined}>{t.dock.work}</a>
+    <a href={p('#photography')}>{t.dock.photo}</a>
+    <a href={p('#about')}>{t.dock.about}</a>
+    <a href={p('#contact')} class="cta">{t.dock.talk}</a>
   </nav>
 
-  <div class="cookies" id="cookies" role="dialog" aria-label="Cookie consent">
-    <p>This site uses Google Analytics to understand how it is used. Cookies are only set with your consent. <a href="/privacy/">Learn more</a></p>
+  <div class="cookies" id="cookies" role="dialog" aria-label={t.cookieAria}>
+    <p>{t.cookieText} <a href={href(lang, '/privacy/')}>{t.learnMore}</a></p>
     <div class="row">
-      <button type="button" class="btn" data-cookie="rejected">Decline</button>
-      <button type="button" class="btn" data-cookie="accepted">Accept</button>
+      <button type="button" class="btn" data-cookie="rejected">{t.decline}</button>
+      <button type="button" class="btn" data-cookie="accepted">{t.accept}</button>
     </div>
   </div>
 
-  <script is:inline define:vars={{ GA_ID }}>
+  <script is:inline define:vars={{ GA_ID, MOODS: t.moods }}>
     // Lisbon clock, with a mood that follows the time of day
     (function () {
       var t = document.querySelector('[data-time]'), m = document.querySelector('[data-mood]');
@@ -118,7 +131,7 @@ const graph = {
         var now = new Date();
         t.textContent = new Intl.DateTimeFormat('en-GB', { timeZone: 'Europe/Lisbon', hour: '2-digit', minute: '2-digit' }).format(now);
         var h = Number(new Intl.DateTimeFormat('en-GB', { timeZone: 'Europe/Lisbon', hour: 'numeric', hourCycle: 'h23' }).format(now));
-        m.textContent = h < 7 ? 'asleep (probably)' : h < 10 ? 'coffee first' : h < 19 ? 'at work' : h < 23 ? 'still at work' : 'should be asleep';
+        m.textContent = MOODS[h < 7 ? 0 : h < 10 ? 1 : h < 19 ? 2 : h < 23 ? 3 : 4];
       }
       tick(); setInterval(tick, 20000);
     })();

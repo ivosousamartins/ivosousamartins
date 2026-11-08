@@ -43,8 +43,9 @@ button { color: inherit; }
 .clock i { width: 7px; height: 7px; border-radius: 50%; background: var(--blue); display: inline-block; }
 .clock .serif { font-size: 17px; color: var(--muted); }
 .langs { display: flex; gap: 10px; }
-.langs a { text-decoration: none; color: #9a9a95; }
-.langs a[aria-current] { color: var(--ink); }
+.langs a { text-decoration: none; color: var(--muted); padding: 4px 0; }
+.langs a:hover { color: var(--ink); }
+.langs a[aria-current] { color: var(--ink); font-weight: 600; }
 .back { font-size: 15px; text-decoration: none; }
 
 /* Dock */

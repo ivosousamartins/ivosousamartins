@@ -1,0 +1,60 @@
+---
+import Base from '../layouts/Base.astro';
+import IgPhone from '../components/IgPhone.astro';
+import MacBook from '../components/MacBook.astro';
+import { projectsFor, casePagesFor } from '../data/projects';
+import { SITE } from '../data/site';
+import { ui, href, type Lang } from '../i18n';
+
+interface Props { lang: Lang; slug: string }
+const { lang, slug } = Astro.props;
+const t = ui[lang];
+const h = (path: string) => href(lang, path);
+const project = projectsFor(lang).find((p) => p.slug === slug)!;
+const page = casePagesFor(lang)[slug];
+const en = casePagesFor('en')[slug];
+// Facts are matched on the English labels (same order in every language)
+const fact = (k: string) => { const i = en.facts.findIndex(([key]) => key === k); return i < 0 ? undefined : page.facts[i][1]; };
+const client = fact('Client') ?? fact('Clients') ?? project.title;
+
+// Search snippet: the one-line summary, then the brief, cut on a word near 155 characters
+const full = `${page.line} ${page.brief[0] ?? ''}`.trim();
+const description = full.length > 158 ? full.slice(0, full.lastIndexOf(' ', 155)) + '…' : full;
+const genre = project.genre ?? t.kind[project.kind];
+const title = `${project.title}: ${genre.toLowerCase()} ${t.by}`;
+const path = `/work/${slug}/`;
+const url = SITE + h(path);
+
+const schema = [
+  {
+    '@type': 'CreativeWork',
+    '@id': `${url}#work`,
+    name: project.title,
+    headline: page.line,
+    description: page.brief.join(' '),
+    url,
+    inLanguage: lang,
+    image: SITE + page.hero,
+    dateCreated: project.year.slice(0, 4),
+    genre,
+    creator: { '@id': `${SITE}/#ivo` },
+    sourceOrganization: { '@type': 'Organization', name: client },
+    keywords: project.meta.replaceAll(' · ', ', '),
+  },
+  {
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: t.home, item: SITE + h('/') },
+      { '@type': 'ListItem', position: 2, name: t.allWork, item: SITE + h('/work/') },
+      { '@type': 'ListItem', position: 3, name: project.title, item: url },
+    ],
+  },
+];
+---
+<Base title={title} description={description} path={path} image={page.hero} schema={schema} back={{ href: h('/work/'), label: t.allWork }} lang={lang}>
+  {page.parts.map((part) =>
+    'html' in part ? <Fragment set:html={part.html} />
+    : 'phone' in part ? <IgPhone {...(part.phone as any)} lang={lang} />
+    : <MacBook {...(part.mac as any)} />
+  )}
+</Base>

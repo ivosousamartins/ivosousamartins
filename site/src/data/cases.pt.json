@@ -1,0 +1,1084 @@
+{
+ "academia-socialista": {
+  "key": "CaseAcademia",
+  "title": "Academia Socialista",
+  "kicker": "11 / 14 · Marca · Eventos · Política",
+  "line": "Uma identidade forte para um programa que forma os próximos líderes progressistas.",
+  "facts": [
+   [
+    "Cliente",
+    "Partido Socialista"
+   ],
+   [
+    "Função",
+    "Marca, estratégia digital, filme e design"
+   ],
+   [
+    "Ano",
+    "2024"
+   ],
+   [
+    "Trabalho",
+    "Identidade, redes sociais, evento, outdoor, merchandising"
+   ]
+  ],
+  "brief": [
+   "O Partido Socialista lançou a edição de 2024 da Academia Socialista para formar e ligar jovens líderes progressistas.",
+   "Criei uma marca forte e moderna para jovens politicamente activos, sem perder os valores do partido: tipografia marcante, uma paleta cuidada e composições limpas, aplicadas nas redes sociais, no evento, em outdoor e em merchandising."
+  ],
+  "hero": "/img/a88a322f7a47ffec46f812c8314aa97d.webp",
+  "parts": [
+   {
+    "html": "\n\n  \n\n  <section class=\"wrap\" style=\"padding-top: 48px\">\n    <p style=\"margin: 0 0 14px; font-size: 14px; color: #5c5c58\">11 / 14 · Marca · Eventos · Política</p>\n    <h1 style=\"margin: 0; font-size: clamp(44px, 6.4vw, 96px); line-height: .96; letter-spacing: -0.055em; font-weight: 600\">Academia Socialista</h1>\n    <p style=\"margin: 14px 0 0; font-family: 'Instrument Serif', serif; font-style: italic; font-size: clamp(24px, 2.6vw, 38px); line-height: 1.15; max-width: 900px\">Uma identidade forte para um programa que forma os próximos líderes progressistas.</p>\n    <div style=\"margin-top: 40px; aspect-ratio: 16 / 9; display: flex; justify-content: center; gap: 12px; overflow: hidden\"><div style=\"flex: 1 1 0; min-width: 0; height: 100%; border-radius: 14px; overflow: hidden; background: #e7e7e2\"><img width=\"1200\" height=\"796\" fetchpriority=\"high\" src=\"/img/a88a322f7a47ffec46f812c8314aa97d.webp\" alt=\"Academia Socialista, imagem principal\" style=\"width: 100%; height: 100%; object-fit: cover; display: block\"></div></div>\n    <dl class=\"facts\" style=\"margin: 28px 0 0; padding-top: 22px; border-top: 1px solid #d6d6d0\"><div><dt style=\"font-size: 14px; color: #5c5c58\">Cliente</dt><dd style=\"margin: 4px 0 0\">Partido Socialista</dd></div><div><dt style=\"font-size: 14px; color: #5c5c58\">Função</dt><dd style=\"margin: 4px 0 0\">Marca, estratégia digital, filme e design</dd></div><div><dt style=\"font-size: 14px; color: #5c5c58\">Ano</dt><dd style=\"margin: 4px 0 0\">2024</dd></div><div><dt style=\"font-size: 14px; color: #5c5c58\">Trabalho</dt><dd style=\"margin: 4px 0 0\">Identidade, redes sociais, evento, outdoor, merchandising</dd></div></dl>\n  </section>\n\n  <section class=\"wrap ctx\" style=\"padding-top: 120px\">\n    <h2 style=\"margin: 0; font-size: clamp(30px, 3.4vw, 48px); line-height: 1.02; letter-spacing: -0.045em; font-weight: 600\">O briefing <span style=\"font-family: 'Instrument Serif', serif; font-style: italic; font-weight: 400\">e o que fiz</span></h2>\n    <div style=\"font-size: 19px; line-height: 1.55; max-width: 680px\"><p style=\"margin: 0 0 16px\">O Partido Socialista lançou a edição de 2024 da Academia Socialista para formar e ligar jovens líderes progressistas.</p><p style=\"margin: 0 0 16px\">Criei uma marca forte e moderna para jovens politicamente activos, sem perder os valores do partido: tipografia marcante, uma paleta cuidada e composições limpas, aplicadas nas redes sociais, no evento, em outdoor e em merchandising.</p></div>\n  </section>\n\n  <section style=\"margin-top: 120px; padding: 90px 0; background: #e9e9e4\">\n    <div class=\"wrap ctx\" style=\"align-items: center\">\n      <div><p style=\"margin: 0 0 8px; font-size: 14px; color: #5c5c58\">Nas redes sociais</p><h2 style=\"margin: 0 0 32px; font-size: clamp(30px, 3.4vw, 48px); line-height: 1.02; letter-spacing: -0.045em; font-weight: 600\">O <span style=\"font-family: 'Instrument Serif', serif; font-style: italic; font-weight: 400\">carrossel</span></h2><p style=\"margin: 0; font-size: 18px; max-width: 420px\">Oradores, programa e inscrições, um slide de cada vez. Deslize para ver.</p></div>\n      <div style=\"display: flex; justify-content: center\">"
+   },
+   {
+    "phone": {
+     "handle": "partido_socialista",
+     "avatar": "/img/8b87d1ad467c02897cc71121042682b9.webp",
+     "img": "/img/01bffba8d7159d9301b6ad692e1dd20c.webp",
+     "caption": "Academia Socialista 2024. Inscrições abertas.",
+     "size": "big",
+     "alt": "Academia Socialista 2024. Inscrições abertas.",
+     "slides": [
+      "/img/01bffba8d7159d9301b6ad692e1dd20c.webp",
+      "/img/02fc1f46e1c593c918f986a5603c5fda.webp",
+      "/img/d2e8a574d10ef35e683d6d0f14e38e77.webp",
+      "/img/f7ed39a19ade604299aea607d77b81f2.webp",
+      "/img/cc2b880956d5d391953ca22b4e1cd6c7.webp"
+     ]
+    }
+   },
+   {
+    "html": "</div>\n    </div>\n  </section>\n\n  <section class=\"wrap\" style=\"padding-top: 120px\">\n    <p style=\"margin: 0 0 8px; font-size: 14px; color: #5c5c58\">O evento</p><h2 style=\"margin: 0 0 32px; font-size: clamp(30px, 3.4vw, 48px); line-height: 1.02; letter-spacing: -0.045em; font-weight: 600\">No <span style=\"font-family: 'Instrument Serif', serif; font-style: italic; font-weight: 400\">palco</span></h2>\n    <div class=\"jrow\"><img width=\"1600\" height=\"1067\" loading=\"lazy\" decoding=\"async\" src=\"/img/068455be2a461363392111c0b0a45df1.webp\" alt=\"Academia Socialista: no palco\" style=\"flex: 1.5000 1 0; aspect-ratio: 1626 / 1084\"></div><div class=\"jrow\"><img width=\"786\" height=\"525\" loading=\"lazy\" decoding=\"async\" src=\"/img/dc20c6db139f3bb152777eb91744c6d4.webp\" alt=\"Academia Socialista: no palco\" style=\"flex: 1.5000 1 0; aspect-ratio: 786 / 524\"><img width=\"786\" height=\"524\" loading=\"lazy\" decoding=\"async\" src=\"/img/e4c85ba0d1963a0ecb4108bd0303b71f.webp\" alt=\"Academia Socialista: no palco\" style=\"flex: 1.5000 1 0; aspect-ratio: 786 / 524\"></div><div class=\"jrow\"><img width=\"788\" height=\"525\" loading=\"lazy\" decoding=\"async\" src=\"/img/614832da7353d36e3ac7e276f9c5b8b7.webp\" alt=\"Academia Socialista: no palco\" style=\"flex: 1.5000 1 0; aspect-ratio: 786 / 524\"><img width=\"787\" height=\"525\" loading=\"lazy\" decoding=\"async\" src=\"/img/f61bc5d7bdd83b2fc4120fb1b99497c7.webp\" alt=\"Academia Socialista: no palco\" style=\"flex: 1.5000 1 0; aspect-ratio: 786 / 524\"></div>\n  </section>\n\n  <section class=\"wrap\" style=\"padding-top: 120px\">\n    <p style=\"margin: 0 0 8px; font-size: 14px; color: #5c5c58\">Outdoor e merchandising</p><h2 style=\"margin: 0 0 32px; font-size: clamp(30px, 3.4vw, 48px); line-height: 1.02; letter-spacing: -0.045em; font-weight: 600\">Cá fora, <span style=\"font-family: 'Instrument Serif', serif; font-style: italic; font-weight: 400\">no mundo</span></h2>\n    <div class=\"jrow\"><img width=\"1475\" height=\"984\" loading=\"lazy\" decoding=\"async\" src=\"/img/decce3a74a6dcc8fd811da17d9088ad9.webp\" alt=\"Academia Socialista: cá fora, no mundo\" style=\"flex: 1.4990 1 0; aspect-ratio: 1475 / 984\"></div><div class=\"jrow\"><img width=\"657\" height=\"984\" loading=\"lazy\" decoding=\"async\" src=\"/img/5267e6dd71ec6147ad90d505c3b25cab.webp\" alt=\"Academia Socialista: cá fora, no mundo\" style=\"flex: 0.6677 1 0; aspect-ratio: 657 / 984\"><img width=\"657\" height=\"984\" loading=\"lazy\" decoding=\"async\" src=\"/img/bdd442b104e68272f252c1d75a2df72d.webp\" alt=\"Academia Socialista: cá fora, no mundo\" style=\"flex: 0.6677 1 0; aspect-ratio: 657 / 984\"><img width=\"657\" height=\"984\" loading=\"lazy\" decoding=\"async\" src=\"/img/740a0fb4c6789ccd11d634a34c8d3939.webp\" alt=\"Academia Socialista: cá fora, no mundo\" style=\"flex: 0.6677 1 0; aspect-ratio: 657 / 984\"></div>\n  </section>\n\n  \n\n  <section class=\"wrap\" style=\"padding-top: 120px\">\n    <div style=\"display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 20px; padding: 40px 0; border-top: 1px solid #d6d6d0; border-bottom: 1px solid #d6d6d0\">\n      <p style=\"margin: 0; font-size: clamp(30px, 3.4vw, 48px); line-height: 1.02; letter-spacing: -0.045em; font-weight: 600\">Tem algo assim? <span style=\"font-family: 'Instrument Serif', serif; font-style: italic; font-weight: 400\">Fale-me disso.</span></p>\n      <a href=\"/pt/#contact\" style=\"padding: 14px 24px; border-radius: 999px; background: #e3ff3a; color: #121212; text-decoration: none; font-weight: 500\">Vamos falar</a>\n    </div>\n  </section>\n\n  <section class=\"wrap next\" style=\"padding-top: 90px; padding-bottom: 100px\">\n    <div>\n      <p style=\"margin: 0 0 8px; font-size: 14px; color: #5c5c58\">Próximo projecto · 12 / 14</p>\n      <a href=\"/pt/work/praca-beato/\" style=\"text-decoration: none\"><h2 style=\"margin: 0 0 10px; font-size: clamp(36px, 4.4vw, 64px); line-height: 1; letter-spacing: -0.05em; font-weight: 600\">Praça Beato <svg width=\"1em\" height=\"1em\" viewBox=\"0 0 16 16\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\" style=\"display: inline-block; vertical-align: -0.125em; flex: none\"><path d=\"M3 8h10M9 4l4 4-4 4\"/></svg></h2></a>\n      <p style=\"margin: 0; color: #5c5c58\">A identidade de um mercado e dos seus eventos pop-up.</p>\n    </div>\n    <a href=\"/pt/work/praca-beato/\" style=\"display: flex; justify-content: center\"><img width=\"1200\" height=\"750\" loading=\"lazy\" decoding=\"async\" src=\"/img/5ac3b340659d70324dba88e8c404cd56.webp\" alt=\"\" style=\"width: 100%; max-width: 760px; aspect-ratio: 16 / 9; object-fit: cover; display: block; border-radius: 14px\"></a>\n  </section>\n\n  \n"
+   }
+  ]
+ },
+ "camara-municipal-de-lisboa": {
+  "key": "CaseCML",
+  "title": "Câmara Municipal de Lisboa",
+  "kicker": "10 / 14 · Web · UX/UI · Sector público",
+  "line": "O site da câmara, refeito em torno do que os cidadãos realmente precisam.",
+  "facts": [
+   [
+    "Cliente",
+    "Câmara Municipal de Lisboa"
+   ],
+   [
+    "Função",
+    "Direcção de UX e UI"
+   ],
+   [
+    "Ano",
+    "2022"
+   ],
+   [
+    "Trabalho",
+    "Arquitectura, navegação, design visual"
+   ]
+  ],
+  "brief": [
+   "Em 2022 trabalhei com a Câmara Municipal de Lisboa no seu site oficial, uma das plataformas públicas mais usadas da cidade. O site antigo estava desactualizado, sobrecarregado e era difícil de navegar.",
+   "Liderei o redesign de UX e UI: uma nova arquitectura, navegação mais simples e uma identidade visual renovada, pensada para a clareza, a acessibilidade e o serviço público."
+  ],
+  "hero": "/img/c1c76e90a1a2383c4b62c3da0edc32a4.webp",
+  "parts": [
+   {
+    "html": "\n\n  \n\n  <section class=\"wrap\" style=\"padding-top: 48px\">\n    <p style=\"margin: 0 0 14px; font-size: 14px; color: #5c5c58\">10 / 14 · Web · UX/UI · Sector público</p>\n    <h1 style=\"margin: 0; font-size: clamp(44px, 6.4vw, 96px); line-height: .96; letter-spacing: -0.055em; font-weight: 600\">Câmara Municipal de Lisboa</h1>\n    <p style=\"margin: 14px 0 0; font-family: 'Instrument Serif', serif; font-style: italic; font-size: clamp(24px, 2.6vw, 38px); line-height: 1.15; max-width: 900px\">O site da câmara, refeito em torno do que os cidadãos realmente precisam.</p>\n    <div style=\"margin-top: 40px; aspect-ratio: 16 / 9; display: flex; justify-content: center; gap: 12px; overflow: hidden\"><div style=\"flex: 1 1 0; min-width: 0; height: 100%; border-radius: 14px; overflow: hidden; background: #e7e7e2\"><img width=\"1200\" height=\"798\" fetchpriority=\"high\" src=\"/img/c1c76e90a1a2383c4b62c3da0edc32a4.webp\" alt=\"Câmara Municipal de Lisboa, imagem principal\" style=\"width: 100%; height: 100%; object-fit: cover; display: block\"></div></div>\n    <dl class=\"facts\" style=\"margin: 28px 0 0; padding-top: 22px; border-top: 1px solid #d6d6d0\"><div><dt style=\"font-size: 14px; color: #5c5c58\">Cliente</dt><dd style=\"margin: 4px 0 0\">Câmara Municipal de Lisboa</dd></div><div><dt style=\"font-size: 14px; color: #5c5c58\">Função</dt><dd style=\"margin: 4px 0 0\">Direcção de UX e UI</dd></div><div><dt style=\"font-size: 14px; color: #5c5c58\">Ano</dt><dd style=\"margin: 4px 0 0\">2022</dd></div><div><dt style=\"font-size: 14px; color: #5c5c58\">Trabalho</dt><dd style=\"margin: 4px 0 0\">Arquitectura, navegação, design visual</dd></div></dl>\n  </section>\n\n  <section class=\"wrap ctx\" style=\"padding-top: 120px\">\n    <h2 style=\"margin: 0; font-size: clamp(30px, 3.4vw, 48px); line-height: 1.02; letter-spacing: -0.045em; font-weight: 600\">O briefing <span style=\"font-family: 'Instrument Serif', serif; font-style: italic; font-weight: 400\">e o que fiz</span></h2>\n    <div style=\"font-size: 19px; line-height: 1.55; max-width: 680px\"><p style=\"margin: 0 0 16px\">Em 2022 trabalhei com a Câmara Municipal de Lisboa no seu site oficial, uma das plataformas públicas mais usadas da cidade. O site antigo estava desactualizado, sobrecarregado e era difícil de navegar.</p><p style=\"margin: 0 0 16px\">Liderei o redesign de UX e UI: uma nova arquitectura, navegação mais simples e uma identidade visual renovada, pensada para a clareza, a acessibilidade e o serviço público.</p></div>\n  </section>\n\n  <section class=\"wrap\" style=\"padding-top: 120px\">\n    <p style=\"margin: 0 0 8px; font-size: 14px; color: #5c5c58\">Em todos os dispositivos</p><h2 style=\"margin: 0 0 32px; font-size: clamp(30px, 3.4vw, 48px); line-height: 1.02; letter-spacing: -0.045em; font-weight: 600\">Um site, <span style=\"font-family: 'Instrument Serif', serif; font-style: italic; font-weight: 400\">todos os ecrãs</span></h2>\n    <div class=\"jrow\"><img width=\"1600\" height=\"718\" loading=\"lazy\" decoding=\"async\" src=\"/img/8d9056ef2e6fc24c0b312be40fc829d4.webp\" alt=\"Câmara Municipal de Lisboa: um site, todos os ecrãs\" style=\"flex: 2.2298 1 0; aspect-ratio: 2600 / 1166\"></div><div class=\"jrow\"><img width=\"1600\" height=\"1039\" loading=\"lazy\" decoding=\"async\" src=\"/img/5ce5c160274c4a22172b666b4a245c6b.webp\" alt=\"Câmara Municipal de Lisboa: um site, todos os ecrãs\" style=\"flex: 1.5402 1 0; aspect-ratio: 1839 / 1194\"><img width=\"820\" height=\"1230\" loading=\"lazy\" decoding=\"async\" src=\"/img/991651b76d6b9b3a19a8b10960d6b465.webp\" alt=\"Câmara Municipal de Lisboa: um site, todos os ecrãs\" style=\"flex: 0.6667 1 0; aspect-ratio: 820 / 1230\"></div>\n  </section>\n\n  \n\n  <section class=\"wrap\" style=\"padding-top: 120px\">\n    <div style=\"display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 20px; padding: 40px 0; border-top: 1px solid #d6d6d0; border-bottom: 1px solid #d6d6d0\">\n      <p style=\"margin: 0; font-size: clamp(30px, 3.4vw, 48px); line-height: 1.02; letter-spacing: -0.045em; font-weight: 600\">Tem algo assim? <span style=\"font-family: 'Instrument Serif', serif; font-style: italic; font-weight: 400\">Fale-me disso.</span></p>\n      <a href=\"/pt/#contact\" style=\"padding: 14px 24px; border-radius: 999px; background: #e3ff3a; color: #121212; text-decoration: none; font-weight: 500\">Vamos falar</a>\n    </div>\n  </section>\n\n  <section class=\"wrap next\" style=\"padding-top: 90px; padding-bottom: 100px\">\n    <div>\n      <p style=\"margin: 0 0 8px; font-size: 14px; color: #5c5c58\">Próximo projecto · 11 / 14</p>\n      <a href=\"/pt/work/academia-socialista/\" style=\"text-decoration: none\"><h2 style=\"margin: 0 0 10px; font-size: clamp(36px, 4.4vw, 64px); line-height: 1; letter-spacing: -0.05em; font-weight: 600\">Academia Socialista <svg width=\"1em\" height=\"1em\" viewBox=\"0 0 16 16\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\" style=\"display: inline-block; vertical-align: -0.125em; flex: none\"><path d=\"M3 8h10M9 4l4 4-4 4\"/></svg></h2></a>\n      <p style=\"margin: 0; color: #5c5c58\">Uma identidade para jovens líderes progressistas.</p>\n    </div>\n    <a href=\"/pt/work/academia-socialista/\" style=\"display: flex; justify-content: center\"><img width=\"1200\" height=\"796\" loading=\"lazy\" decoding=\"async\" src=\"/img/a88a322f7a47ffec46f812c8314aa97d.webp\" alt=\"\" style=\"width: 100%; max-width: 760px; aspect-ratio: 16 / 9; object-fit: cover; display: block; border-radius: 14px\"></a>\n  </section>\n\n  \n"
+   }
+  ]
+ },
+ "citizen-diaries-and-momentum": {
+  "key": "CaseCitizen",
+  "title": "Citizen Diaries and Momentum",
+  "kicker": "02 / 14 · Filme · Série documental · Câmara Municipal de Lisboa",
+  "line": "Duas séries para a cidade de Lisboa, 24 episódios sobre as pessoas que a fazem.",
+  "facts": [
+   [
+    "Cliente",
+    "Câmara Municipal de Lisboa"
+   ],
+   [
+    "Função",
+    "Produtor e realizador"
+   ],
+   [
+    "Formato",
+    "2 séries, 24 episódios"
+   ],
+   [
+    "Onde",
+    "YouTube"
+   ],
+   [
+    "Ano",
+    "2020–2021"
+   ]
+  ],
+  "brief": [
+   "Duas séries documentais para a Câmara Municipal de Lisboa. Citizen Diaries, para Lisboa Capital Verde 2020, acompanha os moradores que estão a mudar a transição verde da cidade. Momentum, para Lisboa Capital Europeia do Desporto 2021, acompanha atletas e comunidades desportivas por toda a cidade.",
+   "Produzi e realizei as duas: dezassete episódios e sete episódios, cada um com uma pessoa, um projecto e um bairro."
+  ],
+  "hero": "/img/788a25d5b74bf9441c72f1b0a6272417.webp",
+  "parts": [
+   {
+    "html": "\n\n  \n\n  <section class=\"wrap\" style=\"padding-top: 48px\">\n    <p style=\"margin: 0 0 14px; font-size: 14px; color: #5c5c58\">02 / 14 · Filme · Série documental · Câmara Municipal de Lisboa</p>\n    <h1 style=\"margin: 0; font-size: clamp(44px, 6.4vw, 96px); line-height: .96; letter-spacing: -0.055em; font-weight: 600\">Citizen Diaries and Momentum</h1>\n    <p style=\"margin: 14px 0 0; font-family: 'Instrument Serif', serif; font-style: italic; font-size: clamp(24px, 2.6vw, 38px); line-height: 1.15; max-width: 900px\">Duas séries para a cidade de Lisboa, 24 episódios sobre as pessoas que a fazem.</p>\n    <div style=\"margin-top: 40px; aspect-ratio: 16 / 9; display: flex; justify-content: center; gap: 12px; overflow: hidden\"><div style=\"flex: 1 1 0; min-width: 0; height: 100%; border-radius: 14px; overflow: hidden; background: #e7e7e2\"><img width=\"1280\" height=\"720\" fetchpriority=\"high\" src=\"/img/788a25d5b74bf9441c72f1b0a6272417.webp\" alt=\"Citizen Diaries e Momentum, imagem principal\" style=\"width: 100%; height: 100%; object-fit: cover; display: block\"></div></div>\n    <dl class=\"facts\" style=\"margin: 28px 0 0; padding-top: 22px; border-top: 1px solid #d6d6d0\"><div><dt style=\"font-size: 14px; color: #5c5c58\">Cliente</dt><dd style=\"margin: 4px 0 0\">Câmara Municipal de Lisboa</dd></div><div><dt style=\"font-size: 14px; color: #5c5c58\">Função</dt><dd style=\"margin: 4px 0 0\">Produtor e realizador</dd></div><div><dt style=\"font-size: 14px; color: #5c5c58\">Formato</dt><dd style=\"margin: 4px 0 0\">2 séries, 24 episódios</dd></div><div><dt style=\"font-size: 14px; color: #5c5c58\">Onde</dt><dd style=\"margin: 4px 0 0\">YouTube</dd></div><div><dt style=\"font-size: 14px; color: #5c5c58\">Ano</dt><dd style=\"margin: 4px 0 0\">2020–2021</dd></div></dl>\n  </section>\n\n  <section class=\"wrap ctx\" style=\"padding-top: 120px\">\n    <h2 style=\"margin: 0; font-size: clamp(30px, 3.4vw, 48px); line-height: 1.02; letter-spacing: -0.045em; font-weight: 600\">O briefing <span style=\"font-family: 'Instrument Serif', serif; font-style: italic; font-weight: 400\">e o que fiz</span></h2>\n    <div style=\"font-size: 19px; line-height: 1.55; max-width: 680px\"><p style=\"margin: 0 0 16px\">Duas séries documentais para a Câmara Municipal de Lisboa. Citizen Diaries, para Lisboa Capital Verde 2020, acompanha os moradores que estão a mudar a transição verde da cidade. Momentum, para Lisboa Capital Europeia do Desporto 2021, acompanha atletas e comunidades desportivas por toda a cidade.</p><p style=\"margin: 0 0 16px\">Produzi e realizei as duas: dezassete episódios e sete episódios, cada um com uma pessoa, um projecto e um bairro.</p></div>\n  </section>\n\n  <section class=\"wrap\" style=\"padding-top: 120px\">\n    <p style=\"margin: 0 0 8px; font-size: 14px; color: #5c5c58\">Lisboa Capital Verde 2020</p><h2 style=\"margin: 0 0 32px; font-size: clamp(30px, 3.4vw, 48px); line-height: 1.02; letter-spacing: -0.045em; font-weight: 600\">Citizen Diaries, <span style=\"font-family: 'Instrument Serif', serif; font-style: italic; font-weight: 400\">17 episódios</span></h2>\n    <a href=\"https://www.youtube.com/watch?v=A8iI8EE7krQ&list=PLZQUZpkc-mv6ah8ypoz3MjJEAKRoOZNM0\" target=\"_blank\" rel=\"noopener\" style=\"position: relative; display: block; aspect-ratio: 16 / 9; border-radius: 14px; overflow: hidden; background: #111\">\n      <img width=\"1280\" height=\"720\" loading=\"lazy\" decoding=\"async\" src=\"/img/788a25d5b74bf9441c72f1b0a6272417.webp\" alt=\"Citizen Diaries e Momentum: Citizen Diaries, 17 episódios\" style=\"width: 100%; height: 100%; object-fit: cover; display: block\">\n      <span style=\"position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); width: 96px; height: 96px; border-radius: 50%; background: rgba(244,244,241,.95); color: #121212; display: grid; place-items: center; font-size: 28px\"><svg width=\"1em\" height=\"1em\" viewBox=\"0 0 16 16\" fill=\"currentColor\" aria-hidden=\"true\" style=\"display: inline-block; vertical-align: -0.125em; flex: none\"><path d=\"M5 3.2v9.6L12.6 8z\"/></svg></span>\n      <span style=\"position: absolute; left: 20px; bottom: 20px; padding: 7px 14px; border-radius: 999px; background: rgba(0,0,0,.6); color: #fff; font-size: 14px\">Playlist · 17 episódios</span>\n    </a>\n    \n  </section>\n\n  <section class=\"wrap\" style=\"padding-top: 120px\">\n    <p style=\"margin: 0 0 8px; font-size: 14px; color: #5c5c58\">Capital Europeia do Desporto</p><h2 style=\"margin: 0 0 32px; font-size: clamp(30px, 3.4vw, 48px); line-height: 1.02; letter-spacing: -0.045em; font-weight: 600\">Momentum, <span style=\"font-family: 'Instrument Serif', serif; font-style: italic; font-weight: 400\">7 episódios</span></h2>\n    <a href=\"https://www.youtube.com/watch?v=caRuhMwkcvo\" target=\"_blank\" rel=\"noopener\" style=\"position: relative; display: block; aspect-ratio: 16 / 9; border-radius: 14px; overflow: hidden; background: #111\">\n      <img width=\"1280\" height=\"720\" loading=\"lazy\" decoding=\"async\" src=\"/img/39fbf7765d3705225e3fad87be1b6700.webp\" alt=\"Citizen Diaries e Momentum: Momentum, 7 episódios\" style=\"width: 100%; height: 100%; object-fit: cover; display: block\">\n      <span style=\"position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); width: 96px; height: 96px; border-radius: 50%; background: rgba(244,244,241,.95); color: #121212; display: grid; place-items: center; font-size: 28px\"><svg width=\"1em\" height=\"1em\" viewBox=\"0 0 16 16\" fill=\"currentColor\" aria-hidden=\"true\" style=\"display: inline-block; vertical-align: -0.125em; flex: none\"><path d=\"M5 3.2v9.6L12.6 8z\"/></svg></span>\n      <span style=\"position: absolute; left: 20px; bottom: 20px; padding: 7px 14px; border-radius: 999px; background: rgba(0,0,0,.6); color: #fff; font-size: 14px\">Ver no YouTube · 7 episódios</span>\n    </a>\n    \n  </section>\n\n  \n\n  <section class=\"wrap\" style=\"padding-top: 120px\">\n    <div style=\"display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 20px; padding: 40px 0; border-top: 1px solid #d6d6d0; border-bottom: 1px solid #d6d6d0\">\n      <p style=\"margin: 0; font-size: clamp(30px, 3.4vw, 48px); line-height: 1.02; letter-spacing: -0.045em; font-weight: 600\">Tem algo assim? <span style=\"font-family: 'Instrument Serif', serif; font-style: italic; font-weight: 400\">Fale-me disso.</span></p>\n      <a href=\"/pt/#contact\" style=\"padding: 14px 24px; border-radius: 999px; background: #e3ff3a; color: #121212; text-decoration: none; font-weight: 500\">Vamos falar</a>\n    </div>\n  </section>\n\n  <section class=\"wrap next\" style=\"padding-top: 90px; padding-bottom: 100px\">\n    <div>\n      <p style=\"margin: 0 0 8px; font-size: 14px; color: #5c5c58\">Próximo projecto · 03 / 14</p>\n      <a href=\"/pt/work/judas/\" style=\"text-decoration: none\"><h2 style=\"margin: 0 0 10px; font-size: clamp(36px, 4.4vw, 64px); line-height: 1; letter-spacing: -0.05em; font-weight: 600\">Judas <svg width=\"1em\" height=\"1em\" viewBox=\"0 0 16 16\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\" style=\"display: inline-block; vertical-align: -0.125em; flex: none\"><path d=\"M3 8h10M9 4l4 4-4 4\"/></svg></h2></a>\n      <p style=\"margin: 0; color: #5c5c58\">Reels para a amigo, o Santander, a Ron Barceló e a Cofidis.</p>\n    </div>\n    <a href=\"/pt/work/judas/\" style=\"display: flex; justify-content: center\"><img width=\"480\" height=\"853\" loading=\"lazy\" decoding=\"async\" src=\"/img/6c9dc72d0504063cb6d61ead4c17d8b4.webp\" alt=\"\" style=\"width: 100%; max-width: 760px; aspect-ratio: 16 / 9; object-fit: cover; display: block; border-radius: 14px\"></a>\n  </section>\n\n  \n"
+   }
+  ]
+ },
+ "50-anos-do-direito-em-portugal": {
+  "key": "CaseDireito",
+  "title": "50 Anos do Direito em Portugal",
+  "kicker": "13 / 14 · Marca · Editorial · Eventos",
+  "line": "Um livro e um lançamento a assinalar cinquenta anos de democracia em Portugal.",
+  "facts": [
+   [
+    "Cliente",
+    "Provedoria de Justiça"
+   ],
+   [
+    "Função",
+    "Identidade, design e estratégia"
+   ],
+   [
+    "Ocasião",
+    "50 anos do 25 de Abril"
+   ],
+   [
+    "Trabalho",
+    "Livro, evento, redes sociais, filme"
+   ],
+   [
+    "Ano",
+    "2025"
+   ]
+  ],
+  "brief": [
+   "A 8 de Abril, a Provedoria de Justiça assinalou os 50 anos do 25 de Abril com um livro comemorativo sobre o regresso de Portugal à democracia.",
+   "Desenvolvi a identidade visual do evento e do livro, juntando design, estratégia e pesquisa para definir o tom, do impresso às redes sociais e ao filme."
+  ],
+  "hero": "/img/eaa1d3c6f05f3db0178e9c9d8d0442c1.webp",
+  "parts": [
+   {
+    "html": "\n\n  \n\n  <section class=\"wrap\" style=\"padding-top: 48px\">\n    <p style=\"margin: 0 0 14px; font-size: 14px; color: #5c5c58\">13 / 14 · Marca · Editorial · Eventos</p>\n    <h1 style=\"margin: 0; font-size: clamp(44px, 6.4vw, 96px); line-height: .96; letter-spacing: -0.055em; font-weight: 600\">50 Anos do Direito em Portugal</h1>\n    <p style=\"margin: 14px 0 0; font-family: 'Instrument Serif', serif; font-style: italic; font-size: clamp(24px, 2.6vw, 38px); line-height: 1.15; max-width: 900px\">Um livro e um lançamento a assinalar cinquenta anos de democracia em Portugal.</p>\n    <div style=\"margin-top: 40px; aspect-ratio: 16 / 9; display: flex; justify-content: center; gap: 12px; overflow: hidden\"><div style=\"flex: 1 1 0; min-width: 0; height: 100%; border-radius: 14px; overflow: hidden; background: #e7e7e2\"><img width=\"1200\" height=\"795\" fetchpriority=\"high\" src=\"/img/eaa1d3c6f05f3db0178e9c9d8d0442c1.webp\" alt=\"50 Anos do Direito em Portugal, imagem principal\" style=\"width: 100%; height: 100%; object-fit: cover; display: block\"></div></div>\n    <dl class=\"facts\" style=\"margin: 28px 0 0; padding-top: 22px; border-top: 1px solid #d6d6d0\"><div><dt style=\"font-size: 14px; color: #5c5c58\">Cliente</dt><dd style=\"margin: 4px 0 0\">Provedoria de Justiça</dd></div><div><dt style=\"font-size: 14px; color: #5c5c58\">Função</dt><dd style=\"margin: 4px 0 0\">Identidade, design e estratégia</dd></div><div><dt style=\"font-size: 14px; color: #5c5c58\">Ocasião</dt><dd style=\"margin: 4px 0 0\">50 anos do 25 de Abril</dd></div><div><dt style=\"font-size: 14px; color: #5c5c58\">Trabalho</dt><dd style=\"margin: 4px 0 0\">Livro, evento, redes sociais, filme</dd></div><div><dt style=\"font-size: 14px; color: #5c5c58\">Ano</dt><dd style=\"margin: 4px 0 0\">2025</dd></div></dl>\n  </section>\n\n  <section class=\"wrap ctx\" style=\"padding-top: 120px\">\n    <h2 style=\"margin: 0; font-size: clamp(30px, 3.4vw, 48px); line-height: 1.02; letter-spacing: -0.045em; font-weight: 600\">O briefing <span style=\"font-family: 'Instrument Serif', serif; font-style: italic; font-weight: 400\">e o que fiz</span></h2>\n    <div style=\"font-size: 19px; line-height: 1.55; max-width: 680px\"><p style=\"margin: 0 0 16px\">A 8 de Abril, a Provedoria de Justiça assinalou os 50 anos do 25 de Abril com um livro comemorativo sobre o regresso de Portugal à democracia.</p><p style=\"margin: 0 0 16px\">Desenvolvi a identidade visual do evento e do livro, juntando design, estratégia e pesquisa para definir o tom, do impresso às redes sociais e ao filme.</p></div>\n  </section>\n\n  <section class=\"wrap\" style=\"padding-top: 120px\">\n    <p style=\"margin: 0 0 8px; font-size: 14px; color: #5c5c58\">Livro e evento</p><h2 style=\"margin: 0 0 32px; font-size: clamp(30px, 3.4vw, 48px); line-height: 1.02; letter-spacing: -0.045em; font-weight: 600\">Da página <span style=\"font-family: 'Instrument Serif', serif; font-style: italic; font-weight: 400\">para a sala</span></h2>\n    <div class=\"jrow\"><img width=\"1775\" height=\"1183\" loading=\"lazy\" decoding=\"async\" src=\"/img/36b2d95c2a605d6964e02a71bca44e20.webp\" alt=\"50 Anos do Direito em Portugal: da página para a sala\" style=\"flex: 1.5004 1 0; aspect-ratio: 1775 / 1183\"><img width=\"1877\" height=\"1251\" loading=\"lazy\" decoding=\"async\" src=\"/img/367eacf58d94856c393a03df46fd2ed0.webp\" alt=\"50 Anos do Direito em Portugal: da página para a sala\" style=\"flex: 1.5004 1 0; aspect-ratio: 1877 / 1251\"></div><div class=\"jrow\"><img width=\"836\" height=\"1252\" loading=\"lazy\" decoding=\"async\" src=\"/img/dd9ad41e1b2956d28ce7660a4db6d09c.webp\" alt=\"50 Anos do Direito em Portugal: da página para a sala\" style=\"flex: 0.6677 1 0; aspect-ratio: 836 / 1252\"><img width=\"1821\" height=\"1182\" loading=\"lazy\" decoding=\"async\" src=\"/img/7618f503ebefddcfe55e43074b607496.webp\" alt=\"50 Anos do Direito em Portugal: da página para a sala\" style=\"flex: 1.5406 1 0; aspect-ratio: 1821 / 1182\"><img width=\"835\" height=\"1252\" loading=\"lazy\" decoding=\"async\" src=\"/img/0b8ea7da90250b88fb85aeb20798b83d.webp\" alt=\"50 Anos do Direito em Portugal: da página para a sala\" style=\"flex: 0.6669 1 0; aspect-ratio: 835 / 1252\"></div>\n  </section>\n\n  \n\n  <section class=\"wrap\" style=\"padding-top: 120px\">\n    <div style=\"display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 20px; padding: 40px 0; border-top: 1px solid #d6d6d0; border-bottom: 1px solid #d6d6d0\">\n      <p style=\"margin: 0; font-size: clamp(30px, 3.4vw, 48px); line-height: 1.02; letter-spacing: -0.045em; font-weight: 600\">Tem algo assim? <span style=\"font-family: 'Instrument Serif', serif; font-style: italic; font-weight: 400\">Fale-me disso.</span></p>\n      <a href=\"/pt/#contact\" style=\"padding: 14px 24px; border-radius: 999px; background: #e3ff3a; color: #121212; text-decoration: none; font-weight: 500\">Vamos falar</a>\n    </div>\n  </section>\n\n  <section class=\"wrap next\" style=\"padding-top: 90px; padding-bottom: 100px\">\n    <div>\n      <p style=\"margin: 0 0 8px; font-size: 14px; color: #5c5c58\">Próximo projecto · 14 / 14</p>\n      <a href=\"/pt/work/utpr-seminar/\" style=\"text-decoration: none\"><h2 style=\"margin: 0 0 10px; font-size: clamp(36px, 4.4vw, 64px); line-height: 1; letter-spacing: -0.05em; font-weight: 600\">Seminário UTPR <svg width=\"1em\" height=\"1em\" viewBox=\"0 0 16 16\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\" style=\"display: inline-block; vertical-align: -0.125em; flex: none\"><path d=\"M3 8h10M9 4l4 4-4 4\"/></svg></h2></a>\n      <p style=\"margin: 0; color: #5c5c58\">Uma identidade para um seminário de direito fiscal.</p>\n    </div>\n    <a href=\"/pt/work/utpr-seminar/\" style=\"display: flex; justify-content: center\"><img width=\"1200\" height=\"799\" loading=\"lazy\" decoding=\"async\" src=\"/img/c83bf114d6b13b7e02e069921a763489.webp\" alt=\"\" style=\"width: 100%; max-width: 760px; aspect-ratio: 16 / 9; object-fit: cover; display: block; border-radius: 14px\"></a>\n  </section>\n\n  \n"
+   }
+  ]
+ },
+ "judas": {
+  "key": "CaseJudas",
+  "title": "Judas",
+  "kicker": "03 / 14 · Filme · Vídeo curto para marcas · com a agência Judas",
+  "line": "Reels para bancos, telecomunicações, rum e crédito que parecem nativos do feed, e não anúncios cortados à medida.",
+  "facts": [
+   [
+    "Agência",
+    "Judas"
+   ],
+   [
+    "Clientes",
+    "amigo, Santander, Ron Barceló, Cofidis"
+   ],
+   [
+    "Função",
+    "Produção de vídeo, filmagem e edição"
+   ],
+   [
+    "Formato",
+    "10 reels para Instagram"
+   ],
+   [
+    "Ano",
+    "2026"
+   ]
+  ],
+  "brief": [
+   "Com a agência criativa Judas, faço vídeos curtos para marcas que precisam de funcionar primeiro no feed.",
+   "Para o Santander, cinco reels que pegam em géneros de cinema: um thriller que nunca acontece, um falso documentário, um drama que não o é e dois vox pops na rua. Para a amigo, a marca low cost da Vodafone, uma série de Halloween chamada Salvos pela rede: um bosque escuro, uma casa assombrada, um parque de estacionamento vazio e um telemóvel que nunca perde rede. E ainda reels para a Ron Barceló e a Cofidis."
+  ],
+  "hero": "/img/26c0c60d6da9183de9b33bfd05bed53c.webp",
+  "parts": [
+   {
+    "html": "\n\n  \n\n  <section class=\"wrap\" style=\"padding-top: 48px\">\n    <p style=\"margin: 0 0 14px; font-size: 14px; color: #5c5c58\">03 / 14 · Filme · Vídeo curto para marcas · com a agência Judas</p>\n    <h1 style=\"margin: 0; font-size: clamp(44px, 6.4vw, 96px); line-height: .96; letter-spacing: -0.055em; font-weight: 600\">Judas</h1>\n    <p style=\"margin: 14px 0 0; font-family: 'Instrument Serif', serif; font-style: italic; font-size: clamp(24px, 2.6vw, 38px); line-height: 1.15; max-width: 900px\">Reels para bancos, telecomunicações, rum e crédito que parecem nativos do feed, e não anúncios cortados à medida.</p>\n    <div style=\"margin-top: 40px; aspect-ratio: 16 / 9; display: flex; justify-content: center; gap: 12px; overflow: hidden\"><div style=\"flex: none; aspect-ratio: 9 / 16; height: 100%; border-radius: 14px; overflow: hidden; background: #e7e7e2\"><img width=\"1080\" height=\"1920\" fetchpriority=\"high\" src=\"/img/26c0c60d6da9183de9b33bfd05bed53c.webp\" alt=\"amigo, Salvos pela rede: um telemóvel com rede num bosque escuro\" style=\"width: 100%; height: 100%; object-fit: cover; display: block\"></div><div style=\"flex: none; aspect-ratio: 9 / 16; height: 100%; border-radius: 14px; overflow: hidden; background: #e7e7e2\"><img width=\"405\" height=\"720\" loading=\"lazy\" decoding=\"async\" src=\"/img/520f36a9c3ff97d9142191b13116a436.webp\" alt=\"Santander: o thriller que nunca aconteceu\" style=\"width: 100%; height: 100%; object-fit: cover; display: block\"></div><div style=\"flex: none; aspect-ratio: 9 / 16; height: 100%; border-radius: 14px; overflow: hidden; background: #e7e7e2\"><img width=\"480\" height=\"853\" loading=\"lazy\" decoding=\"async\" src=\"/img/46b48faf28cb4b7a98684b11315edc66.webp\" alt=\"Vox pop do Santander: o que fazia com 750€?\" style=\"width: 100%; height: 100%; object-fit: cover; display: block\"></div></div>\n    <dl class=\"facts\" style=\"margin: 28px 0 0; padding-top: 22px; border-top: 1px solid #d6d6d0\"><div><dt style=\"font-size: 14px; color: #5c5c58\">Agência</dt><dd style=\"margin: 4px 0 0\">Judas</dd></div><div><dt style=\"font-size: 14px; color: #5c5c58\">Clientes</dt><dd style=\"margin: 4px 0 0\">amigo, Santander, Ron Barceló, Cofidis</dd></div><div><dt style=\"font-size: 14px; color: #5c5c58\">Função</dt><dd style=\"margin: 4px 0 0\">Produção de vídeo, filmagem e edição</dd></div><div><dt style=\"font-size: 14px; color: #5c5c58\">Formato</dt><dd style=\"margin: 4px 0 0\">10 reels para Instagram</dd></div><div><dt style=\"font-size: 14px; color: #5c5c58\">Ano</dt><dd style=\"margin: 4px 0 0\">2026</dd></div></dl>\n  </section>\n\n  <section class=\"wrap ctx\" style=\"padding-top: 120px\">\n    <h2 style=\"margin: 0; font-size: clamp(30px, 3.4vw, 48px); line-height: 1.02; letter-spacing: -0.045em; font-weight: 600\">O briefing <span style=\"font-family: 'Instrument Serif', serif; font-style: italic; font-weight: 400\">e o que fiz</span></h2>\n    <div style=\"font-size: 19px; line-height: 1.55; max-width: 680px\"><p style=\"margin: 0 0 16px\">Com a agência criativa Judas, faço vídeos curtos para marcas que precisam de funcionar primeiro no feed.</p><p style=\"margin: 0 0 16px\">Para o Santander, cinco reels que pegam em géneros de cinema: um thriller que nunca acontece, um falso documentário, um drama que não o é e dois vox pops na rua. Para a amigo, a marca low cost da Vodafone, uma série de Halloween chamada Salvos pela rede: um bosque escuro, uma casa assombrada, um parque de estacionamento vazio e um telemóvel que nunca perde rede. E ainda reels para a Ron Barceló e a Cofidis.</p></div>\n  </section>\n\n  <section style=\"margin-top: 120px; padding: 90px 0; background: #121212; color: #f4f4f1\">\n    <div class=\"wrap\"><p style=\"margin: 0 0 8px; font-size: 14px; color: #a5a5a0\">Santander</p><h2 style=\"margin: 0 0 32px; font-size: clamp(30px, 3.4vw, 48px); line-height: 1.02; letter-spacing: -0.045em; font-weight: 600\">Cinco reels, <span style=\"font-family: 'Instrument Serif', serif; font-style: italic; font-weight: 400\">cinco géneros</span></h2></div>\n    <div class=\"reelrow\"><figure style=\"margin: 0; display: grid; gap: 12px; justify-items: center\">"
+   },
+   {
+    "phone": {
+     "handle": "santanderpt",
+     "avatar": "/img/520f36a9c3ff97d9142191b13116a436.webp",
+     "mode": "reel",
+     "img": "/img/520f36a9c3ff97d9142191b13116a436.webp",
+     "caption": "O thriller que nunca aconteceu.",
+     "size": "reel",
+     "alt": "O thriller que nunca aconteceu."
+    }
+   },
+   {
+    "html": "<figcaption style=\"font-size: 15px; color: #5c5c58; max-width: 250px; text-align: center\">O thriller que nunca aconteceu.</figcaption></figure><figure style=\"margin: 0; display: grid; gap: 12px; justify-items: center\">"
+   },
+   {
+    "phone": {
+     "handle": "santanderpt",
+     "avatar": "/img/c353c31a7fa5e621fb9727fc6cfbd6d9.webp",
+     "mode": "reel",
+     "img": "/img/c353c31a7fa5e621fb9727fc6cfbd6d9.webp",
+     "caption": "Um falso documentário sobre domiciliação.",
+     "size": "reel",
+     "alt": "Um falso documentário sobre domiciliação."
+    }
+   },
+   {
+    "html": "<figcaption style=\"font-size: 15px; color: #5c5c58; max-width: 250px; text-align: center\">Um falso documentário sobre domiciliação.</figcaption></figure><figure style=\"margin: 0; display: grid; gap: 12px; justify-items: center\">"
+   },
+   {
+    "phone": {
+     "handle": "santanderpt",
+     "avatar": "/img/6c9dc72d0504063cb6d61ead4c17d8b4.webp",
+     "mode": "reel",
+     "img": "/img/6c9dc72d0504063cb6d61ead4c17d8b4.webp",
+     "caption": "Será mesmo um drama?",
+     "size": "reel",
+     "alt": "Será mesmo um drama?"
+    }
+   },
+   {
+    "html": "<figcaption style=\"font-size: 15px; color: #5c5c58; max-width: 250px; text-align: center\">Será mesmo um drama?</figcaption></figure><figure style=\"margin: 0; display: grid; gap: 12px; justify-items: center\">"
+   },
+   {
+    "phone": {
+     "handle": "santanderpt",
+     "avatar": "/img/46b48faf28cb4b7a98684b11315edc66.webp",
+     "mode": "reel",
+     "img": "/img/46b48faf28cb4b7a98684b11315edc66.webp",
+     "caption": "Vox pop: o que fazia com 750€?",
+     "size": "reel",
+     "alt": "Vox pop: o que fazia com 750€?"
+    }
+   },
+   {
+    "html": "<figcaption style=\"font-size: 15px; color: #5c5c58; max-width: 250px; text-align: center\">Vox pop: o que fazia com 750€?</figcaption></figure><figure style=\"margin: 0; display: grid; gap: 12px; justify-items: center\">"
+   },
+   {
+    "phone": {
+     "handle": "santanderpt",
+     "avatar": "/img/c375a8b087e4af444d3de002bb38b8e1.webp",
+     "mode": "reel",
+     "img": "/img/c375a8b087e4af444d3de002bb38b8e1.webp",
+     "caption": "Vox pop: é lento ou super rápido?",
+     "size": "reel",
+     "alt": "Vox pop: é lento ou super rápido?"
+    }
+   },
+   {
+    "html": "<figcaption style=\"font-size: 15px; color: #5c5c58; max-width: 250px; text-align: center\">Vox pop: é lento ou super rápido?</figcaption></figure></div>\n    <p class=\"wrap\" style=\"margin: 18px auto 0; font-size: 15px; color: #a5a5a0\">Deslize para o lado · cinco reels para o Santander</p>\n  </section>\n\n  <section style=\"padding-top: 120px\"><div class=\"wrap\"><p style=\"margin: 0 0 8px; font-size: 14px; color: #5c5c58\">Ron Barceló e Cofidis</p><h2 style=\"margin: 0 0 32px; font-size: clamp(30px, 3.4vw, 48px); line-height: 1.02; letter-spacing: -0.045em; font-weight: 600\">Mais <span style=\"font-family: 'Instrument Serif', serif; font-style: italic; font-weight: 400\">para o feed</span></h2><div class=\"phones\">"
+   },
+   {
+    "phone": {
+     "handle": "ronbarcelo.portugal",
+     "avatar": "/img/6af3752e91f85432ff782764aee3f7f9.webp",
+     "img": "/img/6af3752e91f85432ff782764aee3f7f9.webp",
+     "mode": "reel",
+     "caption": "404 Not Found: Barceló é a minha paz.",
+     "size": "post",
+     "alt": "404 Not Found: Barceló é a minha paz."
+    }
+   },
+   {
+    "html": "\n"
+   },
+   {
+    "phone": {
+     "handle": "cofidisportugal",
+     "avatar": "/img/7f4fed60acd8f8948d76ef98e1cba6a0.webp",
+     "img": "/img/7f4fed60acd8f8948d76ef98e1cba6a0.webp",
+     "mode": "reel",
+     "caption": "As mudanças continuam, mas há algo que nunca muda: a nossa vontade de continuar ao seu lado, acompanhá-lo, ouvi-lo e encaminhá-lo na melhor decisão para si! 🤗",
+     "finish": "deep blue",
+     "size": "post",
+     "alt": "As mudanças continuam, mas há algo que nunca muda: a nossa vontade de continuar ao seu lado, acompanhá-lo, ouvi-lo e encaminhá-lo na melhor decisão para si! 🤗"
+    }
+   },
+   {
+    "html": "\n</div></div></section>\n\n  <section style=\"margin-top: 120px; padding: 90px 0; background: #121212; color: #f4f4f1\">\n    <div class=\"wrap\"><p style=\"margin: 0 0 8px; font-size: 14px; color: #a5a5a0\">amigo · Halloween</p><h2 style=\"margin: 0 0 32px; font-size: clamp(30px, 3.4vw, 48px); line-height: 1.02; letter-spacing: -0.045em; font-weight: 600\">Salvos <span style=\"font-family: 'Instrument Serif', serif; font-style: italic; font-weight: 400\">pela rede</span></h2></div>\n    <div class=\"reelrow\"><figure style=\"margin: 0; display: grid; gap: 12px; justify-items: center\">"
+   },
+   {
+    "phone": {
+     "handle": "oteuamigopt",
+     "avatar": "/img/26c0c60d6da9183de9b33bfd05bed53c.webp",
+     "mode": "reel",
+     "img": "/img/26c0c60d6da9183de9b33bfd05bed53c.webp",
+     "caption": "quem vê filmes de terror sabe que é no meio de florestas bem assustadoras e escuras que a rede falha. felizmente, este halloween, se tiveres um tarifário amigo, não precisas de te preocupar 😉",
+     "size": "reel",
+     "alt": "quem vê filmes de terror sabe que é no meio de florestas bem assustadoras e escuras que a rede falha. felizmente, este halloween, se tiveres um tarifário amigo, não precisas de te preocupar 😉"
+    }
+   },
+   {
+    "html": "<figcaption style=\"font-size: 15px; color: #5c5c58; max-width: 250px; text-align: center\">Perdido no bosque à noite, com rede.</figcaption></figure><figure style=\"margin: 0; display: grid; gap: 12px; justify-items: center\">"
+   },
+   {
+    "phone": {
+     "handle": "oteuamigopt",
+     "avatar": "/img/2f5958bae41529e8e05a47ae27006aa4.webp",
+     "mode": "reel",
+     "img": "/img/2f5958bae41529e8e05a47ae27006aa4.webp",
+     "caption": "amigo, relaxa. até na mansão mais assombrada vais ter rede para ligar a alguém para te ir salvar. 😉",
+     "size": "reel",
+     "alt": "amigo, relaxa. até na mansão mais assombrada vais ter rede para ligar a alguém para te ir salvar. 😉"
+    }
+   },
+   {
+    "html": "<figcaption style=\"font-size: 15px; color: #5c5c58; max-width: 250px; text-align: center\">Uma casa assombrada, e ainda com rede.</figcaption></figure><figure style=\"margin: 0; display: grid; gap: 12px; justify-items: center\">"
+   },
+   {
+    "phone": {
+     "handle": "oteuamigopt",
+     "avatar": "/img/17abc38741856c2fd74e36cf56fd241d.webp",
+     "mode": "reel",
+     "img": "/img/17abc38741856c2fd74e36cf56fd241d.webp",
+     "caption": "nos filmes de terror nunca há rede nos momentos mais assustadores. mas, se calhar, se os protagonistas tivessem um tarifário amigo a rede estaria garantida 😉",
+     "size": "reel",
+     "alt": "nos filmes de terror nunca há rede nos momentos mais assustadores. mas, se calhar, se os protagonistas tivessem um tarifário amigo a rede estaria garantida 😉"
+    }
+   },
+   {
+    "html": "<figcaption style=\"font-size: 15px; color: #5c5c58; max-width: 250px; text-align: center\">Sozinho no parque de estacionamento, sempre ligado.</figcaption></figure></div>\n    <p class=\"wrap\" style=\"margin: 18px auto 0; font-size: 15px; color: #a5a5a0\">Deslize para o lado · três reels para a amigo</p>\n  </section>\n\n  \n\n  <section class=\"wrap\" style=\"padding-top: 120px\">\n    <div style=\"display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 20px; padding: 40px 0; border-top: 1px solid #d6d6d0; border-bottom: 1px solid #d6d6d0\">\n      <p style=\"margin: 0; font-size: clamp(30px, 3.4vw, 48px); line-height: 1.02; letter-spacing: -0.045em; font-weight: 600\">Tem algo assim? <span style=\"font-family: 'Instrument Serif', serif; font-style: italic; font-weight: 400\">Fale-me disso.</span></p>\n      <a href=\"/pt/#contact\" style=\"padding: 14px 24px; border-radius: 999px; background: #e3ff3a; color: #121212; text-decoration: none; font-weight: 500\">Vamos falar</a>\n    </div>\n  </section>\n\n  <section class=\"wrap next\" style=\"padding-top: 90px; padding-bottom: 100px\">\n    <div>\n      <p style=\"margin: 0 0 8px; font-size: 14px; color: #5c5c58\">Próximo projecto · 04 / 14</p>\n      <a href=\"/pt/work/lufthansa-group-and-tap/\" style=\"text-decoration: none\"><h2 style=\"margin: 0 0 10px; font-size: clamp(36px, 4.4vw, 64px); line-height: 1; letter-spacing: -0.05em; font-weight: 600\">Lufthansa e TAP <svg width=\"1em\" height=\"1em\" viewBox=\"0 0 16 16\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\" style=\"display: inline-block; vertical-align: -0.125em; flex: none\"><path d=\"M3 8h10M9 4l4 4-4 4\"/></svg></h2></a>\n      <p style=\"margin: 0; color: #5c5c58\">Fotografia e filme de uma assinatura no aeroporto de Lisboa.</p>\n    </div>\n    <a href=\"/pt/work/lufthansa-group-and-tap/\" style=\"display: flex; justify-content: center\"><img width=\"2000\" height=\"1333\" loading=\"lazy\" decoding=\"async\" src=\"/img/145c13f889676099302448f031a1d53b.webp\" alt=\"\" style=\"width: 100%; max-width: 760px; aspect-ratio: 16 / 9; object-fit: cover; display: block; border-radius: 14px\"></a>\n  </section>\n\n  \n"
+   }
+  ]
+ },
+ "lightfoot-travel": {
+  "key": "CaseLightfoot",
+  "title": "Lightfoot Travel",
+  "kicker": "08 / 14 · Web · Campanhas · Viagens de luxo",
+  "line": "Páginas e anúncios premium que transformam uma filosofia de viagem em pedidos de contacto.",
+  "facts": [
+   [
+    "Cliente",
+    "Lightfoot Travel"
+   ],
+   [
+    "Função",
+    "Design criativo, gráfico e de UI/UX"
+   ],
+   [
+    "Trabalho",
+    "Landing pages, anúncios na Meta, brochuras, papelaria"
+   ],
+   [
+    "Mercados",
+    "Singapura, Hong Kong, Dubai, Londres"
+   ],
+   [
+    "Ano",
+    "2025–2026"
+   ]
+  ],
+  "brief": [
+   "A Lightfoot Travel é uma empresa global de viagens de luxo com escritórios em Singapura, Hong Kong, Dubai e Londres.",
+   "Uma colaboração contínua em landing pages de PPC, anúncios na Meta, papelaria, brochuras e roll-ups, com um objectivo: experiências premium, pensadas para converter, que tragam pedidos qualificados, com foco no mercado asiático."
+  ],
+  "hero": "/img/1bad9ef9a4478a3dd5b6dcfb986b9924.webp",
+  "parts": [
+   {
+    "html": "\n\n  \n\n  <section class=\"wrap\" style=\"padding-top: 48px\">\n    <p style=\"margin: 0 0 14px; font-size: 14px; color: #5c5c58\">08 / 14 · Web · Campanhas · Viagens de luxo</p>\n    <h1 style=\"margin: 0; font-size: clamp(44px, 6.4vw, 96px); line-height: .96; letter-spacing: -0.055em; font-weight: 600\">Lightfoot Travel</h1>\n    <p style=\"margin: 14px 0 0; font-family: 'Instrument Serif', serif; font-style: italic; font-size: clamp(24px, 2.6vw, 38px); line-height: 1.15; max-width: 900px\">Páginas e anúncios premium que transformam uma filosofia de viagem em pedidos de contacto.</p>\n    <div style=\"margin-top: 40px; aspect-ratio: 16 / 9; display: flex; justify-content: center; gap: 12px; overflow: hidden\"><div style=\"flex: 1 1 0; min-width: 0; height: 100%; border-radius: 14px; overflow: hidden; background: #e7e7e2\"><img width=\"1200\" height=\"768\" fetchpriority=\"high\" src=\"/img/1bad9ef9a4478a3dd5b6dcfb986b9924.webp\" alt=\"Lightfoot Travel, imagem principal\" style=\"width: 100%; height: 100%; object-fit: cover; display: block\"></div></div>\n    <dl class=\"facts\" style=\"margin: 28px 0 0; padding-top: 22px; border-top: 1px solid #d6d6d0\"><div><dt style=\"font-size: 14px; color: #5c5c58\">Cliente</dt><dd style=\"margin: 4px 0 0\">Lightfoot Travel</dd></div><div><dt style=\"font-size: 14px; color: #5c5c58\">Função</dt><dd style=\"margin: 4px 0 0\">Design criativo, gráfico e de UI/UX</dd></div><div><dt style=\"font-size: 14px; color: #5c5c58\">Trabalho</dt><dd style=\"margin: 4px 0 0\">Landing pages, anúncios na Meta, brochuras, papelaria</dd></div><div><dt style=\"font-size: 14px; color: #5c5c58\">Mercados</dt><dd style=\"margin: 4px 0 0\">Singapura, Hong Kong, Dubai, Londres</dd></div><div><dt style=\"font-size: 14px; color: #5c5c58\">Ano</dt><dd style=\"margin: 4px 0 0\">2025–2026</dd></div></dl>\n  </section>\n\n  <section class=\"wrap ctx\" style=\"padding-top: 120px\">\n    <h2 style=\"margin: 0; font-size: clamp(30px, 3.4vw, 48px); line-height: 1.02; letter-spacing: -0.045em; font-weight: 600\">O briefing <span style=\"font-family: 'Instrument Serif', serif; font-style: italic; font-weight: 400\">e o que fiz</span></h2>\n    <div style=\"font-size: 19px; line-height: 1.55; max-width: 680px\"><p style=\"margin: 0 0 16px\">A Lightfoot Travel é uma empresa global de viagens de luxo com escritórios em Singapura, Hong Kong, Dubai e Londres.</p><p style=\"margin: 0 0 16px\">Uma colaboração contínua em landing pages de PPC, anúncios na Meta, papelaria, brochuras e roll-ups, com um objectivo: experiências premium, pensadas para converter, que tragam pedidos qualificados, com foco no mercado asiático.</p></div>\n  </section>\n\n  <section class=\"wrap\" style=\"padding-top: 120px\">\n    <p style=\"margin: 0 0 8px; font-size: 14px; color: #5c5c58\">Landing pages</p><h2 style=\"margin: 0 0 32px; font-size: clamp(30px, 3.4vw, 48px); line-height: 1.02; letter-spacing: -0.045em; font-weight: 600\">Feitas <span style=\"font-family: 'Instrument Serif', serif; font-style: italic; font-weight: 400\">para converter</span></h2>\n    <div style=\"display: flex; justify-content: center; margin-bottom: 64px\">"
+   },
+   {
+    "mac": {
+     "img": "/img/e861e4a17774de8fb5db6233b290b7c5.webp",
+     "size": "big",
+     "alt": "Lightfoot Travel num portátil"
+    }
+   },
+   {
+    "html": "</div>\n    <div class=\"browsers\"><div class=\"bwin\"><div style=\"flex: none; height: 30px; display: flex; align-items: center; gap: 6px; padding: 0 12px; background: #ececea; border-bottom: 1px solid #ddd\"><span style=\"width: 9px; height: 9px; border-radius: 50%; background: #ff5f57\"></span><span style=\"width: 9px; height: 9px; border-radius: 50%; background: #febc2e\"></span><span style=\"width: 9px; height: 9px; border-radius: 50%; background: #28c840\"></span><span style=\"margin-left: 10px; flex: 1; max-width: 60%; height: 18px; border-radius: 5px; background: #fff; font-size: 11px; color: #777; display: flex; align-items: center; padding: 0 8px\">lightfoottravel.com</span></div><div class=\"view\"><img width=\"1235\" height=\"1600\" loading=\"lazy\" decoding=\"async\" src=\"/img/4661612d7f0f4fae518d652474e3f797.webp\" alt=\"Lightfoot Travel: feitas para converter\" style=\"width: 100%; display: block\"></div></div><div class=\"bwin\"><div style=\"flex: none; height: 30px; display: flex; align-items: center; gap: 6px; padding: 0 12px; background: #ececea; border-bottom: 1px solid #ddd\"><span style=\"width: 9px; height: 9px; border-radius: 50%; background: #ff5f57\"></span><span style=\"width: 9px; height: 9px; border-radius: 50%; background: #febc2e\"></span><span style=\"width: 9px; height: 9px; border-radius: 50%; background: #28c840\"></span><span style=\"margin-left: 10px; flex: 1; max-width: 60%; height: 18px; border-radius: 5px; background: #fff; font-size: 11px; color: #777; display: flex; align-items: center; padding: 0 8px\">lightfoottravel.com</span></div><div class=\"view\"><img width=\"1195\" height=\"1600\" loading=\"lazy\" decoding=\"async\" src=\"/img/0dc8aaee43a23fae8a2b50a6cbe413a0.webp\" alt=\"Lightfoot Travel: feitas para converter\" style=\"width: 100%; display: block\"></div></div><div class=\"bwin\"><div style=\"flex: none; height: 30px; display: flex; align-items: center; gap: 6px; padding: 0 12px; background: #ececea; border-bottom: 1px solid #ddd\"><span style=\"width: 9px; height: 9px; border-radius: 50%; background: #ff5f57\"></span><span style=\"width: 9px; height: 9px; border-radius: 50%; background: #febc2e\"></span><span style=\"width: 9px; height: 9px; border-radius: 50%; background: #28c840\"></span><span style=\"margin-left: 10px; flex: 1; max-width: 60%; height: 18px; border-radius: 5px; background: #fff; font-size: 11px; color: #777; display: flex; align-items: center; padding: 0 8px\">lightfoottravel.com</span></div><div class=\"view\"><img width=\"1236\" height=\"1600\" loading=\"lazy\" decoding=\"async\" src=\"/img/4b6653de0a60ff7ef31ec18c1276f61c.webp\" alt=\"Lightfoot Travel: feitas para converter\" style=\"width: 100%; display: block\"></div></div></div>\n    <p style=\"margin: 18px 0 0; font-size: 15px; color: #5c5c58\">Faça scroll dentro de cada janela para ver a página inteira.</p>\n  </section>\n\n  <section class=\"wrap\" style=\"padding-top: 120px\">\n    <p style=\"margin: 0 0 8px; font-size: 14px; color: #5c5c58\">Anúncios</p><h2 style=\"margin: 0 0 32px; font-size: clamp(30px, 3.4vw, 48px); line-height: 1.02; letter-spacing: -0.045em; font-weight: 600\">Anúncios na Meta <span style=\"font-family: 'Instrument Serif', serif; font-style: italic; font-weight: 400\">e roll-ups</span></h2>\n    <div class=\"jrow\"><img width=\"2000\" height=\"1094\" loading=\"lazy\" decoding=\"async\" src=\"/img/7ec5f39800beee068addcac54147f09a.webp\" alt=\"Lightfoot Travel: anúncios na Meta e roll-ups\" style=\"flex: 1.8284 1 0; aspect-ratio: 2600 / 1422\"><img width=\"1600\" height=\"875\" loading=\"lazy\" decoding=\"async\" src=\"/img/7e9aecdb00f3df7ab5bd2d65568eeba8.webp\" alt=\"Lightfoot Travel: anúncios na Meta e roll-ups\" style=\"flex: 1.8284 1 0; aspect-ratio: 2600 / 1422\"></div>\n  </section>\n\n  <section class=\"wrap\" style=\"padding-top: 120px\">\n    <p style=\"margin: 0 0 8px; font-size: 14px; color: #5c5c58\">Impressão</p><h2 style=\"margin: 0 0 32px; font-size: clamp(30px, 3.4vw, 48px); line-height: 1.02; letter-spacing: -0.045em; font-weight: 600\">Brochuras <span style=\"font-family: 'Instrument Serif', serif; font-style: italic; font-weight: 400\">e papelaria</span></h2>\n    <div class=\"jrow\"><img width=\"1600\" height=\"941\" loading=\"lazy\" decoding=\"async\" src=\"/img/26c339d947f07e9ea1a6bc159e1960df.webp\" alt=\"Lightfoot Travel: brochuras e papelaria\" style=\"flex: 1.7011 1 0; aspect-ratio: 1616 / 950\"><img width=\"1600\" height=\"941\" loading=\"lazy\" decoding=\"async\" src=\"/img/de72250e1bef21b63d992ee16332381e.webp\" alt=\"Lightfoot Travel: brochuras e papelaria\" style=\"flex: 1.7011 1 0; aspect-ratio: 1616 / 950\"></div><div class=\"jrow\"><img width=\"1600\" height=\"944\" loading=\"lazy\" decoding=\"async\" src=\"/img/1174606591e4064a0b3d58cfaf84692c.webp\" alt=\"Lightfoot Travel: brochuras e papelaria\" style=\"flex: 1.6957 1 0; aspect-ratio: 1616 / 953\"><img width=\"1600\" height=\"944\" loading=\"lazy\" decoding=\"async\" src=\"/img/f87674417e16cf33b6eb2bb4d77c2e70.webp\" alt=\"Lightfoot Travel: brochuras e papelaria\" style=\"flex: 1.6957 1 0; aspect-ratio: 1616 / 953\"></div>\n  </section>\n\n  <section class=\"wrap\" style=\"padding-top: 120px\">\n    <p style=\"margin: 0 0 8px; font-size: 14px; color: #5c5c58\">Em uso</p><h2 style=\"margin: 0 0 32px; font-size: clamp(30px, 3.4vw, 48px); line-height: 1.02; letter-spacing: -0.045em; font-weight: 600\">Em todos <span style=\"font-family: 'Instrument Serif', serif; font-style: italic; font-weight: 400\">os ecrãs</span></h2>\n    <div class=\"jrow\"><img width=\"1491\" height=\"1600\" loading=\"lazy\" decoding=\"async\" src=\"/img/9579316964291c37e50ea63c55ac724c.webp\" alt=\"Lightfoot Travel: em todos os ecrãs\" style=\"flex: 0.9317 1 0; aspect-ratio: 1636 / 1756\"><img width=\"1491\" height=\"1600\" loading=\"lazy\" decoding=\"async\" src=\"/img/86cfc01a85f78c4e812aa9e9aaa81c64.webp\" alt=\"Lightfoot Travel: em todos os ecrãs\" style=\"flex: 0.9317 1 0; aspect-ratio: 1636 / 1756\"></div>\n  </section>\n\n  \n\n  <section class=\"wrap\" style=\"padding-top: 120px\">\n    <div style=\"display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 20px; padding: 40px 0; border-top: 1px solid #d6d6d0; border-bottom: 1px solid #d6d6d0\">\n      <p style=\"margin: 0; font-size: clamp(30px, 3.4vw, 48px); line-height: 1.02; letter-spacing: -0.045em; font-weight: 600\">Tem algo assim? <span style=\"font-family: 'Instrument Serif', serif; font-style: italic; font-weight: 400\">Fale-me disso.</span></p>\n      <a href=\"/pt/#contact\" style=\"padding: 14px 24px; border-radius: 999px; background: #e3ff3a; color: #121212; text-decoration: none; font-weight: 500\">Vamos falar</a>\n    </div>\n  </section>\n\n  <section class=\"wrap next\" style=\"padding-top: 90px; padding-bottom: 100px\">\n    <div>\n      <p style=\"margin: 0 0 8px; font-size: 14px; color: #5c5c58\">Próximo projecto · 09 / 14</p>\n      <a href=\"/pt/work/uriage/\" style=\"text-decoration: none\"><h2 style=\"margin: 0 0 10px; font-size: clamp(36px, 4.4vw, 64px); line-height: 1; letter-spacing: -0.05em; font-weight: 600\">Uriage <svg width=\"1em\" height=\"1em\" viewBox=\"0 0 16 16\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\" style=\"display: inline-block; vertical-align: -0.125em; flex: none\"><path d=\"M3 8h10M9 4l4 4-4 4\"/></svg></h2></a>\n      <p style=\"margin: 0; color: #5c5c58\">Seis reels para uma marca de dermatologia.</p>\n    </div>\n    <a href=\"/pt/work/uriage/\" style=\"display: flex; justify-content: center\"><img width=\"600\" height=\"1067\" loading=\"lazy\" decoding=\"async\" src=\"/img/13731441e95ffb5bd6dfaa09442db47a.webp\" alt=\"\" style=\"width: 100%; max-width: 760px; aspect-ratio: 16 / 9; object-fit: cover; display: block; border-radius: 14px\"></a>\n  </section>\n\n  \n"
+   }
+  ]
+ },
+ "madam-bo": {
+  "key": "CaseMadamBo",
+  "title": "Madam Bō",
+  "kicker": "06 / 14 · Marca · Impressão · Restauração",
+  "line": "Cartazes, cartões e eventos para um bar de dumplings com uma personalidade generosa e sem vergonha.",
+  "facts": [
+   [
+    "Cliente",
+    "Madam Bō"
+   ],
+   [
+    "Com",
+    "Kitchenette"
+   ],
+   [
+    "Função",
+    "Marca, conteúdos e direcção de arte"
+   ],
+   [
+    "Trabalho",
+    "Cartazes, cartões, eventos"
+   ],
+   [
+    "Ano",
+    "2025"
+   ]
+  ],
+  "brief": [
+   "O Madam Bō serve dumplings com muito carácter, e a marca tinha de estar à altura: vermelho forte, uma heroína desenhada à mão e textos que falam como um amigo.",
+   "Através da Kitchenette, desenhei os cartazes, os happy hours, os dias de mercado e os cartões de agradecimento que fazem os clientes voltar."
+  ],
+  "hero": "/img/7b85a6f247d8fc181f9faff0131158d1.webp",
+  "parts": [
+   {
+    "html": "\n\n  \n\n  <section class=\"wrap\" style=\"padding-top: 48px\">\n    <p style=\"margin: 0 0 14px; font-size: 14px; color: #5c5c58\">06 / 14 · Marca · Impressão · Restauração</p>\n    <h1 style=\"margin: 0; font-size: clamp(44px, 6.4vw, 96px); line-height: .96; letter-spacing: -0.055em; font-weight: 600\">Madam Bō</h1>\n    <p style=\"margin: 14px 0 0; font-family: 'Instrument Serif', serif; font-style: italic; font-size: clamp(24px, 2.6vw, 38px); line-height: 1.15; max-width: 900px\">Cartazes, cartões e eventos para um bar de dumplings com uma personalidade generosa e sem vergonha.</p>\n    <div style=\"margin-top: 40px; aspect-ratio: 16 / 9; display: flex; justify-content: center; gap: 12px; overflow: hidden\"><div style=\"flex: 1 1 0; min-width: 0; height: 100%; border-radius: 14px; overflow: hidden; background: #e7e7e2\"><img width=\"1200\" height=\"750\" fetchpriority=\"high\" src=\"/img/7b85a6f247d8fc181f9faff0131158d1.webp\" alt=\"Madam Bō, imagem principal\" style=\"width: 100%; height: 100%; object-fit: cover; display: block\"></div></div>\n    <dl class=\"facts\" style=\"margin: 28px 0 0; padding-top: 22px; border-top: 1px solid #d6d6d0\"><div><dt style=\"font-size: 14px; color: #5c5c58\">Cliente</dt><dd style=\"margin: 4px 0 0\">Madam Bō</dd></div><div><dt style=\"font-size: 14px; color: #5c5c58\">Com</dt><dd style=\"margin: 4px 0 0\">Kitchenette</dd></div><div><dt style=\"font-size: 14px; color: #5c5c58\">Função</dt><dd style=\"margin: 4px 0 0\">Marca, conteúdos e direcção de arte</dd></div><div><dt style=\"font-size: 14px; color: #5c5c58\">Trabalho</dt><dd style=\"margin: 4px 0 0\">Cartazes, cartões, eventos</dd></div><div><dt style=\"font-size: 14px; color: #5c5c58\">Ano</dt><dd style=\"margin: 4px 0 0\">2025</dd></div></dl>\n  </section>\n\n  <section class=\"wrap ctx\" style=\"padding-top: 120px\">\n    <h2 style=\"margin: 0; font-size: clamp(30px, 3.4vw, 48px); line-height: 1.02; letter-spacing: -0.045em; font-weight: 600\">O briefing <span style=\"font-family: 'Instrument Serif', serif; font-style: italic; font-weight: 400\">e o que fiz</span></h2>\n    <div style=\"font-size: 19px; line-height: 1.55; max-width: 680px\"><p style=\"margin: 0 0 16px\">O Madam Bō serve dumplings com muito carácter, e a marca tinha <br>de estar à altura: vermelho forte, uma heroína desenhada à mão e textos que falam como um amigo.</p><p style=\"margin: 0 0 16px\">Através da Kitchenette, desenhei os cartazes, os happy hours, os dias de mercado <br>e os cartões de agradecimento que fazem os clientes voltar.</p></div>\n  </section>\n\n  <section class=\"wrap\" style=\"padding-top: 120px\">\n    <p style=\"margin: 0 0 8px; font-size: 14px; color: #5c5c58\">Impressão</p><h2 style=\"margin: 0 0 32px; font-size: clamp(30px, 3.4vw, 48px); line-height: 1.02; letter-spacing: -0.045em; font-weight: 600\">Cartazes <span style=\"font-family: 'Instrument Serif', serif; font-style: italic; font-weight: 400\">e cartões</span></h2>\n    <div class=\"jrow\"><img width=\"1295\" height=\"1832\" loading=\"lazy\" decoding=\"async\" src=\"/img/6f9101c0d9d26fc8bb8279c033fd1cf3.webp\" alt=\"Madam Bō: cartazes e cartões\" style=\"flex: 0.7069 1 0; aspect-ratio: 1295 / 1832\"><img width=\"1130\" height=\"1600\" loading=\"lazy\" decoding=\"async\" src=\"/img/47fda6a18bfa46b94ad48ce52a5d1783.webp\" alt=\"Madam Bō: cartazes e cartões\" style=\"flex: 0.7059 1 0; aspect-ratio: 1294 / 1833\"><img width=\"1138\" height=\"1600\" loading=\"lazy\" decoding=\"async\" src=\"/img/441cad78b77d36314f6ede0ffd02e2eb.webp\" alt=\"Madam Bō: cartazes e cartões\" style=\"flex: 0.7114 1 0; aspect-ratio: 1304 / 1833\"></div><div class=\"jrow\"><img width=\"1131\" height=\"1600\" loading=\"lazy\" decoding=\"async\" src=\"/img/e2e27a4cb10e1199e63daae8a6f0acd9.webp\" alt=\"Madam Bō: cartazes e cartões\" style=\"flex: 0.7070 1 0; aspect-ratio: 1296 / 1833\"><img width=\"1200\" height=\"1600\" loading=\"lazy\" decoding=\"async\" src=\"/img/f79770a2f297104b2cb50b35715801a8.webp\" alt=\"Madam Bō: cartazes e cartões\" style=\"flex: 0.7501 1 0; aspect-ratio: 1375 / 1833\"></div>\n  </section>\n\n  \n\n  <section class=\"wrap\" style=\"padding-top: 120px\">\n    <div style=\"display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 20px; padding: 40px 0; border-top: 1px solid #d6d6d0; border-bottom: 1px solid #d6d6d0\">\n      <p style=\"margin: 0; font-size: clamp(30px, 3.4vw, 48px); line-height: 1.02; letter-spacing: -0.045em; font-weight: 600\">Tem algo assim? <span style=\"font-family: 'Instrument Serif', serif; font-style: italic; font-weight: 400\">Fale-me disso.</span></p>\n      <a href=\"/pt/#contact\" style=\"padding: 14px 24px; border-radius: 999px; background: #e3ff3a; color: #121212; text-decoration: none; font-weight: 500\">Vamos falar</a>\n    </div>\n  </section>\n\n  <section class=\"wrap next\" style=\"padding-top: 90px; padding-bottom: 100px\">\n    <div>\n      <p style=\"margin: 0 0 8px; font-size: 14px; color: #5c5c58\">Próximo projecto · 07 / 14</p>\n      <a href=\"/pt/work/now-canal/\" style=\"text-decoration: none\"><h2 style=\"margin: 0 0 10px; font-size: clamp(36px, 4.4vw, 64px); line-height: 1; letter-spacing: -0.05em; font-weight: 600\">Now Canal <svg width=\"1em\" height=\"1em\" viewBox=\"0 0 16 16\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\" style=\"display: inline-block; vertical-align: -0.125em; flex: none\"><path d=\"M3 8h10M9 4l4 4-4 4\"></path></svg></h2></a>\n      <p style=\"margin: 0; color: #5c5c58\">Uma curta de marca.</p>\n    </div>\n    <a href=\"/pt/work/now-canal/\" style=\"display: flex; justify-content: center\"><img width=\"1280\" height=\"720\" loading=\"lazy\" decoding=\"async\" src=\"/img/ae3420f14af1db183fe2285bbb7724b1.webp\" alt=\"\" style=\"width: 100%; max-width: 760px; aspect-ratio: 16 / 9; object-fit: cover; display: block; border-radius: 14px\"></a>\n  </section>\n\n  \n"
+   }
+  ]
+ },
+ "now-canal": {
+  "key": "CaseNowCanal",
+  "title": "Now Canal",
+  "kicker": "07 / 14 · Filme · Branded content",
+  "line": "Uma curta de marca sobre massa-mãe, e um canal que ajuda as marcas a crescer.",
+  "facts": [
+   [
+    "Cliente",
+    "Now Canal"
+   ],
+   [
+    "Com",
+    "Kitchenette"
+   ],
+   [
+    "Função",
+    "Edição de vídeo e motion"
+   ],
+   [
+    "Formato",
+    "Curta de marca para o YouTube"
+   ],
+   [
+    "Ano",
+    "2025"
+   ]
+  ],
+  "brief": [
+   "Tal como a massa-mãe dá vida ao bom pão, o NOW dá vida à comunicação das marcas. O filme parte dessa ideia: um canal com crescimento constante e uma audiência real e envolvida, que tem tempo para as marcas.",
+   "Através da Kitchenette, editei o filme e fiz os motion graphics."
+  ],
+  "hero": "/img/ae3420f14af1db183fe2285bbb7724b1.webp",
+  "parts": [
+   {
+    "html": "\n\n  \n\n  <section class=\"wrap\" style=\"padding-top: 48px\">\n    <p style=\"margin: 0 0 14px; font-size: 14px; color: #5c5c58\">07 / 14 · Filme · Branded content</p>\n    <h1 style=\"margin: 0; font-size: clamp(44px, 6.4vw, 96px); line-height: .96; letter-spacing: -0.055em; font-weight: 600\">Now Canal</h1>\n    <p style=\"margin: 14px 0 0; font-family: 'Instrument Serif', serif; font-style: italic; font-size: clamp(24px, 2.6vw, 38px); line-height: 1.15; max-width: 900px\">Uma curta de marca sobre massa-mãe, e um canal que ajuda as marcas a crescer.</p>\n    <div style=\"margin-top: 40px; aspect-ratio: 16 / 9; display: flex; justify-content: center; gap: 12px; overflow: hidden\"><div style=\"flex: 1 1 0; min-width: 0; height: 100%; border-radius: 14px; overflow: hidden; background: #e7e7e2\"><img width=\"1280\" height=\"720\" fetchpriority=\"high\" src=\"/img/ae3420f14af1db183fe2285bbb7724b1.webp\" alt=\"Now Canal, imagem principal\" style=\"width: 100%; height: 100%; object-fit: cover; display: block\"></div></div>\n    <dl class=\"facts\" style=\"margin: 28px 0 0; padding-top: 22px; border-top: 1px solid #d6d6d0\"><div><dt style=\"font-size: 14px; color: #5c5c58\">Cliente</dt><dd style=\"margin: 4px 0 0\">Now Canal</dd></div><div><dt style=\"font-size: 14px; color: #5c5c58\">Com</dt><dd style=\"margin: 4px 0 0\">Kitchenette</dd></div><div><dt style=\"font-size: 14px; color: #5c5c58\">Função</dt><dd style=\"margin: 4px 0 0\">Edição de vídeo e motion</dd></div><div><dt style=\"font-size: 14px; color: #5c5c58\">Formato</dt><dd style=\"margin: 4px 0 0\">Curta de marca para o YouTube</dd></div><div><dt style=\"font-size: 14px; color: #5c5c58\">Ano</dt><dd style=\"margin: 4px 0 0\">2025</dd></div></dl>\n  </section>\n\n  <section class=\"wrap ctx\" style=\"padding-top: 120px\">\n    <h2 style=\"margin: 0; font-size: clamp(30px, 3.4vw, 48px); line-height: 1.02; letter-spacing: -0.045em; font-weight: 600\">O briefing <span style=\"font-family: 'Instrument Serif', serif; font-style: italic; font-weight: 400\">e o que fiz</span></h2>\n    <div style=\"font-size: 19px; line-height: 1.55; max-width: 680px\"><p style=\"margin: 0 0 16px\">Tal como a massa-mãe dá vida ao bom pão, o NOW dá vida à comunicação das marcas. O filme parte dessa ideia: um canal com crescimento constante e uma audiência real e envolvida, que tem tempo para as marcas.</p><p style=\"margin: 0 0 16px\">Através da Kitchenette, editei o filme e fiz os motion graphics.</p></div>\n  </section>\n\n  <section class=\"wrap\" style=\"padding-top: 120px\">\n    <p style=\"margin: 0 0 8px; font-size: 14px; color: #5c5c58\">Ver</p><h2 style=\"margin: 0 0 32px; font-size: clamp(30px, 3.4vw, 48px); line-height: 1.02; letter-spacing: -0.045em; font-weight: 600\">A massa <span style=\"font-family: 'Instrument Serif', serif; font-style: italic; font-weight: 400\">que faz crescer</span></h2>\n    <a href=\"https://www.youtube.com/watch?v=WapdXFr3syg\" target=\"_blank\" rel=\"noopener\" style=\"position: relative; display: block; aspect-ratio: 16 / 9; border-radius: 14px; overflow: hidden; background: #111\">\n      <img width=\"1280\" height=\"720\" loading=\"lazy\" decoding=\"async\" src=\"/img/ae3420f14af1db183fe2285bbb7724b1.webp\" alt=\"A massa\" style=\"width: 100%; height: 100%; object-fit: cover; display: block\">\n      <span style=\"position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); width: 96px; height: 96px; border-radius: 50%; background: rgba(244,244,241,.95); color: #121212; display: grid; place-items: center; font-size: 28px\"><svg width=\"1em\" height=\"1em\" viewBox=\"0 0 16 16\" fill=\"currentColor\" aria-hidden=\"true\" style=\"display: inline-block; vertical-align: -0.125em; flex: none\"><path d=\"M5 3.2v9.6L12.6 8z\"/></svg></span>\n      <span style=\"position: absolute; left: 20px; bottom: 20px; padding: 7px 14px; border-radius: 999px; background: rgba(0,0,0,.6); color: #fff; font-size: 14px\">Curta de marca · Ver no YouTube</span>\n    </a>\n    \n  </section>\n\n  \n\n  <section class=\"wrap\" style=\"padding-top: 120px\">\n    <div style=\"display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 20px; padding: 40px 0; border-top: 1px solid #d6d6d0; border-bottom: 1px solid #d6d6d0\">\n      <p style=\"margin: 0; font-size: clamp(30px, 3.4vw, 48px); line-height: 1.02; letter-spacing: -0.045em; font-weight: 600\">Tem algo assim? <span style=\"font-family: 'Instrument Serif', serif; font-style: italic; font-weight: 400\">Fale-me disso.</span></p>\n      <a href=\"/pt/#contact\" style=\"padding: 14px 24px; border-radius: 999px; background: #e3ff3a; color: #121212; text-decoration: none; font-weight: 500\">Vamos falar</a>\n    </div>\n  </section>\n\n  <section class=\"wrap next\" style=\"padding-top: 90px; padding-bottom: 100px\">\n    <div>\n      <p style=\"margin: 0 0 8px; font-size: 14px; color: #5c5c58\">Próximo projecto · 08 / 14</p>\n      <a href=\"/pt/work/lightfoot-travel/\" style=\"text-decoration: none\"><h2 style=\"margin: 0 0 10px; font-size: clamp(36px, 4.4vw, 64px); line-height: 1; letter-spacing: -0.05em; font-weight: 600\">Lightfoot Travel <svg width=\"1em\" height=\"1em\" viewBox=\"0 0 16 16\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\" style=\"display: inline-block; vertical-align: -0.125em; flex: none\"><path d=\"M3 8h10M9 4l4 4-4 4\"/></svg></h2></a>\n      <p style=\"margin: 0; color: #5c5c58\">Landing pages e anúncios para uma empresa global de viagens de luxo.</p>\n    </div>\n    <a href=\"/pt/work/lightfoot-travel/\" style=\"display: flex; justify-content: center\">"
+   },
+   {
+    "mac": {
+     "img": "/img/d4e52101d4ed9b3b0dc0a8d897e97f61.webp",
+     "size": "small",
+     "alt": "Now Canal num portátil"
+    }
+   },
+   {
+    "html": "</a>\n  </section>\n\n  \n"
+   }
+  ]
+ },
+ "oz-energia": {
+  "key": "CaseOz",
+  "title": "Oz Energia",
+  "kicker": "05 / 14 · Filme · Conteúdos · Energia",
+  "line": "Uma série documental de marca sobre chefs e fogo. Produzi, filmei e editei a segunda temporada.",
+  "facts": [
+   [
+    "Cliente",
+    "Oz Energia"
+   ],
+   [
+    "Com",
+    "Kitchenette"
+   ],
+   [
+    "Trabalho",
+    "Série de marca, reels, posts"
+   ],
+   [
+    "Função",
+    "Design, produção, filmagem e edição"
+   ],
+   [
+    "Ano",
+    "2025"
+   ]
+  ],
+  "brief": [
+   "A Oz Energia vende gás, mas a história é sobre fogo e comida. Através da Kitchenette, produzi a segunda temporada de A Chama que nos Une, De Norte a Sul: cinco chefs, cinco cozinhas, de Vila Nova de Gaia a Porto Covo. Filmei-a com o João Pedro Augusto e editei os episódios e os reels.",
+   "Da terceira temporada, RoteirOZ, editei o trailer e os reels. Posts, banners e capas para a marca completam o trabalho."
+  ],
+  "hero": "/img/a38a70564e0f1892d2208bb0923b8e57.webp",
+  "parts": [
+   {
+    "html": "\n\n  \n\n  <section class=\"wrap\" style=\"padding-top: 48px\">\n    <p style=\"margin: 0 0 14px; font-size: 14px; color: #5c5c58\">05 / 14 · Filme · Conteúdos · Energia</p>\n    <h1 style=\"margin: 0; font-size: clamp(44px, 6.4vw, 96px); line-height: .96; letter-spacing: -0.055em; font-weight: 600\">Oz Energia</h1>\n    <p style=\"margin: 14px 0 0; font-family: 'Instrument Serif', serif; font-style: italic; font-size: clamp(24px, 2.6vw, 38px); line-height: 1.15; max-width: 900px\">Uma série documental de marca sobre chefs e fogo. Produzi, filmei e editei a segunda temporada.</p>\n    <div style=\"margin-top: 40px; aspect-ratio: 16 / 9; display: flex; justify-content: center; gap: 12px; overflow: hidden\"><div style=\"flex: 1 1 0; min-width: 0; height: 100%; border-radius: 14px; overflow: hidden; background: #e7e7e2\"><img width=\"1280\" height=\"720\" fetchpriority=\"high\" src=\"/img/a38a70564e0f1892d2208bb0923b8e57.webp\" alt=\"A Chama que nos Une, 2.ª temporada: a chef Lídia Brás no Stramuntana\" style=\"width: 100%; height: 100%; object-fit: cover; display: block\"></div></div>\n    <dl class=\"facts\" style=\"margin: 28px 0 0; padding-top: 22px; border-top: 1px solid #d6d6d0\"><div><dt style=\"font-size: 14px; color: #5c5c58\">Cliente</dt><dd style=\"margin: 4px 0 0\">Oz Energia</dd></div><div><dt style=\"font-size: 14px; color: #5c5c58\">Com</dt><dd style=\"margin: 4px 0 0\">Kitchenette</dd></div><div><dt style=\"font-size: 14px; color: #5c5c58\">Trabalho</dt><dd style=\"margin: 4px 0 0\">Série de marca, reels, posts</dd></div><div><dt style=\"font-size: 14px; color: #5c5c58\">Função</dt><dd style=\"margin: 4px 0 0\">Design, produção, filmagem e edição</dd></div><div><dt style=\"font-size: 14px; color: #5c5c58\">Ano</dt><dd style=\"margin: 4px 0 0\">2025</dd></div></dl>\n  </section>\n\n  <section class=\"wrap ctx\" style=\"padding-top: 120px\">\n    <h2 style=\"margin: 0; font-size: clamp(30px, 3.4vw, 48px); line-height: 1.02; letter-spacing: -0.045em; font-weight: 600\">O briefing <span style=\"font-family: 'Instrument Serif', serif; font-style: italic; font-weight: 400\">e o que fiz</span></h2>\n    <div style=\"font-size: 19px; line-height: 1.55; max-width: 680px\"><p style=\"margin: 0 0 16px\">A Oz Energia vende gás, mas a história é sobre fogo e comida. Através da Kitchenette, produzi a segunda temporada de A Chama que nos Une, De Norte a Sul: cinco chefs, cinco cozinhas, de Vila Nova de Gaia a Porto Covo. Filmei-a com o João Pedro Augusto e editei os episódios e os reels.</p><p style=\"margin: 0 0 16px\">Da terceira temporada, RoteirOZ, editei o trailer e os reels. Posts, banners e capas para a marca completam o trabalho.</p></div>\n  </section>\n\n  <section class=\"wrap\" style=\"padding-top: 120px\">\n    <p style=\"margin: 0 0 8px; font-size: 14px; color: #5c5c58\">Série de marca · 2.ª temporada</p><h2 style=\"margin: 0 0 32px; font-size: clamp(30px, 3.4vw, 48px); line-height: 1.02; letter-spacing: -0.045em; font-weight: 600\">A Chama que nos Une, <span style=\"font-family: 'Instrument Serif', serif; font-style: italic; font-weight: 400\">De Norte a Sul</span></h2>\n    <p style=\"margin: -12px 0 32px; font-size: 19px; line-height: 1.55; max-width: 680px\">Cinco chefs, cinco cozinhas, de norte a sul. Produzida, filmada com o João Pedro Augusto e editada.</p>\n    <a href=\"https://www.youtube.com/watch?v=P7mAijNNCZc\" target=\"_blank\" rel=\"noopener\" style=\"position: relative; display: block; aspect-ratio: 16 / 9; border-radius: 14px; overflow: hidden; background: #111\">\n      <img width=\"1280\" height=\"720\" loading=\"lazy\" decoding=\"async\" src=\"/img/a38a70564e0f1892d2208bb0923b8e57.webp\" alt=\"A Chama que nos Une, 2.ª temporada, episódio 1: Lídia Brás\" style=\"width: 100%; height: 100%; object-fit: cover; display: block\">\n      <span style=\"position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); width: 96px; height: 96px; border-radius: 50%; background: rgba(244,244,241,.95); color: #121212; display: grid; place-items: center; font-size: 28px\"><svg width=\"1em\" height=\"1em\" viewBox=\"0 0 16 16\" fill=\"currentColor\" aria-hidden=\"true\" style=\"display: inline-block; vertical-align: -0.125em; flex: none\"><path d=\"M5 3.2v9.6L12.6 8z\"/></svg></span>\n      <span style=\"position: absolute; left: 20px; bottom: 20px; padding: 7px 14px; border-radius: 999px; background: rgba(0,0,0,.6); color: #fff; font-size: 14px\">Ver o episódio 1</span>\n    </a>\n    <div style=\"margin-top: 40px\"><p style=\"margin: 0 0 8px; font-size: 14px; color: #5c5c58\">Mais episódios</p><a href=\"https://www.youtube.com/watch?v=MZA4-yPfhw0\" target=\"_blank\" rel=\"noopener\" style=\"display: flex; gap: 14px; align-items: center; padding: 12px 0; border-top: 1px solid #d6d6d0; text-decoration: none\"><img width=\"1280\" height=\"720\" loading=\"lazy\" decoding=\"async\" src=\"/img/33a49b9f89e7dcac61c91df72e3e5e7c.webp\" alt=\"\" style=\"width: 140px; aspect-ratio: 16 / 9; object-fit: cover; border-radius: 6px\"><span><strong style=\"font-weight: 600\">Episódio 2 · Nuno Castro</strong><br><span style=\"color: #5c5c58\">Fava Tonka, Leça da Palmeira</span></span></a><a href=\"https://www.youtube.com/watch?v=lADB01aO488\" target=\"_blank\" rel=\"noopener\" style=\"display: flex; gap: 14px; align-items: center; padding: 12px 0; border-top: 1px solid #d6d6d0; text-decoration: none\"><img width=\"1280\" height=\"720\" loading=\"lazy\" decoding=\"async\" src=\"/img/f2c5ecdea75faa45221ab1c4cd3314da.webp\" alt=\"\" style=\"width: 140px; aspect-ratio: 16 / 9; object-fit: cover; border-radius: 6px\"><span><strong style=\"font-weight: 600\">Episódio 3 · Ana Moura</strong><br><span style=\"color: #5c5c58\">Lamelas, Porto Covo</span></span></a><a href=\"https://www.youtube.com/watch?v=KYTpeek7f4k\" target=\"_blank\" rel=\"noopener\" style=\"display: flex; gap: 14px; align-items: center; padding: 12px 0; border-top: 1px solid #d6d6d0; text-decoration: none\"><img width=\"1280\" height=\"720\" loading=\"lazy\" decoding=\"async\" src=\"/img/48edbd7f9ea76e12623a6d299000e214.webp\" alt=\"\" style=\"width: 140px; aspect-ratio: 16 / 9; object-fit: cover; border-radius: 6px\"><span><strong style=\"font-weight: 600\">Episódio 4 · João Narigueta</strong><br><span style=\"color: #5c5c58\">Poda, Montemor-o-Novo</span></span></a><a href=\"https://www.youtube.com/watch?v=RTQVXbkyhtk\" target=\"_blank\" rel=\"noopener\" style=\"display: flex; gap: 14px; align-items: center; padding: 12px 0; border-top: 1px solid #d6d6d0; text-decoration: none\"><img width=\"1280\" height=\"720\" loading=\"lazy\" decoding=\"async\" src=\"/img/1475445503775a1bc39d0e54a83a0ed4.webp\" alt=\"\" style=\"width: 140px; aspect-ratio: 16 / 9; object-fit: cover; border-radius: 6px\"><span><strong style=\"font-weight: 600\">Episódio 5 · Marco Almeida</strong><br><span style=\"color: #5c5c58\">Palco, Coimbra</span></span></a></div>\n    <div style=\"margin-top: 56px\"><p style=\"margin: 0 0 8px; font-size: 14px; color: #5c5c58\">3.ª temporada · RoteirOZ</p><a href=\"https://www.youtube.com/watch?v=SJmbzRzC53c\" target=\"_blank\" rel=\"noopener\" style=\"display: flex; gap: 14px; align-items: center; padding: 12px 0; border-top: 1px solid #d6d6d0; text-decoration: none\"><img width=\"1280\" height=\"720\" loading=\"lazy\" decoding=\"async\" src=\"/img/a0182f94401d3021d9aa5519a050e781.webp\" alt=\"RoteirOZ: à procura do melhor prego de Lisboa\" style=\"width: 140px; aspect-ratio: 16 / 9; object-fit: cover; border-radius: 6px\"><span><strong style=\"font-weight: 600\">RoteirOZ · Pregos</strong><br><span style=\"color: #5c5c58\">Filme da 3.ª temporada · Oz Energia</span></span></a></div>\n  </section>\n\n  <section style=\"margin-top: 120px; padding: 90px 0; background: #121212; color: #f4f4f1\">\n    <div class=\"wrap\"><p style=\"margin: 0 0 8px; font-size: 14px; color: #a5a5a0\">No Instagram</p><h2 style=\"margin: 0 0 32px; font-size: clamp(30px, 3.4vw, 48px); line-height: 1.02; letter-spacing: -0.045em; font-weight: 600\">Oito reels, <span style=\"font-family: 'Instrument Serif', serif; font-style: italic; font-weight: 400\">uma chama</span></h2></div>\n    <div class=\"reelrow\"><figure style=\"margin: 0; display: grid; gap: 12px; justify-items: center\">"
+   },
+   {
+    "phone": {
+     "handle": "oz_energia",
+     "avatar": "/img/17d22806cfde75b29f9e0599dd1471f9.webp",
+     "mode": "reel",
+     "img": "/img/6e382e8fa0a463d706ba74e088dceef8.webp",
+     "caption": "A chef Lídia Brás: da arquitectura à cozinha.",
+     "size": "reel",
+     "alt": "A chef Lídia Brás: da arquitectura à cozinha."
+    }
+   },
+   {
+    "html": "<figcaption style=\"font-size: 15px; color: #5c5c58; max-width: 250px; text-align: center\">A chef Lídia Brás: da arquitectura à cozinha.</figcaption></figure><figure style=\"margin: 0; display: grid; gap: 12px; justify-items: center\">"
+   },
+   {
+    "phone": {
+     "handle": "oz_energia",
+     "avatar": "/img/17d22806cfde75b29f9e0599dd1471f9.webp",
+     "mode": "reel",
+     "img": "/img/9ac66b2a6771a1655e3f2ca1a0e13aee.webp",
+     "caption": "O chef Nuno Castro e os legumes como protagonistas.",
+     "size": "reel",
+     "alt": "O chef Nuno Castro e os legumes como protagonistas."
+    }
+   },
+   {
+    "html": "<figcaption style=\"font-size: 15px; color: #5c5c58; max-width: 250px; text-align: center\">O chef Nuno Castro e os legumes como protagonistas.</figcaption></figure><figure style=\"margin: 0; display: grid; gap: 12px; justify-items: center\">"
+   },
+   {
+    "phone": {
+     "handle": "oz_energia",
+     "avatar": "/img/17d22806cfde75b29f9e0599dd1471f9.webp",
+     "mode": "reel",
+     "img": "/img/21edacbe8cf9dbdca5ca5a2861107ea2.webp",
+     "caption": "A chef Ana Moura e os sabores da costa alentejana.",
+     "size": "reel",
+     "alt": "A chef Ana Moura e os sabores da costa alentejana."
+    }
+   },
+   {
+    "html": "<figcaption style=\"font-size: 15px; color: #5c5c58; max-width: 250px; text-align: center\">A chef Ana Moura e os sabores da costa alentejana.</figcaption></figure><figure style=\"margin: 0; display: grid; gap: 12px; justify-items: center\">"
+   },
+   {
+    "phone": {
+     "handle": "oz_energia",
+     "avatar": "/img/17d22806cfde75b29f9e0599dd1471f9.webp",
+     "mode": "reel",
+     "img": "/img/cba7f9c70bf9cdeec03ba65c5d3e3c4e.webp",
+     "caption": "O chef João Narigueta e os ingredientes locais.",
+     "size": "reel",
+     "alt": "O chef João Narigueta e os ingredientes locais."
+    }
+   },
+   {
+    "html": "<figcaption style=\"font-size: 15px; color: #5c5c58; max-width: 250px; text-align: center\">O chef João Narigueta e os ingredientes locais.</figcaption></figure><figure style=\"margin: 0; display: grid; gap: 12px; justify-items: center\">"
+   },
+   {
+    "phone": {
+     "handle": "oz_energia",
+     "avatar": "/img/17d22806cfde75b29f9e0599dd1471f9.webp",
+     "mode": "reel",
+     "img": "/img/2158ae1047f9389669dccbfe08d6e86d.webp",
+     "caption": "O chef Marco Almeida cozinha na chama OZ.",
+     "size": "reel",
+     "alt": "O chef Marco Almeida cozinha na chama OZ."
+    }
+   },
+   {
+    "html": "<figcaption style=\"font-size: 15px; color: #5c5c58; max-width: 250px; text-align: center\">O chef Marco Almeida cozinha na chama OZ.</figcaption></figure><figure style=\"margin: 0; display: grid; gap: 12px; justify-items: center\">"
+   },
+   {
+    "phone": {
+     "handle": "oz_energia",
+     "avatar": "/img/17d22806cfde75b29f9e0599dd1471f9.webp",
+     "mode": "reel",
+     "img": "/img/76ca1b69a56efedc756a84d8656659fd.webp",
+     "caption": "A Chama Que Nos Une, estreia da 3.ª temporada.",
+     "size": "reel",
+     "alt": "A Chama Que Nos Une, estreia da 3.ª temporada."
+    }
+   },
+   {
+    "html": "<figcaption style=\"font-size: 15px; color: #5c5c58; max-width: 250px; text-align: center\">A Chama Que Nos Une, estreia da 3.ª temporada.</figcaption></figure><figure style=\"margin: 0; display: grid; gap: 12px; justify-items: center\">"
+   },
+   {
+    "phone": {
+     "handle": "oz_energia",
+     "avatar": "/img/17d22806cfde75b29f9e0599dd1471f9.webp",
+     "mode": "reel",
+     "img": "/img/38c6620b0c35cd7db8b0adf0705e32f1.webp",
+     "caption": "RoteirOZ: à procura das melhores rabanadas de Lisboa.",
+     "size": "reel",
+     "alt": "RoteirOZ: à procura das melhores rabanadas de Lisboa."
+    }
+   },
+   {
+    "html": "<figcaption style=\"font-size: 15px; color: #5c5c58; max-width: 250px; text-align: center\">RoteirOZ: à procura das melhores rabanadas de Lisboa.</figcaption></figure><figure style=\"margin: 0; display: grid; gap: 12px; justify-items: center\">"
+   },
+   {
+    "phone": {
+     "handle": "oz_energia",
+     "avatar": "/img/17d22806cfde75b29f9e0599dd1471f9.webp",
+     "mode": "reel",
+     "img": "/img/812a3293cc7c7cef6db92477226993f4.webp",
+     "caption": "RoteirOZ: à procura do melhor prego de Lisboa.",
+     "size": "reel",
+     "alt": "RoteirOZ: à procura do melhor prego de Lisboa."
+    }
+   },
+   {
+    "html": "<figcaption style=\"font-size: 15px; color: #5c5c58; max-width: 250px; text-align: center\">RoteirOZ: à procura do melhor prego de Lisboa.</figcaption></figure></div>\n    <p class=\"wrap\" style=\"margin: 18px auto 0; font-size: 15px; color: #a5a5a0\">Deslize para o lado · oito reels</p>\n  </section>\n\n  <section style=\"padding-top: 120px\"><div class=\"wrap\"><p style=\"margin: 0 0 8px; font-size: 14px; color: #5c5c58\">Posts</p><h2 style=\"margin: 0 0 32px; font-size: clamp(30px, 3.4vw, 48px); line-height: 1.02; letter-spacing: -0.045em; font-weight: 600\">No <span style=\"font-family: 'Instrument Serif', serif; font-style: italic; font-weight: 400\">feed</span></h2><div class=\"phones\">"
+   },
+   {
+    "phone": {
+     "handle": "oz_energia",
+     "avatar": "/img/17d22806cfde75b29f9e0599dd1471f9.webp",
+     "img": "/img/4849da4c69c3dac7c261b46ec149b605.webp",
+     "ratio": "4 / 5",
+     "caption": "A cozinhar na chama OZ.",
+     "size": "post",
+     "alt": "A cozinhar na chama OZ."
+    }
+   },
+   {
+    "html": "\n"
+   },
+   {
+    "phone": {
+     "handle": "oz_energia",
+     "avatar": "/img/17d22806cfde75b29f9e0599dd1471f9.webp",
+     "img": "/img/764595f8cc6115fa832cd1c88e3bd8ee.webp",
+     "ratio": "4 / 5",
+     "caption": "Chefs, ingredientes locais e fogo.",
+     "finish": "deep blue",
+     "size": "post",
+     "alt": "Chefs, ingredientes locais e fogo."
+    }
+   },
+   {
+    "html": "\n"
+   },
+   {
+    "phone": {
+     "handle": "oz_energia",
+     "avatar": "/img/17d22806cfde75b29f9e0599dd1471f9.webp",
+     "img": "/img/8e82bb14ebedec72cc157f5d3ffa5b2e.webp",
+     "ratio": "3 / 4",
+     "caption": "A Chama que nos Une.",
+     "size": "post",
+     "alt": "A Chama que nos Une."
+    }
+   },
+   {
+    "html": "\n</div></div></section>\n\n  <section class=\"wrap\" style=\"padding-top: 120px\">\n    <p style=\"margin: 0 0 8px; font-size: 14px; color: #5c5c58\">Formatos largos</p><h2 style=\"margin: 0 0 32px; font-size: clamp(30px, 3.4vw, 48px); line-height: 1.02; letter-spacing: -0.045em; font-weight: 600\">Banners <span style=\"font-family: 'Instrument Serif', serif; font-style: italic; font-weight: 400\">e capas</span></h2>\n    <div class=\"jrow\"><img width=\"1600\" height=\"1067\" loading=\"lazy\" decoding=\"async\" src=\"/img/88091685d5dc78034a10e1b3dbae7683.webp\" alt=\"Oz Energia: banners e capas\" style=\"flex: 1.5000 1 0; aspect-ratio: 2562 / 1708\"><img width=\"1600\" height=\"1067\" loading=\"lazy\" decoding=\"async\" src=\"/img/61a8703efc32daabe8e34c6ff138e99c.webp\" alt=\"Oz Energia: banners e capas\" style=\"flex: 1.5000 1 0; aspect-ratio: 2562 / 1708\"></div>\n  </section>\n\n  \n\n  <section class=\"wrap\" style=\"padding-top: 120px\">\n    <div style=\"display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 20px; padding: 40px 0; border-top: 1px solid #d6d6d0; border-bottom: 1px solid #d6d6d0\">\n      <p style=\"margin: 0; font-size: clamp(30px, 3.4vw, 48px); line-height: 1.02; letter-spacing: -0.045em; font-weight: 600\">Tem algo assim? <span style=\"font-family: 'Instrument Serif', serif; font-style: italic; font-weight: 400\">Fale-me disso.</span></p>\n      <a href=\"/pt/#contact\" style=\"padding: 14px 24px; border-radius: 999px; background: #e3ff3a; color: #121212; text-decoration: none; font-weight: 500\">Vamos falar</a>\n    </div>\n  </section>\n\n  <section class=\"wrap next\" style=\"padding-top: 90px; padding-bottom: 100px\">\n    <div>\n      <p style=\"margin: 0 0 8px; font-size: 14px; color: #5c5c58\">Próximo projecto · 06 / 14</p>\n      <a href=\"/pt/work/madam-bo/\" style=\"text-decoration: none\"><h2 style=\"margin: 0 0 10px; font-size: clamp(36px, 4.4vw, 64px); line-height: 1; letter-spacing: -0.05em; font-weight: 600\">Madam Bō <svg width=\"1em\" height=\"1em\" viewBox=\"0 0 16 16\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\" style=\"display: inline-block; vertical-align: -0.125em; flex: none\"><path d=\"M3 8h10M9 4l4 4-4 4\"/></svg></h2></a>\n      <p style=\"margin: 0; color: #5c5c58\">Cartazes, cartões e eventos para um bar de dumplings.</p>\n    </div>\n    <a href=\"/pt/work/madam-bo/\" style=\"display: flex; justify-content: center\"><img width=\"1200\" height=\"750\" loading=\"lazy\" decoding=\"async\" src=\"/img/7b85a6f247d8fc181f9faff0131158d1.webp\" alt=\"\" style=\"width: 100%; max-width: 760px; aspect-ratio: 16 / 9; object-fit: cover; display: block; border-radius: 14px\"></a>\n  </section>\n\n  \n"
+   }
+  ]
+ },
+ "partido-socialista": {
+  "key": "CasePS",
+  "title": "Partido Socialista",
+  "kicker": "01 / 14 · Marca · Campanhas · Política",
+  "line": "Três anos e meio em todas as plataformas, e as campanhas das legislativas e das europeias de 2024.",
+  "facts": [
+   [
+    "Cliente",
+    "Partido Socialista"
+   ],
+   [
+    "Função",
+    "Estratégia visual e de conteúdos, direcção de design"
+   ],
+   [
+    "Duração",
+    "Três anos e meio, até 2024"
+   ],
+   [
+    "Canais",
+    "Instagram, TikTok, X, YouTube, Telegram, WhatsApp, Facebook, outdoor"
+   ]
+  ],
+  "brief": [
+   "Durante três anos e meio trabalhei a estratégia visual e de conteúdos do Partido Socialista em todas as grandes plataformas digitais, criando e gerindo um ecossistema de conteúdos completo: marca, estratégia, redes sociais, design gráfico, filme e fotografia.",
+   "Em 2024 liderei o design de duas campanhas marcantes, as legislativas e as europeias, criando todas as peças visuais do conceito à arte final, dos posts nas redes aos outdoors e às faixas de rua."
+  ],
+  "hero": "/img/0451839ae0aaa02797e15323facfd52f.webp",
+  "parts": [
+   {
+    "html": "\n\n  \n\n  <section class=\"wrap\" style=\"padding-top: 48px\">\n    <p style=\"margin: 0 0 14px; font-size: 14px; color: #5c5c58\">01 / 14 · Marca · Campanhas · Política</p>\n    <h1 style=\"margin: 0; font-size: clamp(44px, 6.4vw, 96px); line-height: .96; letter-spacing: -0.055em; font-weight: 600\">Partido Socialista</h1>\n    <p style=\"margin: 14px 0 0; font-family: 'Instrument Serif', serif; font-style: italic; font-size: clamp(24px, 2.6vw, 38px); line-height: 1.15; max-width: 900px\">Três anos e meio em todas as plataformas, e as campanhas das legislativas e das europeias de 2024.</p>\n    <div style=\"margin-top: 40px; aspect-ratio: 16 / 9; border-radius: 14px; overflow: hidden; background: #e7e7e2\">\n      <img width=\"1200\" height=\"750\" fetchpriority=\"high\" src=\"/img/0451839ae0aaa02797e15323facfd52f.webp\" alt=\"Visual de campanha do Partido Socialista\" style=\"width: 100%; height: 100%; object-fit: cover; display: block\">\n    </div>\n    <dl class=\"facts\" style=\"margin: 28px 0 0; padding-top: 22px; border-top: 1px solid #d6d6d0\">\n      <div><dt style=\"font-size: 14px; color: #5c5c58\">Cliente</dt><dd style=\"margin: 4px 0 0\">Partido Socialista</dd></div>\n      <div><dt style=\"font-size: 14px; color: #5c5c58\">Função</dt><dd style=\"margin: 4px 0 0\">Estratégia visual e de conteúdos, direcção de design</dd></div>\n      <div><dt style=\"font-size: 14px; color: #5c5c58\">Duração</dt><dd style=\"margin: 4px 0 0\">Três anos e meio, até 2024</dd></div>\n      <div><dt style=\"font-size: 14px; color: #5c5c58\">Canais</dt><dd style=\"margin: 4px 0 0\">Instagram, TikTok, X, YouTube, Telegram, WhatsApp, Facebook, outdoor</dd></div>\n    </dl>\n  </section>\n\n  <section class=\"wrap ctx\" style=\"padding-top: 120px\">\n    <h2 style=\"margin: 0; font-size: clamp(30px, 3.4vw, 48px); line-height: 1.02; letter-spacing: -0.045em; font-weight: 600\">O briefing <span style=\"font-family: 'Instrument Serif', serif; font-style: italic; font-weight: 400\">e o que fiz</span></h2>\n    <div style=\"font-size: 19px; line-height: 1.55; max-width: 680px\">\n      <p style=\"margin: 0 0 16px\">Durante três anos e meio trabalhei a estratégia visual e de conteúdos do Partido Socialista em todas as grandes plataformas digitais, criando e gerindo um ecossistema de conteúdos completo: marca, estratégia, redes sociais, design gráfico, filme e fotografia.</p>\n      <p style=\"margin: 0\">Em 2024 liderei o design de duas campanhas marcantes, as legislativas e as europeias, criando todas as peças visuais do conceito à arte final, dos posts nas redes aos outdoors e às faixas de rua.</p>\n    </div>\n  </section>\n\n  <section style=\"margin-top: 120px; padding: 90px 0; background: #e9e9e4\">\n    <div class=\"wrap\">\n      <p style=\"margin: 0 0 8px; font-size: 14px; color: #5c5c58\">Nas redes sociais</p>\n      <h2 style=\"margin: 0 0 56px; font-size: clamp(30px, 3.4vw, 48px); line-height: 1.02; letter-spacing: -0.045em; font-weight: 600\">Uma voz, <span style=\"font-family: 'Instrument Serif', serif; font-style: italic; font-weight: 400\">todos os feeds.</span></h2>\n      <div class=\"phones\">\n        "
+   },
+   {
+    "phone": {
+     "handle": "partido_socialista",
+     "avatar": "/img/8b87d1ad467c02897cc71121042682b9.webp",
+     "img": "/img/f4dffc31ff75e4577caeeff5f2ab59fc.webp",
+     "caption": "1.º de dezembro, Restauração da Independência.",
+     "size": "post",
+     "alt": "1.º de dezembro, Restauração da Independência."
+    }
+   },
+   {
+    "html": "\n        "
+   },
+   {
+    "phone": {
+     "handle": "partido_socialista",
+     "avatar": "/img/8b87d1ad467c02897cc71121042682b9.webp",
+     "img": "/img/a0c27c675a75850b4d4cfc732aecfee4.webp",
+     "caption": "Um legado vivo.",
+     "finish": "deep blue",
+     "size": "big",
+     "alt": "Um legado vivo."
+    }
+   },
+   {
+    "html": "\n        "
+   },
+   {
+    "phone": {
+     "handle": "partido_socialista",
+     "avatar": "/img/8b87d1ad467c02897cc71121042682b9.webp",
+     "img": "/img/bd369402cfb0df5ed549fb5e8196e1d5.webp",
+     "caption": "Melhor educação, mais progresso.",
+     "size": "post",
+     "alt": "Melhor educação, mais progresso."
+    }
+   },
+   {
+    "html": "\n      </div>\n    </div>\n  </section>\n\n  <section class=\"wrap\" style=\"padding-top: 120px\">\n    <p style=\"margin: 0 0 8px; font-size: 14px; color: #5c5c58\">Carrosséis e stories</p>\n    <h2 style=\"margin: 0 0 32px; font-size: clamp(30px, 3.4vw, 48px); line-height: 1.02; letter-spacing: -0.045em; font-weight: 600\">Explicar políticas, <span style=\"font-family: 'Instrument Serif', serif; font-style: italic; font-weight: 400\">um swipe de cada vez.</span></h2>\n    <div class=\"phones\">\n      <figure style=\"margin: 0; display: grid; justify-items: center; gap: 16px\">\n        "
+   },
+   {
+    "phone": {
+     "handle": "partido_socialista",
+     "avatar": "/img/8b87d1ad467c02897cc71121042682b9.webp",
+     "img": "/img/0f7939236c71b75dc403dc8214d4fe43.webp",
+     "caption": "O problema do IRS Jovem: história de uma injustiça fiscal.",
+     "size": "big",
+     "alt": "O problema do IRS Jovem: história de uma injustiça fiscal.",
+     "slides": [
+      "/img/0f7939236c71b75dc403dc8214d4fe43.webp",
+      "/img/c3d2d962c2a7391d3ddcd19f930c61a2.webp",
+      "/img/286025b8bfeb525c1adabae34b5ee3ef.webp",
+      "/img/6df46ab027cc03b20c54e306a850304b.webp",
+      "/img/fae6d567ddeeaed9194fac73590dc6d8.webp",
+      "/img/8dc2d2a3168f133f6b310289272cae10.webp",
+      "/img/96715d5e46c469eabefc4704c5a061c9.webp",
+      "/img/a87c45a0e0155807a26a68205d9f0c74.webp"
+     ]
+    }
+   },
+   {
+    "html": "\n        <figcaption style=\"font-size: 15px; color: #5c5c58; text-align: center\">IRS Jovem · 8 slides · deslize ou use as setas</figcaption>\n      </figure>\n      <figure style=\"margin: 0; display: grid; justify-items: center; gap: 16px\">\n        "
+   },
+   {
+    "phone": {
+     "handle": "marta.temido",
+     "avatar": "/img/eee46180696919a5d566adae228b5325.webp",
+     "img": "/img/eee46180696919a5d566adae228b5325.webp",
+     "finish": "deep blue",
+     "caption": "Sabia que o Instagram esconde conteúdo político? Saiba como alterar isso.",
+     "size": "big",
+     "alt": "Sabia que o Instagram esconde conteúdo político? Saiba como alterar isso.",
+     "slides": [
+      "/img/eee46180696919a5d566adae228b5325.webp",
+      "/img/a66141df99d00a802ff00970d6a739b4.webp",
+      "/img/fbc92c463dfb46348d85ee96e02cf2c3.webp",
+      "/img/2e5e7ec0c47b6dc12afdb692697a2d6b.webp",
+      "/img/969e281ada67f8cbaa495fc402fc0744.webp",
+      "/img/9aea21dd1a3bfe4c19c8c818f62b5d9d.webp"
+     ]
+    }
+   },
+   {
+    "html": "\n        <figcaption style=\"font-size: 15px; color: #5c5c58; text-align: center\">Campanha europeia · 6 slides</figcaption>\n      </figure>\n    </div>\n  </section>\n\n  <section class=\"wrap\" style=\"padding-top: 120px\">\n    <p style=\"margin: 0 0 8px; font-size: 14px; color: #5c5c58\">Na rua</p>\n    <h2 style=\"margin: 0 0 32px; font-size: clamp(30px, 3.4vw, 48px); line-height: 1.02; letter-spacing: -0.045em; font-weight: 600\">Do feed <span style=\"font-family: 'Instrument Serif', serif; font-style: italic; font-weight: 400\">à auto-estrada.</span></h2>\n    <img width=\"2000\" height=\"1000\" loading=\"lazy\" decoding=\"async\" src=\"/img/c0590754c2a24896d49b1fa85f725fec.webp\" alt=\"Outdoor sobre uma auto-estrada\" style=\"width: 100%; display: block; border-radius: 14px\">\n    \n    <div class=\"street\" style=\"margin-top: 16px\">\n      <img width=\"1552\" height=\"1035\" loading=\"lazy\" decoding=\"async\" src=\"/img/3dadffd52d9ea6940662fa758e79798b.webp\" alt=\"Campanha de outdoor\" style=\"flex: 1.5 1 0; min-width: 0; aspect-ratio: 1552 / 1035; width: 100%; display: block; border-radius: 14px\">\n      <img width=\"658\" height=\"854\" loading=\"lazy\" decoding=\"async\" src=\"/img/986677d4676fc038c257f5cd71f67bde.webp\" alt=\"Post de lançamento do canal de Telegram\" style=\"flex: 0.77 1 0; min-width: 0; aspect-ratio: 658 / 854; width: 100%; display: block; border-radius: 14px\">\n    </div>\n  </section>\n\n  \n\n  <section class=\"wrap\" style=\"padding-top: 120px\">\n    <div style=\"display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 20px; padding: 40px 0; border-top: 1px solid #d6d6d0; border-bottom: 1px solid #d6d6d0\">\n      <p style=\"margin: 0; font-size: clamp(30px, 3.4vw, 48px); line-height: 1.02; letter-spacing: -0.045em; font-weight: 600\">Tem algo assim? <span style=\"font-family: 'Instrument Serif', serif; font-style: italic; font-weight: 400\">Fale-me disso.</span></p>\n      <a href=\"/pt/#contact\" style=\"padding: 14px 24px; border-radius: 999px; background: #e3ff3a; color: #121212; text-decoration: none; font-weight: 500\">Vamos falar</a>\n    </div>\n  </section>\n\n  <section class=\"wrap next\" style=\"padding-top: 90px; padding-bottom: 100px\">\n    <div>\n      <p style=\"margin: 0 0 8px; font-size: 14px; color: #5c5c58\">Próximo projecto · 02 / 14</p>\n      <a href=\"/pt/work/citizen-diaries-and-momentum/\" style=\"text-decoration: none\"><h2 style=\"margin: 0 0 10px; font-size: clamp(36px, 4.4vw, 64px); line-height: 1; letter-spacing: -0.05em; font-weight: 600\">Citizen Diaries and Momentum <svg width=\"1em\" height=\"1em\" viewBox=\"0 0 16 16\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\" style=\"display: inline-block; vertical-align: -0.125em; flex: none\"><path d=\"M3 8h10M9 4l4 4-4 4\"/></svg></h2></a>\n      <p style=\"margin: 0; color: #5c5c58\">Duas séries documentais para Lisboa, 24 episódios.</p>\n    </div>\n    <a href=\"/pt/work/citizen-diaries-and-momentum/\" style=\"display: flex; justify-content: center\"><img width=\"1280\" height=\"720\" loading=\"lazy\" decoding=\"async\" src=\"/img/788a25d5b74bf9441c72f1b0a6272417.webp\" alt=\"\" style=\"width: 100%; max-width: 760px; aspect-ratio: 16 / 9; object-fit: cover; display: block; border-radius: 14px\"></a>\n  </section>\n\n  \n"
+   }
+  ]
+ },
+ "praca-beato": {
+  "key": "CasePraca",
+  "title": "Praça Beato",
+  "kicker": "12 / 14 · Marca · Impressão · Eventos",
+  "line": "A identidade de um mercado refeita de raiz, com espaço para cada pop-up.",
+  "facts": [
+   [
+    "Cliente",
+    "Praça Beato"
+   ],
+   [
+    "Função",
+    "Marca e design, em curso"
+   ],
+   [
+    "Trabalho",
+    "Redes sociais, menus, cavaletes, sinalética"
+   ],
+   [
+    "Local",
+    "Beato, Lisboa"
+   ],
+   [
+    "Ano",
+    "2025–2026"
+   ]
+  ],
+  "brief": [
+   "A Praça Beato precisava de reconstruir a sua identidade de raiz. Esta colaboração contínua cobre a forma como o espaço se apresenta: redes sociais, menus, cavaletes, sinalética interior e comunicação exterior.",
+   "Uma marca central convive com uma série de eventos pop-up, cada um com a sua identidade, todos claramente parte do mesmo lugar."
+  ],
+  "hero": "/img/5ac3b340659d70324dba88e8c404cd56.webp",
+  "parts": [
+   {
+    "html": "\n\n  \n\n  <section class=\"wrap\" style=\"padding-top: 48px\">\n    <p style=\"margin: 0 0 14px; font-size: 14px; color: #5c5c58\">12 / 14 · Marca · Impressão · Eventos</p>\n    <h1 style=\"margin: 0; font-size: clamp(44px, 6.4vw, 96px); line-height: .96; letter-spacing: -0.055em; font-weight: 600\">Praça Beato</h1>\n    <p style=\"margin: 14px 0 0; font-family: 'Instrument Serif', serif; font-style: italic; font-size: clamp(24px, 2.6vw, 38px); line-height: 1.15; max-width: 900px\">A identidade de um mercado refeita de raiz, com espaço para cada pop-up.</p>\n    <div style=\"margin-top: 40px; aspect-ratio: 16 / 9; display: flex; justify-content: center; gap: 12px; overflow: hidden\"><div style=\"flex: 1 1 0; min-width: 0; height: 100%; border-radius: 14px; overflow: hidden; background: #e7e7e2\"><img width=\"1200\" height=\"750\" fetchpriority=\"high\" src=\"/img/5ac3b340659d70324dba88e8c404cd56.webp\" alt=\"Praça Beato, imagem principal\" style=\"width: 100%; height: 100%; object-fit: cover; display: block\"></div></div>\n    <dl class=\"facts\" style=\"margin: 28px 0 0; padding-top: 22px; border-top: 1px solid #d6d6d0\"><div><dt style=\"font-size: 14px; color: #5c5c58\">Cliente</dt><dd style=\"margin: 4px 0 0\">Praça Beato</dd></div><div><dt style=\"font-size: 14px; color: #5c5c58\">Função</dt><dd style=\"margin: 4px 0 0\">Marca e design, em curso</dd></div><div><dt style=\"font-size: 14px; color: #5c5c58\">Trabalho</dt><dd style=\"margin: 4px 0 0\">Redes sociais, menus, cavaletes, sinalética</dd></div><div><dt style=\"font-size: 14px; color: #5c5c58\">Local</dt><dd style=\"margin: 4px 0 0\">Beato, Lisboa</dd></div><div><dt style=\"font-size: 14px; color: #5c5c58\">Ano</dt><dd style=\"margin: 4px 0 0\">2025–2026</dd></div></dl>\n  </section>\n\n  <section class=\"wrap ctx\" style=\"padding-top: 120px\">\n    <h2 style=\"margin: 0; font-size: clamp(30px, 3.4vw, 48px); line-height: 1.02; letter-spacing: -0.045em; font-weight: 600\">O briefing <span style=\"font-family: 'Instrument Serif', serif; font-style: italic; font-weight: 400\">e o que fiz</span></h2>\n    <div style=\"font-size: 19px; line-height: 1.55; max-width: 680px\"><p style=\"margin: 0 0 16px\">A Praça Beato precisava de reconstruir a sua identidade de raiz. Esta colaboração contínua cobre a forma como o espaço se apresenta: redes sociais, menus, cavaletes, sinalética interior e comunicação exterior.</p><p style=\"margin: 0 0 16px\">Uma marca central convive com uma série de eventos pop-up, cada um com a sua identidade, todos claramente parte do mesmo lugar.</p></div>\n  </section>\n\n  <section style=\"margin-top: 120px; padding: 90px 0; background: #e9e9e4\"><div class=\"wrap\"><p style=\"margin: 0 0 8px; font-size: 14px; color: #5c5c58\">Nas redes sociais</p><h2 style=\"margin: 0 0 32px; font-size: clamp(30px, 3.4vw, 48px); line-height: 1.02; letter-spacing: -0.045em; font-weight: 600\">O <span style=\"font-family: 'Instrument Serif', serif; font-style: italic; font-weight: 400\">feed</span></h2><div class=\"phones\">"
+   },
+   {
+    "phone": {
+     "handle": "pracabeato_",
+     "avatar": "/img/cd399a6ef3cf516fbea8a7a64938b3e3.webp",
+     "img": "/img/e2400aced9a6521c9092cfd949681945.webp",
+     "ratio": "4 / 5",
+     "caption": "Bem-vindos à Praça.",
+     "size": "post",
+     "alt": "Bem-vindos à Praça."
+    }
+   },
+   {
+    "html": "\n"
+   },
+   {
+    "phone": {
+     "handle": "pracabeato_",
+     "avatar": "/img/cd399a6ef3cf516fbea8a7a64938b3e3.webp",
+     "img": "/img/0f0173f651dd54f4a81d381159b328f3.webp",
+     "ratio": "3 / 4",
+     "caption": "Este fim de semana na Praça.",
+     "finish": "cosmic orange",
+     "size": "post",
+     "alt": "Este fim de semana na Praça."
+    }
+   },
+   {
+    "html": "\n"
+   },
+   {
+    "phone": {
+     "handle": "pracabeato_",
+     "avatar": "/img/cd399a6ef3cf516fbea8a7a64938b3e3.webp",
+     "img": "/img/e06d78e86e1b6c0d2af2d2d7d86d913a.webp",
+     "ratio": "3 / 4",
+     "caption": "Pop-up na Praça.",
+     "size": "post",
+     "alt": "Pop-up na Praça."
+    }
+   },
+   {
+    "html": "\n"
+   },
+   {
+    "phone": {
+     "handle": "pracabeato_",
+     "avatar": "/img/cd399a6ef3cf516fbea8a7a64938b3e3.webp",
+     "img": "/img/7bdde002e9ecb74b9a917bc892decca5.webp",
+     "mode": "reel",
+     "caption": "Story",
+     "size": "post",
+     "alt": "Story"
+    }
+   },
+   {
+    "html": "\n</div></div></section>\n\n  <section class=\"wrap\" style=\"padding-top: 120px\">\n    <p style=\"margin: 0 0 8px; font-size: 14px; color: #5c5c58\">Eventos pop-up</p><h2 style=\"margin: 0 0 32px; font-size: clamp(30px, 3.4vw, 48px); line-height: 1.02; letter-spacing: -0.045em; font-weight: 600\">Um mercado, <span style=\"font-family: 'Instrument Serif', serif; font-style: italic; font-weight: 400\">muitos eventos</span></h2>\n    <div class=\"jrow\"><img width=\"1129\" height=\"1600\" loading=\"lazy\" decoding=\"async\" src=\"/img/29c6e21b3ee32319db12a305ab5b7029.webp\" alt=\"Praça Beato: um mercado, muitos eventos\" style=\"flex: 0.7057 1 0; aspect-ratio: 1259 / 1784\"><img width=\"1129\" height=\"1600\" loading=\"lazy\" decoding=\"async\" src=\"/img/2d34c55faf5fa081a3bf438bf278e022.webp\" alt=\"Praça Beato: um mercado, muitos eventos\" style=\"flex: 0.7057 1 0; aspect-ratio: 1259 / 1784\"><img width=\"990\" height=\"1600\" loading=\"lazy\" decoding=\"async\" src=\"/img/88e499c55e5c537064ed6df9261f4306.webp\" alt=\"Praça Beato: um mercado, muitos eventos\" style=\"flex: 0.6186 1 0; aspect-ratio: 1106 / 1788\"></div><div class=\"jrow\"><img width=\"644\" height=\"858\" loading=\"lazy\" decoding=\"async\" src=\"/img/62d008bffce332d792e2553a99aa890d.webp\" alt=\"Praça Beato: um mercado, muitos eventos\" style=\"flex: 0.7506 1 0; aspect-ratio: 644 / 858\"><img width=\"1150\" height=\"1437\" loading=\"lazy\" decoding=\"async\" src=\"/img/e7e2996af1585c203f523e6168c4d89f.webp\" alt=\"Praça Beato: um mercado, muitos eventos\" style=\"flex: 0.8003 1 0; aspect-ratio: 1150 / 1437\"><img width=\"1400\" height=\"1052\" loading=\"lazy\" decoding=\"async\" src=\"/img/5458aeeec96356591305b1ecaa940a89.webp\" alt=\"Praça Beato: um mercado, muitos eventos\" style=\"flex: 1.3308 1 0; aspect-ratio: 1400 / 1052\"></div>\n  </section>\n\n  <section class=\"wrap\" style=\"padding-top: 120px\">\n    <p style=\"margin: 0 0 8px; font-size: 14px; color: #5c5c58\">Impressão</p><h2 style=\"margin: 0 0 32px; font-size: clamp(30px, 3.4vw, 48px); line-height: 1.02; letter-spacing: -0.045em; font-weight: 600\">Menus <span style=\"font-family: 'Instrument Serif', serif; font-style: italic; font-weight: 400\">e sinalética</span></h2>\n    <div class=\"jrow\"><img width=\"1400\" height=\"1050\" loading=\"lazy\" decoding=\"async\" src=\"/img/cbb5d91b606f340fedb0e5a9593887c7.webp\" alt=\"Praça Beato: menus e sinalética\" style=\"flex: 1.3333 1 0; aspect-ratio: 1400 / 1050\"><img width=\"1400\" height=\"1050\" loading=\"lazy\" decoding=\"async\" src=\"/img/3a3a760870a7b83433f8c582efeb6299.webp\" alt=\"Praça Beato: menus e sinalética\" style=\"flex: 1.3333 1 0; aspect-ratio: 1400 / 1050\"><img width=\"1400\" height=\"1050\" loading=\"lazy\" decoding=\"async\" src=\"/img/78cee5f5ed59655292067ed0a2327cbf.webp\" alt=\"Praça Beato: menus e sinalética\" style=\"flex: 1.3333 1 0; aspect-ratio: 1400 / 1050\"></div>\n  </section>\n\n  \n\n  <section class=\"wrap\" style=\"padding-top: 120px\">\n    <div style=\"display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 20px; padding: 40px 0; border-top: 1px solid #d6d6d0; border-bottom: 1px solid #d6d6d0\">\n      <p style=\"margin: 0; font-size: clamp(30px, 3.4vw, 48px); line-height: 1.02; letter-spacing: -0.045em; font-weight: 600\">Tem algo assim? <span style=\"font-family: 'Instrument Serif', serif; font-style: italic; font-weight: 400\">Fale-me disso.</span></p>\n      <a href=\"/pt/#contact\" style=\"padding: 14px 24px; border-radius: 999px; background: #e3ff3a; color: #121212; text-decoration: none; font-weight: 500\">Vamos falar</a>\n    </div>\n  </section>\n\n  <section class=\"wrap next\" style=\"padding-top: 90px; padding-bottom: 100px\">\n    <div>\n      <p style=\"margin: 0 0 8px; font-size: 14px; color: #5c5c58\">Próximo projecto · 13 / 14</p>\n      <a href=\"/pt/work/50-anos-do-direito-em-portugal/\" style=\"text-decoration: none\"><h2 style=\"margin: 0 0 10px; font-size: clamp(36px, 4.4vw, 64px); line-height: 1; letter-spacing: -0.05em; font-weight: 600\">50 Anos do Direito em Portugal <svg width=\"1em\" height=\"1em\" viewBox=\"0 0 16 16\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\" style=\"display: inline-block; vertical-align: -0.125em; flex: none\"><path d=\"M3 8h10M9 4l4 4-4 4\"/></svg></h2></a>\n      <p style=\"margin: 0; color: #5c5c58\">Uma identidade para um livro e o seu lançamento.</p>\n    </div>\n    <a href=\"/pt/work/50-anos-do-direito-em-portugal/\" style=\"display: flex; justify-content: center\"><img width=\"1200\" height=\"795\" loading=\"lazy\" decoding=\"async\" src=\"/img/eaa1d3c6f05f3db0178e9c9d8d0442c1.webp\" alt=\"\" style=\"width: 100%; max-width: 760px; aspect-ratio: 16 / 9; object-fit: cover; display: block; border-radius: 14px\"></a>\n  </section>\n\n  \n"
+   }
+  ]
+ },
+ "utpr-seminar": {
+  "key": "CaseUTPR",
+  "title": "Seminário UTPR",
+  "kicker": "14 / 14 · Marca · Eventos · Academia",
+  "line": "Fazer um seminário técnico de direito fiscal parecer valer a viagem.",
+  "facts": [
+   [
+    "Cliente",
+    "CIDEEFF e IDEFF"
+   ],
+   [
+    "Local",
+    "Faculdade de Direito da Universidade de Lisboa"
+   ],
+   [
+    "Função",
+    "Identidade, design e estratégia digital"
+   ],
+   [
+    "Trabalho",
+    "Marca, sistema de design, redes sociais"
+   ],
+   [
+    "Ano",
+    "2025"
+   ]
+  ],
+  "brief": [
+   "O CIDEEFF e o IDEFF organizaram um seminário com o Prof. Doutor Fadi Shaheen sobre direito fiscal internacional na Faculdade de Direito da Universidade de Lisboa. Um tema complexo e técnico, que tinha de interessar a especialistas e a um público mais alargado.",
+   "Desenvolvi toda a identidade visual e a comunicação digital: marca, um sistema de design académico e arrojado, e conteúdos e promoção nas redes sociais."
+  ],
+  "hero": "/img/c83bf114d6b13b7e02e069921a763489.webp",
+  "parts": [
+   {
+    "html": "\n\n  \n\n  <section class=\"wrap\" style=\"padding-top: 48px\">\n    <p style=\"margin: 0 0 14px; font-size: 14px; color: #5c5c58\">14 / 14 · Marca · Eventos · Academia</p>\n    <h1 style=\"margin: 0; font-size: clamp(44px, 6.4vw, 96px); line-height: .96; letter-spacing: -0.055em; font-weight: 600\">Seminário UTPR</h1>\n    <p style=\"margin: 14px 0 0; font-family: 'Instrument Serif', serif; font-style: italic; font-size: clamp(24px, 2.6vw, 38px); line-height: 1.15; max-width: 900px\">Fazer um seminário técnico de direito fiscal parecer valer a viagem.</p>\n    <div style=\"margin-top: 40px; aspect-ratio: 16 / 9; display: flex; justify-content: center; gap: 12px; overflow: hidden\"><div style=\"flex: 1 1 0; min-width: 0; height: 100%; border-radius: 14px; overflow: hidden; background: #e7e7e2\"><img width=\"1200\" height=\"799\" fetchpriority=\"high\" src=\"/img/c83bf114d6b13b7e02e069921a763489.webp\" alt=\"Seminário UTPR, imagem principal\" style=\"width: 100%; height: 100%; object-fit: cover; display: block\"></div></div>\n    <dl class=\"facts\" style=\"margin: 28px 0 0; padding-top: 22px; border-top: 1px solid #d6d6d0\"><div><dt style=\"font-size: 14px; color: #5c5c58\">Cliente</dt><dd style=\"margin: 4px 0 0\">CIDEEFF e IDEFF</dd></div><div><dt style=\"font-size: 14px; color: #5c5c58\">Local</dt><dd style=\"margin: 4px 0 0\">Faculdade de Direito da Universidade de Lisboa</dd></div><div><dt style=\"font-size: 14px; color: #5c5c58\">Função</dt><dd style=\"margin: 4px 0 0\">Identidade, design e estratégia digital</dd></div><div><dt style=\"font-size: 14px; color: #5c5c58\">Trabalho</dt><dd style=\"margin: 4px 0 0\">Marca, sistema de design, redes sociais</dd></div><div><dt style=\"font-size: 14px; color: #5c5c58\">Ano</dt><dd style=\"margin: 4px 0 0\">2025</dd></div></dl>\n  </section>\n\n  <section class=\"wrap ctx\" style=\"padding-top: 120px\">\n    <h2 style=\"margin: 0; font-size: clamp(30px, 3.4vw, 48px); line-height: 1.02; letter-spacing: -0.045em; font-weight: 600\">O briefing <span style=\"font-family: 'Instrument Serif', serif; font-style: italic; font-weight: 400\">e o que fiz</span></h2>\n    <div style=\"font-size: 19px; line-height: 1.55; max-width: 680px\"><p style=\"margin: 0 0 16px\">O CIDEEFF e o IDEFF organizaram um seminário com o Prof. Doutor Fadi Shaheen sobre direito fiscal internacional na Faculdade de Direito da Universidade de Lisboa. Um tema complexo e técnico, que tinha de interessar a especialistas e a um público mais alargado.</p><p style=\"margin: 0 0 16px\">Desenvolvi toda a identidade visual e a comunicação digital: marca, um sistema de design académico e arrojado, e conteúdos e promoção nas redes sociais.</p></div>\n  </section>\n\n  <section class=\"wrap\" style=\"padding-top: 120px\">\n    <p style=\"margin: 0 0 8px; font-size: 14px; color: #5c5c58\">A identidade em uso</p><h2 style=\"margin: 0 0 32px; font-size: clamp(30px, 3.4vw, 48px); line-height: 1.02; letter-spacing: -0.045em; font-weight: 600\">Um sistema <span style=\"font-family: 'Instrument Serif', serif; font-style: italic; font-weight: 400\">académico e arrojado</span></h2>\n    <div class=\"jrow\"><img width=\"1588\" height=\"1058\" loading=\"lazy\" decoding=\"async\" src=\"/img/6a0a99d7e9e7ef61e69d98b344bc2eb6.webp\" alt=\"Seminário UTPR: um sistema académico e arrojado\" style=\"flex: 1.5009 1 0; aspect-ratio: 1588 / 1058\"><img width=\"1738\" height=\"1160\" loading=\"lazy\" decoding=\"async\" src=\"/img/c273659c76215a6d4e9c07f97f624ffa.webp\" alt=\"Seminário UTPR: um sistema académico e arrojado\" style=\"flex: 1.4983 1 0; aspect-ratio: 1738 / 1160\"></div><div class=\"jrow\"><img width=\"874\" height=\"1162\" loading=\"lazy\" decoding=\"async\" src=\"/img/5b0efb93763a5b726d464ae67ed9953f.webp\" alt=\"Seminário UTPR: um sistema académico e arrojado\" style=\"flex: 0.7522 1 0; aspect-ratio: 874 / 1162\"><img width=\"1990\" height=\"1058\" loading=\"lazy\" decoding=\"async\" src=\"/img/23e814d6f08a25633520866559f9e6a5.webp\" alt=\"Seminário UTPR: um sistema académico e arrojado\" style=\"flex: 1.8809 1 0; aspect-ratio: 1990 / 1058\"><img width=\"874\" height=\"1158\" loading=\"lazy\" decoding=\"async\" src=\"/img/840004bb80c3bf74146a466c5c013925.webp\" alt=\"Seminário UTPR: um sistema académico e arrojado\" style=\"flex: 0.7547 1 0; aspect-ratio: 874 / 1158\"></div>\n  </section>\n\n  \n\n  <section class=\"wrap\" style=\"padding-top: 120px\">\n    <div style=\"display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 20px; padding: 40px 0; border-top: 1px solid #d6d6d0; border-bottom: 1px solid #d6d6d0\">\n      <p style=\"margin: 0; font-size: clamp(30px, 3.4vw, 48px); line-height: 1.02; letter-spacing: -0.045em; font-weight: 600\">Tem algo assim? <span style=\"font-family: 'Instrument Serif', serif; font-style: italic; font-weight: 400\">Fale-me disso.</span></p>\n      <a href=\"/pt/#contact\" style=\"padding: 14px 24px; border-radius: 999px; background: #e3ff3a; color: #121212; text-decoration: none; font-weight: 500\">Vamos falar</a>\n    </div>\n  </section>\n\n  <section class=\"wrap next\" style=\"padding-top: 90px; padding-bottom: 100px\">\n    <div>\n      <p style=\"margin: 0 0 8px; font-size: 14px; color: #5c5c58\">Próximo projecto · 01 / 14</p>\n      <a href=\"/pt/work/partido-socialista/\" style=\"text-decoration: none\"><h2 style=\"margin: 0 0 10px; font-size: clamp(36px, 4.4vw, 64px); line-height: 1; letter-spacing: -0.05em; font-weight: 600\">Partido Socialista <svg width=\"1em\" height=\"1em\" viewBox=\"0 0 16 16\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\" style=\"display: inline-block; vertical-align: -0.125em; flex: none\"><path d=\"M3 8h10M9 4l4 4-4 4\"/></svg></h2></a>\n      <p style=\"margin: 0; color: #5c5c58\">Marca, campanhas e redes sociais para duas eleições nacionais.</p>\n    </div>\n    <a href=\"/pt/work/partido-socialista/\" style=\"display: flex; justify-content: center\"><img width=\"1200\" height=\"750\" loading=\"lazy\" decoding=\"async\" src=\"/img/0451839ae0aaa02797e15323facfd52f.webp\" alt=\"\" style=\"width: 100%; max-width: 760px; aspect-ratio: 16 / 9; object-fit: cover; display: block; border-radius: 14px\"></a>\n  </section>\n\n  \n"
+   }
+  ]
+ },
+ "uriage": {
+  "key": "CaseUriage",
+  "title": "Uriage",
+  "kicker": "09 / 14 · Filme · Conteúdos · Dermatologia",
+  "line": "Vídeos curtos e úteis para pais e para a pele, feitos para o feed.",
+  "facts": [
+   [
+    "Cliente",
+    "Uriage Portugal"
+   ],
+   [
+    "Função",
+    "Produção de vídeo, filmagem e edição"
+   ],
+   [
+    "Formato",
+    "6 reels para Instagram"
+   ],
+   [
+    "Temas",
+    "Cuidados do bebé, protecção solar, eventos"
+   ],
+   [
+    "Ano",
+    "2025"
+   ]
+  ],
+  "brief": [
+   "A Uriage precisava de conteúdos de aconselhamento que pais e clientes quisessem mesmo guardar: massagem infantil, comichão da varicela, protecção solar e picadas de insectos, além da cobertura dos seus eventos Puig Derma.",
+   "Seis reels, cada um construído em torno de uma única resposta útil."
+  ],
+  "hero": "/img/13731441e95ffb5bd6dfaa09442db47a.webp",
+  "parts": [
+   {
+    "html": "\n\n  \n\n  <section class=\"wrap\" style=\"padding-top: 48px\">\n    <p style=\"margin: 0 0 14px; font-size: 14px; color: #5c5c58\">09 / 14 · Filme · Conteúdos · Dermatologia</p>\n    <h1 style=\"margin: 0; font-size: clamp(44px, 6.4vw, 96px); line-height: .96; letter-spacing: -0.055em; font-weight: 600\">Uriage</h1>\n    <p style=\"margin: 14px 0 0; font-family: 'Instrument Serif', serif; font-style: italic; font-size: clamp(24px, 2.6vw, 38px); line-height: 1.15; max-width: 900px\">Vídeos curtos e úteis para pais e para a pele, feitos para o feed.</p>\n    <div style=\"margin-top: 40px; aspect-ratio: 16 / 9; display: flex; justify-content: center; gap: 12px; overflow: hidden\"><div style=\"flex: none; aspect-ratio: 9 / 16; height: 100%; border-radius: 14px; overflow: hidden; background: #e7e7e2\"><img width=\"600\" height=\"1067\" fetchpriority=\"high\" src=\"/img/13731441e95ffb5bd6dfaa09442db47a.webp\" alt=\"Uriage, imagem principal\" style=\"width: 100%; height: 100%; object-fit: cover; display: block\"></div><div style=\"flex: none; aspect-ratio: 9 / 16; height: 100%; border-radius: 14px; overflow: hidden; background: #e7e7e2\"><img width=\"600\" height=\"1067\" loading=\"lazy\" decoding=\"async\" src=\"/img/b1477f442525144606defc17ff815926.webp\" alt=\"Uriage: imagem do projecto\" style=\"width: 100%; height: 100%; object-fit: cover; display: block\"></div><div style=\"flex: none; aspect-ratio: 9 / 16; height: 100%; border-radius: 14px; overflow: hidden; background: #e7e7e2\"><img width=\"600\" height=\"1067\" loading=\"lazy\" decoding=\"async\" src=\"/img/11a679779e3699c96ffd486a109c5cf8.webp\" alt=\"Uriage: imagem do projecto\" style=\"width: 100%; height: 100%; object-fit: cover; display: block\"></div></div>\n    <dl class=\"facts\" style=\"margin: 28px 0 0; padding-top: 22px; border-top: 1px solid #d6d6d0\"><div><dt style=\"font-size: 14px; color: #5c5c58\">Cliente</dt><dd style=\"margin: 4px 0 0\">Uriage Portugal</dd></div><div><dt style=\"font-size: 14px; color: #5c5c58\">Função</dt><dd style=\"margin: 4px 0 0\">Produção de vídeo, filmagem e edição</dd></div><div><dt style=\"font-size: 14px; color: #5c5c58\">Formato</dt><dd style=\"margin: 4px 0 0\">6 reels para Instagram</dd></div><div><dt style=\"font-size: 14px; color: #5c5c58\">Temas</dt><dd style=\"margin: 4px 0 0\">Cuidados do bebé, protecção solar, eventos</dd></div><div><dt style=\"font-size: 14px; color: #5c5c58\">Ano</dt><dd style=\"margin: 4px 0 0\">2025</dd></div></dl>\n  </section>\n\n  <section class=\"wrap ctx\" style=\"padding-top: 120px\">\n    <h2 style=\"margin: 0; font-size: clamp(30px, 3.4vw, 48px); line-height: 1.02; letter-spacing: -0.045em; font-weight: 600\">O briefing <span style=\"font-family: 'Instrument Serif', serif; font-style: italic; font-weight: 400\">e o que fiz</span></h2>\n    <div style=\"font-size: 19px; line-height: 1.55; max-width: 680px\"><p style=\"margin: 0 0 16px\">A Uriage precisava de conteúdos de aconselhamento que pais e clientes quisessem mesmo guardar: massagem infantil, comichão da varicela, protecção solar e picadas de insectos, além da cobertura dos seus eventos Puig Derma.</p><p style=\"margin: 0 0 16px\">Seis reels, cada um construído em torno de uma única resposta útil.</p></div>\n  </section>\n\n  <section style=\"margin-top: 120px; padding: 90px 0; background: #121212; color: #f4f4f1\">\n    <div class=\"wrap\"><p style=\"margin: 0 0 8px; font-size: 14px; color: #a5a5a0\">No Instagram</p><h2 style=\"margin: 0 0 32px; font-size: clamp(30px, 3.4vw, 48px); line-height: 1.02; letter-spacing: -0.045em; font-weight: 600\">Seis reels, <span style=\"font-family: 'Instrument Serif', serif; font-style: italic; font-weight: 400\">seis respostas</span></h2></div>\n    <div class=\"reelrow\"><figure style=\"margin: 0; display: grid; gap: 12px; justify-items: center\">"
+   },
+   {
+    "phone": {
+     "handle": "uriageportugal",
+     "avatar": "/img/79462d2466b39226ad47f900e6a1c182.webp",
+     "mode": "reel",
+     "img": "/img/13731441e95ffb5bd6dfaa09442db47a.webp",
+     "caption": "Massagem infantil e osteopatia com uma enfermeira pediátrica.",
+     "size": "reel",
+     "alt": "Massagem infantil e osteopatia com uma enfermeira pediátrica."
+    }
+   },
+   {
+    "html": "<figcaption style=\"font-size: 15px; color: #5c5c58; max-width: 250px; text-align: center\">Massagem infantil e osteopatia com uma enfermeira pediátrica.</figcaption></figure><figure style=\"margin: 0; display: grid; gap: 12px; justify-items: center\">"
+   },
+   {
+    "phone": {
+     "handle": "uriageportugal",
+     "avatar": "/img/79462d2466b39226ad47f900e6a1c182.webp",
+     "mode": "reel",
+     "img": "/img/68e4af5e498ff54fb99edae52de62d8c.webp",
+     "caption": "Aliviar a comichão da varicela com a gama Pruriced.",
+     "size": "reel",
+     "alt": "Aliviar a comichão da varicela com a gama Pruriced."
+    }
+   },
+   {
+    "html": "<figcaption style=\"font-size: 15px; color: #5c5c58; max-width: 250px; text-align: center\">Aliviar a comichão da varicela com a gama Pruriced.</figcaption></figure><figure style=\"margin: 0; display: grid; gap: 12px; justify-items: center\">"
+   },
+   {
+    "phone": {
+     "handle": "uriageportugal",
+     "avatar": "/img/79462d2466b39226ad47f900e6a1c182.webp",
+     "mode": "reel",
+     "img": "/img/b1477f442525144606defc17ff815926.webp",
+     "caption": "Essenciais de protecção solar para bebés.",
+     "size": "reel",
+     "alt": "Essenciais de protecção solar para bebés."
+    }
+   },
+   {
+    "html": "<figcaption style=\"font-size: 15px; color: #5c5c58; max-width: 250px; text-align: center\">Essenciais de protecção solar para bebés.</figcaption></figure><figure style=\"margin: 0; display: grid; gap: 12px; justify-items: center\">"
+   },
+   {
+    "phone": {
+     "handle": "uriageportugal",
+     "avatar": "/img/79462d2466b39226ad47f900e6a1c182.webp",
+     "mode": "reel",
+     "img": "/img/0a609a812b82d096927d91dd11f3ec9c.webp",
+     "caption": "Acalmar picadas de insectos com o Pruriced Gel.",
+     "size": "reel",
+     "alt": "Acalmar picadas de insectos com o Pruriced Gel."
+    }
+   },
+   {
+    "html": "<figcaption style=\"font-size: 15px; color: #5c5c58; max-width: 250px; text-align: center\">Acalmar picadas de insectos com o Pruriced Gel.</figcaption></figure><figure style=\"margin: 0; display: grid; gap: 12px; justify-items: center\">"
+   },
+   {
+    "phone": {
+     "handle": "uriageportugal",
+     "avatar": "/img/79462d2466b39226ad47f900e6a1c182.webp",
+     "mode": "reel",
+     "img": "/img/11a679779e3699c96ffd486a109c5cf8.webp",
+     "caption": "Age Absolu no Puig Derma.",
+     "size": "reel",
+     "alt": "Age Absolu no Puig Derma."
+    }
+   },
+   {
+    "html": "<figcaption style=\"font-size: 15px; color: #5c5c58; max-width: 250px; text-align: center\">Age Absolu no Puig Derma.</figcaption></figure><figure style=\"margin: 0; display: grid; gap: 12px; justify-items: center\">"
+   },
+   {
+    "phone": {
+     "handle": "uriageportugal",
+     "avatar": "/img/79462d2466b39226ad47f900e6a1c182.webp",
+     "mode": "reel",
+     "img": "/img/259910d0dfd7b8bf8ef395bd4d41a7f4.webp",
+     "caption": "Gama Hyseac, evento Puig Derma.",
+     "size": "reel",
+     "alt": "Gama Hyseac, evento Puig Derma."
+    }
+   },
+   {
+    "html": "<figcaption style=\"font-size: 15px; color: #5c5c58; max-width: 250px; text-align: center\">Gama Hyseac, evento Puig Derma.</figcaption></figure></div>\n    <p class=\"wrap\" style=\"margin: 18px auto 0; font-size: 15px; color: #a5a5a0\">Deslize para o lado · seis reels</p>\n  </section>\n\n  \n\n  <section class=\"wrap\" style=\"padding-top: 120px\">\n    <div style=\"display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 20px; padding: 40px 0; border-top: 1px solid #d6d6d0; border-bottom: 1px solid #d6d6d0\">\n      <p style=\"margin: 0; font-size: clamp(30px, 3.4vw, 48px); line-height: 1.02; letter-spacing: -0.045em; font-weight: 600\">Tem algo assim? <span style=\"font-family: 'Instrument Serif', serif; font-style: italic; font-weight: 400\">Fale-me disso.</span></p>\n      <a href=\"/pt/#contact\" style=\"padding: 14px 24px; border-radius: 999px; background: #e3ff3a; color: #121212; text-decoration: none; font-weight: 500\">Vamos falar</a>\n    </div>\n  </section>\n\n  <section class=\"wrap next\" style=\"padding-top: 90px; padding-bottom: 100px\">\n    <div>\n      <p style=\"margin: 0 0 8px; font-size: 14px; color: #5c5c58\">Próximo projecto · 10 / 14</p>\n      <a href=\"/pt/work/camara-municipal-de-lisboa/\" style=\"text-decoration: none\"><h2 style=\"margin: 0 0 10px; font-size: clamp(36px, 4.4vw, 64px); line-height: 1; letter-spacing: -0.05em; font-weight: 600\">Câmara Municipal de Lisboa <svg width=\"1em\" height=\"1em\" viewBox=\"0 0 16 16\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\" style=\"display: inline-block; vertical-align: -0.125em; flex: none\"><path d=\"M3 8h10M9 4l4 4-4 4\"/></svg></h2></a>\n      <p style=\"margin: 0; color: #5c5c58\">Um site mais claro para a câmara municipal.</p>\n    </div>\n    <a href=\"/pt/work/camara-municipal-de-lisboa/\" style=\"display: flex; justify-content: center\"><img width=\"1200\" height=\"798\" loading=\"lazy\" decoding=\"async\" src=\"/img/c1c76e90a1a2383c4b62c3da0edc32a4.webp\" alt=\"\" style=\"width: 100%; max-width: 760px; aspect-ratio: 16 / 9; object-fit: cover; display: block; border-radius: 14px\"></a>\n  </section>\n\n  \n"
+   }
+  ]
+ },
+ "lufthansa-group-and-tap": {
+  "key": "CaseLufthansa",
+  "title": "Lufthansa e TAP",
+  "kicker": "04 / 14 · Fotografia · Filme · Aviação",
+  "line": "O dia em que a Lufthansa assinou a entrada no capital da TAP, fotografado e filmado num hangar do aeroporto de Lisboa.",
+  "facts": [
+   [
+    "Cliente",
+    "Lufthansa Group"
+   ],
+   [
+    "Com",
+    "AMP Associates"
+   ],
+   [
+    "Função",
+    "Fotografia e filme"
+   ],
+   [
+    "Equipa",
+    "Ivo Sousa Martins e João Pedro Augusto"
+   ],
+   [
+    "Ano",
+    "2026"
+   ]
+  ],
+  "brief": [
+   "A 3 de Novembro de 2026, o Lufthansa Group e o Governo português assinaram o acordo para a primeira participação da Lufthansa na TAP Air Portugal, de 44,9 por cento, num hangar do Aeroporto Humberto Delgado, em Lisboa.",
+   "Com a AMP Associates, eu e o João Pedro Augusto cobrimos o dia. Fotografei-o: os aviões a chegar, a assinatura em palco, os discursos em frente a um Airbus da TAP, a imprensa e o público. O João filmou e editou o filme."
+  ],
+  "hero": "/img/145c13f889676099302448f031a1d53b.webp",
+  "parts": [
+   {
+    "html": "\n\n  <section class=\"wrap\" style=\"padding-top: 48px\">\n    <p style=\"margin: 0 0 14px; font-size: 14px; color: #5c5c58\">04 / 14 · Fotografia · Filme · Aviação</p>\n    <h1 style=\"margin: 0; font-size: clamp(44px, 6.4vw, 96px); line-height: .96; letter-spacing: -0.055em; font-weight: 600\">Lufthansa e TAP</h1>\n    <p style=\"margin: 14px 0 0; font-family: 'Instrument Serif', serif; font-style: italic; font-size: clamp(24px, 2.6vw, 38px); line-height: 1.15; max-width: 900px\">O dia em que a Lufthansa assinou a entrada no capital da TAP, fotografado e filmado num hangar do aeroporto de Lisboa.</p>\n    <div style=\"margin-top: 40px; aspect-ratio: 16 / 9; display: flex; justify-content: center; gap: 12px; overflow: hidden\"><div style=\"flex: 1 1 0; min-width: 0; height: 100%; border-radius: 14px; overflow: hidden; background: #e7e7e2\"><img width=\"1410\" height=\"2000\" fetchpriority=\"high\" src=\"/img/b50c3e9947f5a030f55ebab111cb8970.webp\" alt=\"Um Airbus da Lufthansa na aproximação final a Lisboa\" style=\"width: 100%; height: 100%; object-fit: cover; display: block\"></div><div style=\"flex: 1 1 0; min-width: 0; height: 100%; border-radius: 14px; overflow: hidden; background: #e7e7e2\"><img width=\"1333\" height=\"2000\" loading=\"lazy\" decoding=\"async\" src=\"/img/0e07a2adf177b39398b5bdab064b5768.webp\" alt=\"Um discurso em frente a um avião da TAP com a pintura portuguesa\" style=\"width: 100%; height: 100%; object-fit: cover; display: block\"></div><div style=\"flex: 1 1 0; min-width: 0; height: 100%; border-radius: 14px; overflow: hidden; background: #e7e7e2\"><img width=\"1276\" height=\"2000\" loading=\"lazy\" decoding=\"async\" src=\"/img/3bfad5cebed78f0952419ba2ef854b74.webp\" alt=\"Um Airbus da TAP Air Portugal a aterrar em Lisboa\" style=\"width: 100%; height: 100%; object-fit: cover; display: block\"></div></div>\n    <dl class=\"facts\" style=\"margin: 28px 0 0; padding-top: 22px; border-top: 1px solid #d6d6d0\"><div><dt style=\"font-size: 14px; color: #5c5c58\">Cliente</dt><dd style=\"margin: 4px 0 0\">Lufthansa Group</dd></div><div><dt style=\"font-size: 14px; color: #5c5c58\">Com</dt><dd style=\"margin: 4px 0 0\">AMP Associates</dd></div><div><dt style=\"font-size: 14px; color: #5c5c58\">Função</dt><dd style=\"margin: 4px 0 0\">Fotografia e filme</dd></div><div><dt style=\"font-size: 14px; color: #5c5c58\">Equipa</dt><dd style=\"margin: 4px 0 0\">Ivo Sousa Martins e João Pedro Augusto</dd></div><div><dt style=\"font-size: 14px; color: #5c5c58\">Ano</dt><dd style=\"margin: 4px 0 0\">2026</dd></div></dl>\n  </section>\n\n  <section class=\"wrap ctx\" style=\"padding-top: 120px\">\n    <h2 style=\"margin: 0; font-size: clamp(30px, 3.4vw, 48px); line-height: 1.02; letter-spacing: -0.045em; font-weight: 600\">O briefing <span style=\"font-family: 'Instrument Serif', serif; font-style: italic; font-weight: 400\">e o que fiz</span></h2>\n    <div style=\"font-size: 19px; line-height: 1.55; max-width: 680px\"><p style=\"margin: 0 0 16px\">A 3 de Novembro de 2026, o Lufthansa Group e o Governo português assinaram o acordo para a primeira participação da Lufthansa na TAP Air Portugal, de 44,9 por cento, num hangar do Aeroporto Humberto Delgado, em Lisboa.</p><p style=\"margin: 0 0 16px\">Com a AMP Associates, eu e o João Pedro Augusto cobrimos o dia. Fotografei-o: os aviões a chegar, a assinatura em palco, os discursos em frente a um Airbus da TAP, a imprensa e o público. O João filmou e editou o filme.</p><p style=\"margin: 0 0 16px\"><a href=\"https://newsroom.lufthansagroup.com/en/lufthansa-group-and-portuguese-government-sign-agreement-for-acquisition-of-a-minority-stake-in-tap-air-portugal/\" target=\"_blank\" rel=\"noopener\">Ler o comunicado do Lufthansa Group</a></p></div>\n  </section>\n\n  <section style=\"margin-top: 120px; padding: 90px 0; background: #121212; color: #f4f4f1\">\n    <div class=\"wrap\"><p style=\"margin: 0 0 8px; font-size: 14px; color: #a5a5a0\">Fotografia e filme</p><h2 style=\"margin: 0 0 32px; font-size: clamp(30px, 3.4vw, 48px); line-height: 1.02; letter-spacing: -0.045em; font-weight: 600\">Noventa segundos, <span style=\"font-family: 'Instrument Serif', serif; font-style: italic; font-weight: 400\">uma assinatura</span></h2>\n      <video controls playsinline preload=\"none\" poster=\"/img/lufthansa-film-poster.webp\" width=\"1920\" height=\"1080\" style=\"display: block; width: 100%; height: auto; aspect-ratio: 16 / 9; border-radius: 14px; background: #000\"><source src=\"/film/lufthansa-tap-signing.mp4\" type=\"video/mp4\"></video>\n      <p style=\"margin: 18px 0 0; font-size: 15px; color: #a5a5a0\">Fotografia: Ivo Sousa Martins · Filme: João Pedro Augusto</p>\n    </div>\n  </section>\n\n  <section class=\"wrap\" style=\"padding-top: 120px\">\n    <p style=\"margin: 0 0 8px; font-size: 14px; color: #5c5c58\">Fotografia</p><h2 style=\"margin: 0 0 32px; font-size: clamp(30px, 3.4vw, 48px); line-height: 1.02; letter-spacing: -0.045em; font-weight: 600\">A assinatura</h2>\n    <div class=\"jrow\"><img width=\"2000\" height=\"1333\" loading=\"lazy\" decoding=\"async\" src=\"/img/145c13f889676099302448f031a1d53b.webp\" alt=\"Fotografia de grupo em frente a um avião da TAP\" style=\"flex: 1.5004 1 0; aspect-ratio: 2000 / 1333\"></div>\n    <div class=\"jrow\"><img width=\"2000\" height=\"1333\" loading=\"lazy\" decoding=\"async\" src=\"/img/7c1f33fec36a5757103bc49f7edbeaf4.webp\" alt=\"A assinatura do acordo no hangar\" style=\"flex: 1.5004 1 0; aspect-ratio: 2000 / 1333\"><img width=\"2000\" height=\"1333\" loading=\"lazy\" decoding=\"async\" src=\"/img/e4a51d9dad2ab86c0e27ef7143650f87.webp\" alt=\"A assinatura do acordo, com a pista ao fundo\" style=\"flex: 1.5004 1 0; aspect-ratio: 2000 / 1333\"></div>\n    <div class=\"jrow\"><img width=\"2000\" height=\"1333\" loading=\"lazy\" decoding=\"async\" src=\"/img/b63339369b892f16cc2cb7a78cda994c.webp\" alt=\"Aperto de mão em palco depois da assinatura\" style=\"flex: 1.5004 1 0; aspect-ratio: 2000 / 1333\"><img width=\"2000\" height=\"1333\" loading=\"lazy\" decoding=\"async\" src=\"/img/72f8d2569054ede6c7185e991cf49bb8.webp\" alt=\"Troca de miniaturas de aviões com a tripulação\" style=\"flex: 1.5004 1 0; aspect-ratio: 2000 / 1333\"></div>\n  </section>\n\n  <section class=\"wrap\" style=\"padding-top: 120px\">\n    <p style=\"margin: 0 0 8px; font-size: 14px; color: #5c5c58\">Fotografia</p><h2 style=\"margin: 0 0 32px; font-size: clamp(30px, 3.4vw, 48px); line-height: 1.02; letter-spacing: -0.045em; font-weight: 600\">Discursos <span style=\"font-family: 'Instrument Serif', serif; font-style: italic; font-weight: 400\">e imprensa</span></h2>\n    <div class=\"jrow\"><img width=\"1333\" height=\"2000\" loading=\"lazy\" decoding=\"async\" src=\"/img/9e225f42e1a4b3941dccf0c0af3ad45e.webp\" alt=\"Um discurso no púlpito em frente a um avião da TAP\" style=\"flex: 0.6665 1 0; aspect-ratio: 1333 / 2000\"><img width=\"2000\" height=\"1333\" loading=\"lazy\" decoding=\"async\" src=\"/img/8309b5c2786c72eb3feddbf1dcc2ac7a.webp\" alt=\"Um discurso em frente às caudas da Lufthansa e da TAP\" style=\"flex: 1.5004 1 0; aspect-ratio: 2000 / 1333\"></div>\n    <div class=\"jrow\"><img width=\"2000\" height=\"1333\" loading=\"lazy\" decoding=\"async\" src=\"/img/2cbfa40ef74f91fdaf2f1fd0937a483e.webp\" alt=\"Declarações à imprensa junto a um avião da TAP\" style=\"flex: 1.5004 1 0; aspect-ratio: 2000 / 1333\"><img width=\"2000\" height=\"1333\" loading=\"lazy\" decoding=\"async\" src=\"/img/bbd6dbd5f4a69e665d51634018479505.webp\" alt=\"Convidados a rir no hangar\" style=\"flex: 1.5004 1 0; aspect-ratio: 2000 / 1333\"></div>\n  </section>\n\n  <section class=\"wrap\" style=\"padding-top: 120px\">\n    <p style=\"margin: 0 0 8px; font-size: 14px; color: #5c5c58\">Fotografia</p><h2 style=\"margin: 0 0 32px; font-size: clamp(30px, 3.4vw, 48px); line-height: 1.02; letter-spacing: -0.045em; font-weight: 600\">No hangar <span style=\"font-family: 'Instrument Serif', serif; font-style: italic; font-weight: 400\">e na pista</span></h2>\n    <div class=\"jrow\"><img width=\"2000\" height=\"1333\" loading=\"lazy\" decoding=\"async\" src=\"/img/006f65ac7e5cb839c810076db16676ec.webp\" alt=\"O público no hangar\" style=\"flex: 1.5004 1 0; aspect-ratio: 2000 / 1333\"><img width=\"2000\" height=\"1333\" loading=\"lazy\" decoding=\"async\" src=\"/img/992b31496ce4c80b1222a987fd2ca48b.webp\" alt=\"Tripulação e administradores com miniaturas de aviões\" style=\"flex: 1.5004 1 0; aspect-ratio: 2000 / 1333\"></div>\n    <div class=\"jrow\"><img width=\"1250\" height=\"2000\" loading=\"lazy\" decoding=\"async\" src=\"/img/15f397ae84fc58282053492bbba119cd.webp\" alt=\"Um Airbus da Lufthansa a aterrar em Lisboa\" style=\"flex: 0.6250 1 0; aspect-ratio: 1250 / 2000\"><img width=\"1276\" height=\"2000\" loading=\"lazy\" decoding=\"async\" src=\"/img/3bfad5cebed78f0952419ba2ef854b74.webp\" alt=\"Um Airbus da TAP Air Portugal a aterrar em Lisboa\" style=\"flex: 0.6380 1 0; aspect-ratio: 1276 / 2000\"></div>\n  </section>\n\n  <section class=\"wrap\" style=\"padding-top: 120px\">\n    <div style=\"display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 20px; padding: 40px 0; border-top: 1px solid #d6d6d0; border-bottom: 1px solid #d6d6d0\">\n      <p style=\"margin: 0; font-size: clamp(30px, 3.4vw, 48px); line-height: 1.02; letter-spacing: -0.045em; font-weight: 600\">Tem algo assim? <span style=\"font-family: 'Instrument Serif', serif; font-style: italic; font-weight: 400\">Fale-me disso.</span></p>\n      <a href=\"/pt/#contact\" style=\"padding: 14px 24px; border-radius: 999px; background: #e3ff3a; color: #121212; text-decoration: none; font-weight: 500\">Vamos falar</a>\n    </div>\n  </section>\n\n  <section class=\"wrap next\" style=\"padding-top: 90px; padding-bottom: 100px\">\n    <div>\n      <p style=\"margin: 0 0 8px; font-size: 14px; color: #5c5c58\">Próximo projecto · 05 / 14</p>\n      <a href=\"/pt/work/oz-energia/\" style=\"text-decoration: none\"><h2 style=\"margin: 0 0 10px; font-size: clamp(36px, 4.4vw, 64px); line-height: 1; letter-spacing: -0.05em; font-weight: 600\">Oz Energia <svg width=\"1em\" height=\"1em\" viewBox=\"0 0 16 16\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\" style=\"display: inline-block; vertical-align: -0.125em; flex: none\"><path d=\"M3 8h10M9 4l4 4-4 4\"/></svg></h2></a>\n      <p style=\"margin: 0; color: #5c5c58\">Uma série documental de marca, reels e posts.</p>\n    </div>\n    <a href=\"/pt/work/oz-energia/\" style=\"display: flex; justify-content: center\"><img width=\"1280\" height=\"720\" loading=\"lazy\" decoding=\"async\" src=\"/img/a38a70564e0f1892d2208bb0923b8e57.webp\" alt=\"\" style=\"width: 100%; max-width: 760px; aspect-ratio: 16 / 9; object-fit: cover; display: block; border-radius: 14px\"></a>\n  </section>\n\n"
+   }
+  ]
+ }
+}

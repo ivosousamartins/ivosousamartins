@@ -1,6 +1,9 @@
 // Every project in one place: the home stage, All work, the case pages, schema, sitemap and llms.txt read from here.
 // Case page bodies come from cases.json (imported from the Design canvas).
 import cases from './cases.json';
+import casesPt from './cases.pt.json';
+import casesEs from './cases.es.json';
+import { projectText, ui, type Lang } from '../i18n';
 
 export type Kind = 'design' | 'film' | 'web';
 export type Audience = 'brands' | 'institutions';
@@ -110,3 +113,10 @@ export const casePages = cases as unknown as Record<string, CasePage>;
 
 export const KIND_LABEL: Record<Kind, string> = { design: 'Brand & design', film: 'Film', web: 'Web & UX' };
 export const count = (kind: Kind) => projects.filter((p) => p.kind === kind).length;
+
+// The same projects and case pages in another language (titles, summaries and page bodies translated)
+export const projectsFor = (lang: Lang): Project[] =>
+  lang === 'en' ? projects : projects.map((p) => ({ ...p, ...projectText[lang][p.slug] }));
+const CASES = { en: casePages, pt: casesPt as unknown as Record<string, CasePage>, es: casesEs as unknown as Record<string, CasePage> };
+export const casePagesFor = (lang: Lang) => CASES[lang];
+export const kindLabel = (lang: Lang, kind: Kind) => ui[lang].kind[kind];

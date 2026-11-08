@@ -32,7 +32,7 @@ ${faq.map((f) => `- ${f.q} ${f.a}`).join('\n')}
 ## Contact
 
 - Email: ${EMAIL}
-- Website: ${SITE}/ (all work at ${SITE}/work/)
+- Website: ${SITE}/ (all work at ${SITE}/work/), also in Portuguese at ${SITE}/pt/ and Spanish at ${SITE}/es/
 ${social.map((s) => `- ${s.label}: ${s.href}`).join('\n')}
 `;
   return new Response(body, { headers: { 'Content-Type': 'text/plain; charset=utf-8' } });

@@ -1,4 +1,5 @@
 ---
+import { ui, type Lang } from '../i18n';
 // iPhone 17 Pro with Instagram UI. Everything inside is sized in em off the phone's own width,
 // so the size class (post, reel, big) is the only thing that changes it.
 interface Props {
@@ -12,8 +13,10 @@ interface Props {
   finish?: 'silver' | 'deep blue' | 'cosmic orange';
   slides?: string[];
   alt?: string;
+  lang?: Lang;
 }
-const { img, mode = 'post', size, handle, avatar, caption = '', ratio = '4 / 5', finish = 'silver', slides, alt = '' } = Astro.props;
+const { img, mode = 'post', size, handle, avatar, caption = '', ratio = '4 / 5', finish = 'silver', slides, alt = '', lang = 'en' } = Astro.props;
+const t = ui[lang];
 const FINISH: Record<string, [string, string]> = {
   silver: ['#e3e4e6', '#b9bbbf'],
   'deep blue': ['#3b4a63', '#1f2a3c'],
@@ -51,8 +54,8 @@ const cls = `phone ${size ?? (reel ? 'reel' : 'post')}`;
                   {list.map((src, k) => <img src={src} alt={k === 0 ? alt : ''} draggable="false" loading="lazy" decoding="async" />)}
                 </div>
                 <span class="ig-count" data-count>1/{list.length}</span>
-                <button type="button" class="ig-arrow prev" aria-label="Previous slide" data-prev hidden><svg class="ico" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M10 3.5L5.5 8l4.5 4.5"/></svg></button>
-                <button type="button" class="ig-arrow next" aria-label="Next slide" data-next><svg class="ico" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 3.5L10.5 8 6 12.5"/></svg></button>
+                <button type="button" class="ig-arrow prev" aria-label={t.prevSlide} data-prev hidden><svg class="ico" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M10 3.5L5.5 8l4.5 4.5"/></svg></button>
+                <button type="button" class="ig-arrow next" aria-label={t.nextSlide} data-next><svg class="ico" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 3.5L10.5 8 6 12.5"/></svg></button>
               </div>
             ) : (
               <img src={img} alt={alt} draggable="false" loading="lazy" decoding="async" />

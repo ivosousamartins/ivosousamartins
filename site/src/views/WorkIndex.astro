@@ -1,0 +1,120 @@
+---
+import Base from '../layouts/Base.astro';
+import { projectsFor } from '../data/projects';
+import { SITE } from '../data/site';
+import { ui, href, type Lang } from '../i18n';
+
+interface Props { lang: Lang }
+const { lang } = Astro.props;
+const t = ui[lang];
+const projects = projectsFor(lang);
+const h = (path: string) => href(lang, path);
+
+const schema = [
+  {
+    '@type': 'CollectionPage',
+    '@id': `${SITE}${h('/work/')}#page`,
+    name: t.allWork,
+    url: SITE + h('/work/'),
+    about: { '@id': `${SITE}/#ivo` },
+    mainEntity: {
+      '@type': 'ItemList',
+      itemListElement: projects.map((p, i) => ({ '@type': 'ListItem', position: i + 1, url: SITE + h(`/work/${p.slug}/`), name: p.title })),
+    },
+  },
+];
+---
+<Base title={t.workTitle} description={t.workDesc(projects.length)} path="/work/" schema={schema} back={{ href: h('/'), label: t.home }} dock="work" lang={lang}>
+  <section class="wrap aw">
+    <h1 set:html={t.allWorkH} />
+    <p class="intro" set:html={t.workIntro} />
+    <div class="aw-head">
+      <p class="showing">{t.showing}
+        <label><span class="sr">{t.typeOfWork}</span><select class="pick" data-kind>{(['all', 'design', 'film', 'web'] as const).map((k) => <option value={k}>{t.kindOpt[k]}</option>)}</select></label>
+        {t.for}
+        <label><span class="sr">{t.whoFor}</span><select class="pick" data-aud>{(['all', 'brands', 'institutions'] as const).map((k) => <option value={k}>{t.audOpt[k]}</option>)}</select></label>
+      </p>
+      <span class="count" data-count data-one={t.projects(1)} data-many={t.projects(0)}>{t.projects(projects.length)}</span>
+    </div>
+
+    <!-- Justified rows: grow and base width follow each cover's ratio, so a row shares one height and nothing is cropped -->
+    <div class="grid">
+      {projects.map((p) => (
+        <a class="card" href={h(`/work/${p.slug}/`)} data-kind={p.kind} data-aud={p.aud} style={`--r:${p.cover.r}`}>
+          <span class="im" style={`aspect-ratio:${p.cover.r}`}><img src={p.cover.img} alt={p.title} loading="lazy" decoding="async" /></span>
+          <span class="tag">{t.kind[p.kind]} · {p.year}</span>
+          <span class="t">{p.title}</span>
+          <span class="m">{p.meta}</span>
+        </a>
+      ))}
+      <span aria-hidden="true" class="filler"></span>
+    </div>
+    <p class="none" data-none hidden>{t.nothing}</p>
+  </section>
+
+  <section class="wrap cta-wrap">
+    <div class="cta-band">
+      <p set:html={t.ctaBand} />
+      <a href={h('/#contact')} class="btn btn-lime">{t.dock.talk}</a>
+    </div>
+  </section>
+</Base>
+
+<script>
+  // Filters hide cards in place; a link like /work/?kind=film&for=brands opens already filtered
+  const kind = document.querySelector<HTMLSelectElement>('[data-kind]')!;
+  const aud = document.querySelector<HTMLSelectElement>('[data-aud]')!;
+  const cards = Array.from(document.querySelectorAll<HTMLElement>('.card'));
+  const count = document.querySelector<HTMLElement>('[data-count]')!;
+  const none = document.querySelector<HTMLElement>('[data-none]')!;
+  const q = new URLSearchParams(location.search);
+  if (['design', 'film', 'web'].includes(q.get('kind') ?? '')) kind.value = q.get('kind')!;
+  if (['brands', 'institutions'].includes(q.get('for') ?? '')) aud.value = q.get('for')!;
+  function apply() {
+    let n = 0;
+    cards.forEach((c) => {
+      const on = (kind.value === 'all' || c.dataset.kind === kind.value) && (aud.value === 'all' || c.dataset.aud === aud.value);
+      c.hidden = !on;
+      if (on) n++;
+    });
+    count.textContent = n === 1 ? count.dataset.one! : count.dataset.many!.replace('0', String(n));
+    none.hidden = n > 0;
+    const p = new URLSearchParams();
+    if (kind.value !== 'all') p.set('kind', kind.value);
+    if (aud.value !== 'all') p.set('for', aud.value);
+    history.replaceState(null, '', p.toString() ? `?${p}` : location.pathname);
+  }
+  kind.addEventListener('change', apply);
+  aud.addEventListener('change', apply);
+  apply();
+</script>
+
+<style>
+  .aw { padding-top: 48px; }
+  h1 { margin: 0; font-size: clamp(56px, 8vw, 128px); line-height: .92; letter-spacing: -0.06em; font-weight: 600; }
+  h1 .serif { letter-spacing: -0.02em; }
+  .intro { margin: 18px 0 0; font-size: 19px; line-height: 1.5; max-width: 620px; }
+  .aw-head { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 14px; margin: 56px 0 36px; border-top: 1px solid var(--line); padding-top: 24px; }
+  .showing { margin: 0; font-size: clamp(24px, 2.6vw, 36px); letter-spacing: -0.035em; line-height: 1.5; }
+  .pick { appearance: none; -webkit-appearance: none; border: 0; border-radius: 999px; background-color: var(--soft); padding: 2px 34px 2px 14px; font: inherit; letter-spacing: inherit; color: inherit; cursor: pointer; background-image: linear-gradient(45deg, transparent 50%, #121212 50%), linear-gradient(135deg, #121212 50%, transparent 50%); background-position: calc(100% - 18px) 55%, calc(100% - 12px) 55%; background-size: 6px 6px, 6px 6px; background-repeat: no-repeat; }
+  .pick:hover { background-color: #d9d9d3; }
+  .count { font-size: 14px; color: var(--muted); font-variant-numeric: tabular-nums; }
+  .grid { display: flex; flex-wrap: wrap; gap: 40px 20px; }
+  .card { --base: 300px; flex: var(--r) 1 calc(var(--r) * var(--base)); display: block; min-width: 0; text-decoration: none; color: var(--ink); }
+  .card[hidden] { display: none; }
+  .card:hover { color: var(--ink); }
+  .im { display: block; width: 100%; border-radius: 14px; overflow: hidden; background: var(--soft); }
+  .im img { width: 100%; height: 100%; object-fit: cover; display: block; transition: transform .5s cubic-bezier(.2,.7,.2,1); }
+  .card:hover img { transform: scale(1.03); }
+  .tag { display: block; margin-top: 12px; font-size: 13px; color: var(--muted); }
+  .t { display: block; margin-top: 2px; font-size: 20px; line-height: 1.2; letter-spacing: -0.02em; font-weight: 600; }
+  .card:hover .t { text-decoration: underline; text-underline-offset: 4px; }
+  .m { display: block; margin-top: 4px; font-size: 15px; line-height: 1.4; color: var(--muted); }
+  .filler { flex: 1000 1 0; height: 0; }
+  .none { margin: 0; font-size: 18px; color: var(--muted); }
+  .cta-wrap { padding-top: 120px; padding-bottom: 100px; }
+  @media (max-width: 900px) {
+    .grid { gap: 28px 12px; }
+    .card { --base: 150px; }
+  }
+</style>

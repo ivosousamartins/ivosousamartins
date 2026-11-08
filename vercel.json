@@ -10,43 +10,23 @@
     },
     {
       "source": "/pt/privacy.html",
-      "destination": "/privacy/",
-      "permanent": false
+      "destination": "/pt/privacy/",
+      "permanent": true
     },
     {
       "source": "/es/privacy.html",
-      "destination": "/privacy/",
-      "permanent": false
+      "destination": "/es/privacy/",
+      "permanent": true
     },
     {
-      "source": "/pt",
-      "destination": "/",
-      "permanent": false
+      "source": "/pt/index.html",
+      "destination": "/pt/",
+      "permanent": true
     },
     {
-      "source": "/pt/",
-      "destination": "/",
-      "permanent": false
-    },
-    {
-      "source": "/es",
-      "destination": "/",
-      "permanent": false
-    },
-    {
-      "source": "/es/",
-      "destination": "/",
-      "permanent": false
-    },
-    {
-      "source": "/pt/:path*",
-      "destination": "/",
-      "permanent": false
-    },
-    {
-      "source": "/es/:path*",
-      "destination": "/",
-      "permanent": false
+      "source": "/es/index.html",
+      "destination": "/es/",
+      "permanent": true
     },
     {
       "source": "/assets/og-image.jpg",
