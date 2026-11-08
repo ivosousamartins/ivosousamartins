@@ -20,6 +20,7 @@ export interface Project {
   cover: { img: string; r: number };
   frames: Frame[];
   featured?: boolean;
+  genre?: string; // overrides the kind label in titles and schema
 }
 
 const I = (id: string) => `/img/${id}.webp`;
@@ -37,16 +38,21 @@ export const projects: Project[] = [
     sub: 'Two documentary series for Lisbon, 24 episodes.',
     cover: { img: I('788a25d5b74bf9441c72f1b0a6272417'), r: 1.778 }, frames: [F('788a25d5b74bf9441c72f1b0a6272417', 1.778)] },
   { slug: 'judas', title: 'Judas', kind: 'film', aud: 'brands', year: '2026', featured: true,
-    meta: 'Short form for social · Santander, amigo, Ron Barceló, Cofidis',
+    meta: 'Short form for social · amigo, Santander, Ron Barceló, Cofidis',
     line: 'Reels made with the creative agency Judas, from fake thriller to street vox pop.',
-    sub: 'Reels for Santander, amigo, Ron Barceló and Cofidis.',
-    cover: { img: I('520f36a9c3ff97d9142191b13116a436'), r: 0.5625 },
-    frames: [F('520f36a9c3ff97d9142191b13116a436', 0.5625), F('6af3752e91f85432ff782764aee3f7f9', 0.5625), F('7f4fed60acd8f8948d76ef98e1cba6a0', 0.5625)] },
+    sub: 'Reels for amigo, Santander, Ron Barceló and Cofidis.',
+    cover: { img: I('26c0c60d6da9183de9b33bfd05bed53c'), r: 0.5625 },
+    frames: [F('26c0c60d6da9183de9b33bfd05bed53c', 0.5625), F('6af3752e91f85432ff782764aee3f7f9', 0.5625), F('7f4fed60acd8f8948d76ef98e1cba6a0', 0.5625)] },
+  { slug: 'lufthansa-group-and-tap', title: 'Lufthansa and TAP', kind: 'film', aud: 'brands', year: '2026', genre: 'Event photography',
+    meta: 'Event photography and film · Aviation · with AMP Associates',
+    line: 'The signing of Lufthansa’s stake in TAP, photographed in a hangar at Lisbon airport.',
+    sub: 'Event photography for a signing at Lisbon airport.',
+    cover: { img: I('145c13f889676099302448f031a1d53b'), r: 1.5 }, frames: [F('145c13f889676099302448f031a1d53b', 1.5)] },
   { slug: 'oz-energia', title: 'Oz Energia', kind: 'film', aud: 'brands', year: '2025', featured: true,
     meta: 'Branded series · Reels · with Kitchenette',
-    line: 'A branded documentary series in its third season, plus chefs cooking over the OZ flame.',
+    line: 'Season 2 of a branded documentary series, produced, filmed and edited, plus chefs cooking over the OZ flame.',
     sub: 'A branded documentary series, reels and posts.',
-    cover: { img: I('a0182f94401d3021d9aa5519a050e781'), r: 1.778 }, frames: [F('a0182f94401d3021d9aa5519a050e781', 1.778)] },
+    cover: { img: I('a38a70564e0f1892d2208bb0923b8e57'), r: 1.778 }, frames: [F('a38a70564e0f1892d2208bb0923b8e57', 1.778)] },
   { slug: 'madam-bo', title: 'Madam Bō', kind: 'design', aud: 'brands', year: '2025',
     meta: 'Posters and cards · Hospitality · with Kitchenette',
     line: 'Posters, cards and events for a dumpling bar with a loud, generous personality.',

@@ -41,7 +41,7 @@ const facts = [
 const tiles = [
   { href: '/work/?kind=design', img: '5ac3b340659d70324dba88e8c404cd56', alt: 'Praça Beato identity', name: 'Brand & design', note: `${count('design')} projects` },
   { href: '/work/?kind=film', img: '788a25d5b74bf9441c72f1b0a6272417', alt: 'Citizen Diaries still', name: 'Film', note: `${count('film')} projects · 24 episodes` },
-  { href: '#photography', img: 'b7f78085ff706985d5ef6acd3881ca21', alt: 'Street photograph', name: 'Photography', note: `${photos.length} photographs` },
+  { href: '#photography', img: 'b7f78085ff706985d5ef6acd3881ca21', alt: 'Street photograph', name: 'Photography', note: 'Travel and events' },
   { href: '/work/?kind=web', img: 'd34785b2d9e077de36b7cd37d5ab6b0a', alt: 'Lisbon city council website', name: 'Web & UX', note: `${count('web')} projects` },
 ];
 
@@ -153,7 +153,7 @@ const frameStyle = (f: { r: number; natural?: boolean }) => (f.natural ? `flex: 
       <img src={I('cdd2352058f608d8b9069b70a09e0640')} alt="Portrait of Ivo Sousa Martins" width={size('cdd2352058f608d8b9069b70a09e0640')[0]} height={size('cdd2352058f608d8b9069b70a09e0640')[1]} loading="lazy" />
       <div>
         <p class="label">About</p>
-        <h2 class="h-l">Helicopter view. <span class="serif">Hands on the work.</span></h2>
+        <h2 class="h-l">Helicopter view.<br><span class="serif">Hands on the work.</span></h2>
         <p class="about-text">Twenty-odd years across brand strategy, design, photography and film, for luxury travel, food, energy, banks, city councils and national political campaigns. Based in Lisbon, working across Portugal and abroad.</p>
         <a href="#contact" class="link">Work with me <Fragment set:html={arrow} /></a>
       </div>
@@ -187,7 +187,7 @@ const frameStyle = (f: { r: number; natural?: boolean }) => (f.natural ? `flex: 
       {faq.map((f) => (
         <details>
           <summary>{f.q}</summary>
-          <p>{f.a}</p>
+          <p set:html={f.html ?? f.a} />
         </details>
       ))}
     </div>

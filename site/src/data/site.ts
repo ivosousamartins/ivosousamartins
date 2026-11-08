@@ -18,19 +18,21 @@ export const social = [
   { label: 'Pexels', href: 'https://www.pexels.com/@ivosousamartins/' },
 ];
 
-// First draft, to be reviewed by Ivo before launch
-export const faq = [
+// Answers in plain text (schema, llms.txt); html, when present, is what the page shows
+export const faq: { q: string; a: string; html?: string }[] = [
   {
     q: 'What kind of projects do you take on?',
     a: 'Brand identities and campaigns, films and documentary series, short form video for social, photography and websites. Often several at once, so a campaign, its films and its pages come from one idea.',
   },
   {
     q: 'Do you work with agencies?',
-    a: 'Yes. Part of my work comes through agencies and studios, such as Judas and Kitchenette, as well as directly with brands and public institutions.',
+    a: 'Yes. Part of my work comes through agencies and studios, such as Judas and Bored Ape, as well as directly with brands and public institutions.',
+    html: 'Yes. Part of my work comes through agencies and studios, such as <a href="https://www.judas.rocks/" target="_blank" rel="noopener">Judas</a> and Bored Ape, as well as directly with brands and public institutions.',
   },
   {
     q: 'Where are you based, and do you work outside Portugal?',
     a: 'I am based in Lisbon and work across Portugal and abroad, in English, Portuguese and Spanish. Lightfoot Travel, for example, has offices in Singapore, Hong Kong, Dubai and London.',
+    html: 'I am based in Lisbon and work across Portugal and abroad, in English, Portuguese and Spanish. <a href="https://www.lightfoottravel.com/" target="_blank" rel="noopener">Lightfoot Travel</a>, for example, has offices in Singapore, Hong Kong, Dubai and London.',
   },
   {
     q: 'How do we start?',

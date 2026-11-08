@@ -18,7 +18,8 @@ const client = fact('Client') ?? fact('Clients') ?? project.title;
 // Search snippet: the one-line summary, then the brief, cut on a word near 155 characters
 const full = `${page.line} ${page.brief[0] ?? ''}`.trim();
 const description = full.length > 158 ? full.slice(0, full.lastIndexOf(' ', 155)) + '…' : full;
-const title = `${project.title}: ${KIND_LABEL[project.kind].toLowerCase()} by Ivo Sousa Martins`;
+const genre = project.genre ?? KIND_LABEL[project.kind];
+const title = `${project.title}: ${genre.toLowerCase()} by Ivo Sousa Martins`;
 const path = `/work/${slug}/`;
 
 const schema = [
@@ -31,7 +32,7 @@ const schema = [
     url: SITE + path,
     image: SITE + page.hero,
     dateCreated: project.year.slice(0, 4),
-    genre: KIND_LABEL[project.kind],
+    genre,
     creator: { '@id': `${SITE}/#ivo` },
     sourceOrganization: { '@type': 'Organization', name: client },
     keywords: project.meta.replaceAll(' · ', ', '),

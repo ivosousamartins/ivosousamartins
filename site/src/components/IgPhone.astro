@@ -122,7 +122,11 @@ const cls = `phone ${size ?? (reel ? 'reel' : 'post')}`;
   .ig-track.drag { scroll-snap-type: none; cursor: grabbing; }
   .ig-track img { flex: none; width: 100%; height: 100%; object-fit: cover; display: block; scroll-snap-align: start; user-select: none; -webkit-user-drag: none; }
   .ig-count { position: absolute; right: 0.9em; top: 0.9em; padding: 0.25em 0.7em; border-radius: 1em; background: rgba(0,0,0,.65); color: #fff; font-size: 0.9em; font-weight: 600; pointer-events: none; }
-  .ig-arrow { position: absolute; top: 50%; transform: translateY(-50%); width: 2.2em; height: 2.2em; border: 0; border-radius: 50%; background: rgba(255,255,255,.88); font-size: 1em; display: grid; place-items: center; cursor: pointer; box-shadow: 0 0.2em 0.6em rgba(0,0,0,.2); color: #000; }
+  .ig-arrow { position: absolute; top: 50%; transform: translateY(-50%); width: 2.5em; height: 2.5em; padding: 0; border: 0; border-radius: 50%; background: rgba(255,255,255,.92); font-size: 1.1em; display: grid; place-items: center; cursor: pointer; box-shadow: 0 0.2em 0.6em rgba(0,0,0,.25); color: #000; transition: background .15s, transform .15s; }
+  /* Bigger invisible hit area so the arrow is easy to tap on a phone */
+  .ig-arrow::before { content: ''; position: absolute; inset: -0.7em; border-radius: 50%; }
+  .ig-arrow:hover { background: #fff; transform: translateY(-50%) scale(1.06); }
+  .ig-arrow:focus-visible { outline: 2px solid #2f3bff; outline-offset: 2px; }
   .ig-arrow[hidden] { display: none; }
   .ig-arrow.prev { left: 0.7em; }
   .ig-arrow.next { right: 0.7em; }
