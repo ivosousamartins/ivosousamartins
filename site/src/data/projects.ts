@@ -111,7 +111,7 @@ export interface CasePage {
 }
 export const casePages = cases as unknown as Record<string, CasePage>;
 
-export const KIND_LABEL: Record<Kind, string> = { design: 'Brand & design', film: 'Film', web: 'Web & UX' };
+export const KIND_LABEL: Record<Kind, string> = { design: 'Brand & design', film: 'Film', web: 'UI/UX' };
 export const count = (kind: Kind) => projects.filter((p) => p.kind === kind).length;
 
 // The same projects and case pages in another language (titles, summaries and page bodies translated)

@@ -47,7 +47,7 @@ const tiles = [
   { href: h('/work/?kind=design'), img: '5ac3b340659d70324dba88e8c404cd56', alt: t.tileAlt[0], name: t.kind.design, note: t.projects(count('design')) },
   { href: h('/work/?kind=film'), img: '788a25d5b74bf9441c72f1b0a6272417', alt: t.tileAlt[1], name: t.kind.film, note: t.projects(count('film')), extra: ` · ${t.episodes}` },
   { href: '#photography', img: 'b7f78085ff706985d5ef6acd3881ca21', alt: t.tileAlt[2], name: t.photoTile, note: t.photoNote },
-  { href: h('/work/?kind=web'), img: 'd34785b2d9e077de36b7cd37d5ab6b0a', alt: t.tileAlt[3], name: t.kind.web, note: t.projects(count('web')) },
+  { href: h('/work/?kind=web'), img: 'd34785b2d9e077de36b7cd37d5ab6b0a', alt: t.tileAlt[3], name: t.kind.web, note: t.webNote, pre: t.clientsPre },
 ];
 
 const schema = [
@@ -85,7 +85,7 @@ const frameStyle = (f: { r: number; natural?: boolean }) => (f.natural ? `flex: 
     {tiles.map((t) => (
       <a class="tile" href={t.href}>
         <div class="tile-img"><img src={I(t.img)} alt={t.alt} width={size(t.img)[0]} height={size(t.img)[1]} /></div>
-        <p><strong>{t.name}</strong><span>{t.note}{t.extra && <span class="hide-s">{t.extra}</span>}</span></p>
+        <p><strong>{t.name}</strong><span>{t.pre && <span class="hide-s">{t.pre}</span>}{t.note}{t.extra && <span class="hide-s">{t.extra}</span>}</span></p>
       </a>
     ))}
   </section>
@@ -128,6 +128,28 @@ const frameStyle = (f: { r: number; natural?: boolean }) => (f.natural ? `flex: 
           <span>{p.frames.map((f) => <img src={f.img} alt="" style={`flex: ${f.r} 1 0`} loading="lazy" />)}</span>
         </button>
       ))}
+    </div>
+
+    <!-- Mobile: the featured projects as a swipe carousel, filtered by chips -->
+    <div class="feat-m">
+      <h2 class="feat-h">{t.featuredWork}</h2>
+      <div class="chips" role="group" aria-label={t.typeOfWork}>
+        {(['all', 'design', 'film', 'web'] as const).map((k) => <button type="button" class="chip" data-chip={k} aria-pressed={k === 'all' ? 'true' : 'false'}>{t.kindChip[k]}</button>)}
+      </div>
+      <div class="fm-track" data-fm data-hint="x">
+        {stage.map((p) => (
+          <a class="fm-card" href={h(`/work/${p.slug}/`)} data-kind={p.kind}>
+            <span class="fm-pic">{p.frames.map((f) => <span style={frameStyle(f)}><img src={f.img} alt="" loading="lazy" decoding="async" /></span>)}</span>
+            <span class="fm-n">{p.n}</span>
+            <span class="fm-t">{p.title}</span>
+            <span class="fm-m">{p.meta}</span>
+            <span class="fm-l">{p.line}</span>
+            <span class="fm-go">{t.openCase} <Fragment set:html={arrow} /></span>
+          </a>
+        ))}
+      </div>
+      <div class="fm-dots" data-fm-dots aria-hidden="true"></div>
+      <a href={h('/work/')} class="btn">{t.seeAll(projects.length)} <Fragment set:html={arrow} /></a>
     </div>
   </section>
 
@@ -256,6 +278,29 @@ const frameStyle = (f: { r: number; natural?: boolean }) => (f.natural ? `flex: 
   audSel.addEventListener('change', filter);
   thumbs.forEach((t) => t.addEventListener('click', () => show(list.findIndex((p) => p.slug === ALL[Number(t.dataset.go)].slug))));
 
+  // Mobile featured carousel: chips filter the cards, dots follow the scroll
+  const fm = $<HTMLElement>('[data-fm]');
+  const fmCards = Array.from(fm.querySelectorAll<HTMLElement>('.fm-card'));
+  const fmDots = $<HTMLElement>('[data-fm-dots]');
+  const chips = Array.from(document.querySelectorAll<HTMLButtonElement>('[data-chip]'));
+  const visible = () => fmCards.filter((c) => !c.hidden);
+  function fmSync() {
+    const vis = visible();
+    const w = vis[0] ? vis[0].getBoundingClientRect().width : 1;
+    const k = Math.min(vis.length - 1, Math.round(fm.scrollLeft / (w + 12)));
+    Array.from(fmDots.children).forEach((d, j) => d.classList.toggle('on', j === k));
+  }
+  function fmFilter(kind: string) {
+    fmCards.forEach((c) => { c.hidden = kind !== 'all' && c.dataset.kind !== kind; });
+    chips.forEach((c) => c.setAttribute('aria-pressed', String(c.dataset.chip === kind)));
+    fmDots.replaceChildren(...visible().map(() => document.createElement('i')));
+    fm.scrollTo({ left: 0 });
+    fmSync();
+  }
+  chips.forEach((c) => c.addEventListener('click', () => fmFilter(c.dataset.chip!)));
+  fm.addEventListener('scroll', fmSync, { passive: true });
+  fmFilter('all');
+
   // Photo strip: arrows step one photo, the counter follows the scroll
   const strip = $<HTMLElement>('[data-strip]');
   const idx = $<HTMLElement>('[data-photo-index]');
@@ -318,6 +363,7 @@ const frameStyle = (f: { r: number; natural?: boolean }) => (f.natural ? `flex: 
 <style>
   .hero { padding-top: 72px; padding-bottom: 56px; }
   .eyebrow { margin: 0 0 18px; font-size: 14px; color: var(--muted); }
+  .hero h1 :global(br.m) { display: none; }
   .hero h1 { margin: 0; max-width: 980px; font-size: clamp(36px, 5.2vw, 72px); line-height: 1.02; letter-spacing: -0.045em; font-weight: 600; }
   .disc { display: grid; grid-template-columns: repeat(4, minmax(0,1fr)); gap: 16px; }
   .tile { display: block; text-decoration: none; }
@@ -360,6 +406,27 @@ const frameStyle = (f: { r: number; natural?: boolean }) => (f.natural ? `flex: 
   .th[aria-pressed="true"] { opacity: 1; outline: 2px solid var(--ink); }
   .th span { display: flex; gap: 2px; width: 120px; aspect-ratio: 16 / 9; border-radius: 6px; overflow: hidden; }
   .th img { min-width: 0; height: 100%; object-fit: cover; display: block; }
+  .feat-m { display: none; }
+  .feat-h { margin: 0 0 16px; font-size: 32px; line-height: 1; letter-spacing: -0.045em; font-weight: 600; }
+  .chips { display: flex; gap: 8px; overflow-x: auto; scrollbar-width: none; margin: 0 -18px 20px; padding: 0 18px; }
+  .chips::-webkit-scrollbar { display: none; }
+  .chip { flex: none; border: 0; border-radius: 999px; padding: 8px 16px; background: var(--soft); color: var(--ink); font: inherit; font-size: 15px; cursor: pointer; }
+  .chip[aria-pressed="true"] { background: var(--ink); color: #f4f4f1; }
+  .fm-track { display: flex; gap: 12px; overflow-x: auto; scroll-snap-type: x mandatory; scrollbar-width: none; margin: 0 -18px; padding: 0 18px; scroll-padding: 0 18px; }
+  .fm-track::-webkit-scrollbar { display: none; }
+  .fm-card { flex: none; width: 84%; scroll-snap-align: start; display: block; text-decoration: none; color: var(--ink); }
+  .fm-card[hidden] { display: none; }
+  .fm-pic { display: flex; justify-content: center; gap: 6px; aspect-ratio: 4 / 3; border-radius: 12px; overflow: hidden; background: var(--soft); }
+  .fm-pic > span { height: 100%; border-radius: 8px; overflow: hidden; }
+  .fm-pic img { width: 100%; height: 100%; object-fit: cover; display: block; }
+  .fm-n { display: block; margin-top: 14px; font-family: var(--serif); font-style: italic; font-size: 34px; line-height: 1; color: #b5b5ae; }
+  .fm-t { display: block; margin-top: 4px; font-size: 26px; line-height: 1.05; letter-spacing: -0.04em; font-weight: 600; }
+  .fm-m { display: block; margin-top: 6px; font-size: 14px; color: var(--muted); }
+  .fm-l { display: block; margin-top: 8px; font-size: 16px; line-height: 1.4; }
+  .fm-go { display: inline-flex; align-items: center; gap: 6px; margin-top: 12px; font-size: 15px; font-weight: 500; text-decoration: underline; text-underline-offset: 4px; }
+  .fm-dots { display: flex; justify-content: center; gap: 6px; margin: 18px 0 22px; }
+  .fm-dots :global(i) { width: 6px; height: 6px; border-radius: 50%; background: #c9c9c3; transition: background .2s, transform .2s; }
+  .fm-dots :global(i.on) { background: var(--ink); transform: scale(1.25); }
   .photo { padding-top: 140px; }
   .photo-head { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: end; gap: 14px; margin-bottom: 24px; }
   .h-xl { margin: 0; font-size: clamp(36px, 4.4vw, 64px); line-height: 1; letter-spacing: -0.045em; font-weight: 600; }
@@ -405,7 +472,16 @@ const frameStyle = (f: { r: number; natural?: boolean }) => (f.natural ? `flex: 
   .form .btn { justify-self: start; }
   .hp { position: absolute; left: -9999px; }
   .form-msg { margin: 0; min-height: 1.5em; color: var(--muted); font-size: 15px; }
+  /* Narrow screens: tile name above its note, without the extra detail, so nothing wraps or overflows */
+  @media (max-width: 1180px) {
+    .tile p { flex-direction: column; gap: 2px; }
+    .tile span { text-align: left; }
+    .tile :global(.hide-s) { display: none; }
+  }
   @media (max-width: 900px) {
+    .work-head, .stage, .thumbs, .stage-empty { display: none !important; }
+    .feat-m { display: block; border-top: 1px solid var(--line); padding-top: 24px; }
+    .work { padding-top: 80px; }
     .stage { grid-template-columns: minmax(0,1fr); }
     .stage .pic { order: -1; }
     .disc, .facts-big { grid-template-columns: repeat(2, minmax(0,1fr)); }
@@ -413,5 +489,8 @@ const frameStyle = (f: { r: number; natural?: boolean }) => (f.natural ? `flex: 
     .tile span { text-align: left; font-size: 14px; }
     .dodont, .about, .lead { grid-template-columns: minmax(0,1fr); }
     .hero { padding-top: 40px; }
+    .hero h1 { font-size: min(36px, 8.9vw); }
+    .hero h1 :global(br.m) { display: inline; }
+    .hero h1 :global(br.d) { display: none; }
   }
 </style>
